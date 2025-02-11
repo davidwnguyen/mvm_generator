@@ -1820,7 +1820,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.25"], ["charge recharge rate increased", "0.1"], ["shield_charge_velocity", "1750.0"], ["melee range multiplier", 5.0], ["full charge turn control", "50.0"]]
+		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.25"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "5.0"], ["full charge turn control", "50.0"]]
 	},
 	"Suicide Bomber" :
 	{
@@ -2068,7 +2068,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["damage bonus", "2.0"], ["melee range multiplier", "6.0"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["shield_charge_velocity", "2000.0"], ["cannot pick up intelligence", "1.0"]]
+		"attributes" : [ ["damage mult 13", "25.0"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "2000.0"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Sucker Giant" :
 	{
@@ -2125,5 +2125,23 @@
 		"currency_weight": 75,
 		"weapon_attributes": [["bleeding duration", "6"], ["sapper damage bonus", "2.0"], ["armor piercing", "6.0"], ["accepted wedding ring account id 1", "3.0"], ["fire rate penalty", "1.5"], ["aiming movespeed increased", "3.0"]],
 		"attributes" : [  ["damage mult 13", "20"], ["strenght powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.5"]]
+	},
+	"Battalion Commander" :
+	{
+		"class" : "soldier",
+		"weapons" : ["The Black Box","The Battalion's Backup"],
+		"difficulty" : 4,
+		"weapon_restriction" : "PrimaryOnly",
+		"bot_attributes" : ["SpawnWithFullCharge"],
+		"health" : "9000",
+		"class_icon" : "soldier_backup",
+		"is_giant": true,
+		"count" : 1,
+		"max_active" : 1,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 5,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "40.0"], ["increase buff duration","100.0"], ["damage taken mult 4","0.33"] ]
 	}
 }
