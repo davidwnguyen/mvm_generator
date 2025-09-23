@@ -199,7 +199,7 @@
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "9.0"], ["effect bar recharge rate increased","0.0"], ["fire rate bonus","0.1"],
-		["crit from behind","120.0"], ["Set DamageType Ignite","8.0"], ["cloak_consume_on_feign_death_activate", "1.0"] ]
+		["crit from behind","120.0"], ["afterburn rating","1.0"], ["cloak_consume_on_feign_death_activate", "1.0"] ]
 	},
 	"Milk Scout" :
 	{
@@ -760,7 +760,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "80.0"], ["Set DamageType Ignite","5.0"], ["relentless powerup","1.0"], ["mod max primary clip override", "-1.0"],
+		"attributes" : [ ["damage mult 13", "80.0"], ["afterburn rating","1.0"], ["relentless powerup","1.0"], ["mod max primary clip override", "-1.0"],
 		["weapon burn dmg increased", "7.0"], ["move speed bonus", "0.65"] ]
 	},
 	"Cannonball Spammer Giant" :
@@ -1820,7 +1820,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.25"], ["charge recharge rate increased", "0.1"], ["shield_charge_velocity", "1750.0"], ["melee range multiplier", 5.0], ["full charge turn control", "50.0"]]
+		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.25"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "5.0"], ["full charge turn control", "50.0"]]
 	},
 	"Suicide Bomber" :
 	{
@@ -1974,7 +1974,7 @@
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["damage causes freeze", "25.0"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus", "2.0"], ["bullets per shot bonus", "3.0"], ["weapon spread penalty", "2.0"] ]
+		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus", "2.0"], ["bullets per shot bonus", "3.0"], ["spread penalty", "2.0"] ]
 	},
 	"White Ops Pyro" :
 	{
@@ -2048,7 +2048,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 20,
-		"weapon_attributes" : [ ["accepted wedding ring account id 1", "20.0"], ["sapper damage bonus", "25.0"], ["bleeding duration", "5.0"], ["mark for death", "5.0"], ["Set DamageType Ignite","8.0"]],
+		"weapon_attributes" : [ ["accepted wedding ring account id 1", "20.0"], ["sapper damage bonus", "25.0"], ["bleeding duration", "5.0"], ["mark for death", "5.0"], ["afterburn rating","1.0"]],
 		"attributes" : [ ["damage mult 13", "15.0"], ["fire rate bonus", "2.5"], ["Reload time decreased","2.5"]]
 	},
 	"The Skullcutter" :
@@ -2068,7 +2068,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["damage bonus", "2.0"], ["melee range multiplier", "6.0"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["shield_charge_velocity", "2000.0"], ["cannot pick up intelligence", "1.0"]]
+		"attributes" : [ ["damage mult 13", "25.0"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "2000.0"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Sucker Giant" :
 	{
@@ -2086,7 +2086,7 @@
 		"time_between_spawn" : 20,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["apply look velocity on damage", "-80.0"]],
-		"attributes" : [ ["damage mult 13", "5.0"], ["fire rate penalty", "2.5"], ["bullets per shot increased", "3.0"], ["weapon spread reduced", "0.5"]]
+		"attributes" : [ ["damage mult 13", "5.0"], ["fire rate penalty", "2.5"], ["bullets per shot bonus", "3.0"], ["weapon spread bonus", "0.5"]]
 	},
 	"Smoke Mortar" :
 	{
@@ -2262,6 +2262,24 @@
 		"time_between_spawn" : 6,
 		"currency_weight": 25,
 		"weapon_attributes": [["override projectile type", "8.0"],["apply look velocity on damage", "80.0"]],
-		"attributes" : [ ["damage mult 13", "15.0"], ["fire rate bonus", "0.25"], ["clip size bonus", "3.0"], ["faster reload rate", "0.33"], ["Projectile speed increased","1.75"]]
+		"attributes" : [  ["damage mult 13", "20"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.5"]]
+	},
+	"Battalion Commander" :
+	{
+		"class" : "soldier",
+		"weapons" : ["The Black Box","The Battalion's Backup"],
+		"difficulty" : 4,
+		"weapon_restriction" : "PrimaryOnly",
+		"bot_attributes" : ["SpawnWithFullCharge"],
+		"health" : "9000",
+		"class_icon" : "soldier_backup",
+		"is_giant": true,
+		"count" : 1,
+		"max_active" : 1,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 5,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "40.0"], ["increase buff duration","100.0"], ["damage taken mult 4","0.33"] ]
 	}
 }
