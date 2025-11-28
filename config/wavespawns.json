@@ -372,14 +372,14 @@
 	},
 	"Squad #54":
 	{
-		"squads": ["Fly", "Rooter", "Crowd Control Soldier"],
+		"squads": ["Rooter", "Crowd Control Soldier"],
 		"tags": ["uber", "support"],
 		"weight": 11,
 		"rarity": 4
 	},
 	"Squad #55":
 	{
-		"squads": ["Fly", "Shield Medic", "Kritz Medic"],
+		"squads": ["Fly", "Kritz Medic"],
 		"tags": ["uber", "support"],
 		"weight": 7,
 		"rarity": 2
@@ -505,7 +505,7 @@
 	},
 	"Squad #73":
 	{
-		"squads":["Fly", "Giant Fly", "Leech", "Elder Leech", "Jarate Sniper"],
+		"squads":["Leech", "Elder Leech", "Jarate Sniper"],
 		"tags": ["uber", "support", "giant"],
 		"weight": 2,
 		"rarity": 7
@@ -554,7 +554,7 @@
 	},
 	"Squad #80":
 	{
-		"squads":["Jarate Sniper", "Shredder", "Shrapnel Soldier", "Scorch Spammer"],
+		"squads":["Jarate Sniper", "Shredder", "Scorch Spammer"],
 		"tags": ["uber", "support"],
 		"weight": 4,
 		"rarity": 6
@@ -596,7 +596,7 @@
 	},
 	"Squad #86":
 	{
-		"squads":["Scorch Spammer", "Battalion Commander", "Squad Leader", "Aimless Bowman"],
+		"squads":["Scorch Spammer", "Battalion Commander", "Squad Leader"],
 		"tags": ["uber", "support", "giant"],
 		"weight": 4,
 		"rarity": 6
@@ -1243,7 +1243,7 @@
 		"squads":["Giant Gas Passer"],
 		"tags": ["uber", "support", "giant"],
 		"weight": 4,
-		"rarity": 2
+		"rarity": 3
 	},
 	"Squad #179":
 	{
