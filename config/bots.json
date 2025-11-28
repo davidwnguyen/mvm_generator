@@ -683,7 +683,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 7,
 		"currency_weight": 10,
-		"attributes" : [ ["damage mult 13", "50.0"], ["mult cloak meter regen rate", "0.5"], ["move speed bonus", "0.5"]]
+		"attributes" : [ ["damage mult 13", "50.0"], ["redirect teammate damage taken", "0.5"], ["move speed bonus", "0.5"]]
 	},
 	"Squad Leader" :
 	{
@@ -946,7 +946,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "150.0"], ["mult cloak meter regen rate", "0.66"], ["move speed bonus", "0.6"],
+		"attributes" : [ ["damage mult 13", "150.0"], ["redirect teammate damage taken", "0.66"], ["move speed bonus", "0.6"],
 		 ["resistance powerup", "1.0"] ]
 	},
 	"Infernal Soldier Giant" :
@@ -1092,7 +1092,7 @@
 		"time_between_spawn" : 3,
 		"currency_weight": 12,
 		"weapon_attributes" : [ ["override projectile type", "1.0"], ["conference call damage", "1.25"]],
-		"attributes" : [ ["damage mult 13", "20.0"], ["Reload time decreased","0.01"], ["vampire powerup", "1.0"], ["disguise on backstab", "100.0"], ["move speed bonus", "0.65"] ]
+		"attributes" : [ ["damage mult 13", "40.0"], ["Reload time decreased","0.01"], ["vampire powerup", "1.0"], ["disguise on backstab", "100.0"], ["move speed bonus", "0.65"] ]
 	},
 	"Burst Enforcer Spy" :
 	{
@@ -1212,7 +1212,7 @@
 		"time_between_spawn" : 4,
 		"currency_weight": 12,
 		"weapon_attributes" : [ ["override projectile type", "1.0"], ["conference call damage", "1.0"]],
-		"attributes" : [ ["damage mult 13", "10.0"], ["faster reload rate","0.01"] ]
+		"attributes" : [ ["damage mult 13", "20.0"], ["faster reload rate","0.01"] ]
 	},
 	"Cow Mangler Soldier" :
 	{
@@ -1470,7 +1470,7 @@
 		"time_between_spawn" : 5,
 		"currency_weight": 12,
 		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.03"], ["Blast radius increased", "2.0"]],
-		"attributes" : [ ["damage mult 13", "15.0"]]
+		"attributes" : [ ["damage mult 13", "9.0"]]
 	},
 	"Giant Gas Passer" :
 	{
@@ -1488,8 +1488,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 20,
-		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.02"], ["Blast radius increased", "2.25"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["supernova powerup", "2.0"], ["move speed bonus", "0.6"]]
+		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.02"]],
+		"attributes" : [ ["damage mult 13", "15.0"], ["supernova powerup", "2.0"], ["move speed bonus", "0.6"]]
 	},
 	"Fly" :
 	{
@@ -1586,7 +1586,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "35.0"], ["knockout powerup", "2.0"], ["melee range multiplier", "18.0"], ["move speed bonus", "0.65"]]
+		"attributes" : [ ["damage mult 13", "80.0"], ["knockout powerup", "2.0"], ["melee range multiplier", "18.0"], ["move speed bonus", "0.65"], ["afterburn rating", "5"]]
 	},
 	"Sydney Sleeper Sniper" :
 	{
@@ -1850,7 +1850,7 @@
 	{
 		"class" : "pyro",
 		"weapons" : ["The Manmelter"],
-		"weapon_restriction":"PrimaryOnly",
+		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"health" : "75000",
 		"is_boss" : true,
@@ -1962,7 +1962,7 @@
 		"time_between_spawn" : 8,
 		"currency_weight": 25,
 		"weapon_attributes" : [ ["clip size bonus", "3.0"], ["SPELL: Halloween green flames", "1.0"], ["flame size bonus", "2.5"], ["flame_lifetime", "15.0"]],
-		"attributes" : [ ["damage mult 13", "10.0"], ["accepted wedding ring account id 1", "150.0"]]
+		"attributes" : [ ["damage mult 13", "10.0"], ["radiation buildup", "9.5"]]
 	},
 	"White Ops Scout" :
 	{
@@ -2025,7 +2025,7 @@
 	{
 		"class" : "medic",
 		"weapons" : ["Syringe Gun", "Emerald Jarate", "Blighted Beak", "Quadwrangler"],
-		"weapon_restriction":"SecondaryOnly",
+		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "2500",
 		"class_icon" : "medic",
@@ -2036,7 +2036,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 15,
-		"weapon_attributes" : [ ["accepted wedding ring account id 1", "100.0"], ["override projectile type", "1.0"]],
+		"weapon_attributes" : [ ["radiation buildup", "25.0"], ["override projectile type", "1.0"]],
 		"attributes" : [ ["damage mult 13", "15.0"],  ["clip size bonus", "3.0"], ["fire rate bonus", "0.1"], ["Reload time decreased","2.5"]]
 	},
 	"Chaos" :
@@ -2055,7 +2055,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 20,
-		"weapon_attributes" : [ ["accepted wedding ring account id 1", "20.0"], ["sapper damage bonus", "25.0"], ["bleeding duration", "5.0"], ["mark for death", "5.0"], ["afterburn rating","1.0"]],
+		"weapon_attributes" : [ ["radiation buildup", "12.0"], ["sapper damage bonus", "25.0"], ["bleeding duration", "5.0"], ["mark for death", "5.0"], ["afterburn rating","1.0"]],
 		"attributes" : [ ["damage mult 13", "15.0"], ["fire rate bonus", "2.5"], ["Reload time decreased","2.5"]]
 	},
 	"The Skullcutter" :
@@ -2131,7 +2131,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 0,
 		"currency_weight": 75,
-		"weapon_attributes": [["bleeding duration", "6"], ["sapper damage bonus", "2.0"], ["armor piercing", "6.0"], ["accepted wedding ring account id 1", "3.0"], ["fire rate penalty", "1.5"], ["aiming movespeed increased", "3.0"]],
+		"weapon_attributes": [["bleeding duration", "6"], ["sapper damage bonus", "2.0"], ["armor piercing", "6.0"], ["radiation buildup", "3.0"], ["fire rate penalty", "1.5"], ["aiming movespeed increased", "3.0"]],
 		"attributes" : [  ["damage mult 13", "20.0"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.5"]]
 	},
 	"Flasher Medic" :
