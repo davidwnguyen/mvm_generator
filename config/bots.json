@@ -1278,7 +1278,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["engy sentry damage bonus", "2.0"], ["engy sentry fire rate increased", "0.5"]],
+		"weapon_attributes": [["engy building health bonus", "60.0"], ["engy sentry damage bonus", "2.0"], ["engy sentry fire rate increased", "0.5"]],
 		"attributes" : [ ["damage mult 13", "16.0"], ["sentry bolt rounds", "1.0"] ]
 	},
 	"Hellstorm Engineer" :
@@ -1297,7 +1297,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["engy sentry damage bonus", "3.0"], 
+		"weapon_attributes": [["engy building health bonus", "75.0"], ["engy sentry damage bonus", "3.0"], 
 		["engy sentry fire rate increased", "0.4"]],
 		"attributes" : [ ["damage mult 13", "40.0"], ["supernova powerup", "2"], ["sentry bolt rounds", "1.0"] ]
 	},
@@ -1316,7 +1316,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["engy sentry damage bonus", "3.5"]],
+		"weapon_attributes": [["engy building health bonus", "60.0"], ["engy sentry damage bonus", "3.5"]],
 		"attributes" : [ ["damage mult 13", "14.0"], ["sentry bolt rounds", "2.0"] ]
 	},
 	"Electro-Ballista Engineer" :
@@ -1336,7 +1336,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["engy sentry damage bonus", "4.5"], 
+		"weapon_attributes": [["engy building health bonus", "75.0"], ["engy sentry damage bonus", "4.5"], 
 		["engy sentry fire rate increased", "0.25"], ["engy sentry radius increased", "1.75"]],
 		"attributes" : [ ["damage mult 13", "40.0"], ["supernova powerup", "3.0"], ["sentry bolt rounds", "2.0"] ]
 	},
@@ -1355,7 +1355,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["mult firerocket rate", "0.3"],  ["engy sentry radius increased", "5.0"]],
+		"weapon_attributes": [["engy building health bonus", "70.0"], ["mult firerocket rate", "0.3"],  ["engy sentry radius increased", "5.0"]],
 		"attributes" : [ ["damage mult 13", "17.0"], ["sentry rocket projectile add", "5.0"] ]
 	},
 	"Eagle Artillery Engineer" :
@@ -1374,7 +1374,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 25,
-		"weapon_attributes": [["engy sentry damage bonus", "1.5"], 
+		"weapon_attributes": [["engy building health bonus", "150.0"], ["engy sentry damage bonus", "1.5"], 
 		["mult firerocket rate", "2.0"],["engy sentry fire rate increased", "8.0"], ["engy sentry radius increased", "10.0"], ["build rate bonus", "0.18"], ["Construction rate decreased", "5.5"]],
 		"attributes" : [ ["damage mult 13", "40.0"], ["strength powerup", "3.0"], ["sentry rocket projectile add", "10.0"] ]
 	},
