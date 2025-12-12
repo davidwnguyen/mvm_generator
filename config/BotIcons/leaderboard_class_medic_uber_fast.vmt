@@ -1,9 +1,10 @@
 "UnlitGeneric"
 {
-	"$basetexture" "hud/leaderboard_class_vex_soldier_whip_electric"
+	"$baseTexture" "hud/leaderboard_class_medic_uber_fast"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
 	"$translucent" 1
 }
+
