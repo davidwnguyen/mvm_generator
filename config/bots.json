@@ -645,7 +645,7 @@
 		"health" : "2500",
 		"class_icon" : "sniper_bow_homing_fire",
 		"count" : 18,
-		"max_active" : 18,
+		"max_active" : 9,
 		"spawn_per_timer" : 3,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
@@ -983,7 +983,7 @@
 		"time_between_spawn" : 7,
 		"currency_weight": 8,
 		"weapon_attributes": [ ["override projectile type", "2.0"], ["Projectile speed increased", "1000.0"] ],
-		"attributes" : [ ["damage mult 13", "25.0"], ["supernova powerup","1.0"], ["faster reload rate", "0.1"], ["move speed bonus", "0.65"] ]
+		"attributes" : [ ["damage mult 13", "15.0"], ["supernova powerup","1.0"], ["faster reload rate", "0.1"], ["move speed bonus", "0.65"] ]
 	},
 	"Electrified Bowman Giant" :
 	{
@@ -1155,12 +1155,12 @@
 		"health" : "3500",
 		"class_icon" : "soldier_directhit",
 		"count" : 30,
-		"max_active" : 30,
+		"max_active" : 15,
 		"spawn_per_timer" : 5,
 		"time_before_spawn" : 0,
-		"time_between_spawn" : 4,
+		"time_between_spawn" : 6,
 		"currency_weight": 9,
-		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.3"], ["Projectile speed increased","2.0"] ]
+		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate bonus","0.3"], ["Projectile speed increased","2.0"] ]
 	},
 	"Crowd Control Soldier" :
 	{
@@ -1171,12 +1171,12 @@
 		"health" : "2000",
 		"class_icon" : "soldier_slowdown",
 		"count" : 15,
-		"max_active" : 15,
+		"max_active" : 6,
 		"spawn_per_timer" : 3,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 9,
-		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus","0.6"], ["faster reload rate","0.01"],
+		"attributes" : [ ["damage mult 13", "7.0"], ["faster reload rate","0.01"],
 		 ["rocket specialist","4.0"], ["slow enemy on hit major", "2.0"], ["apply look velocity on damage", "500.0"] ]
 	},
 	"Shrapnel Soldier" :
