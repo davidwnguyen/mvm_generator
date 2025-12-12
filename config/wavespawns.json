@@ -907,7 +907,7 @@
 		"squads":["Medic", "Kritz Medic"],
 		"tags": ["uber", "support"],
 		"weight": 4,
-		"rarity": 2
+		"rarity": 3
 	},
 	"Squad #131":
 	{
@@ -928,14 +928,14 @@
 		"squads":["Electrotrooper"],
 		"tags": ["uber", "support"],
 		"weight": 4,
-		"rarity": 3
+		"rarity": 2
 	},
 	"Squad #134":
 	{
 		"squads":["Hunter"],
 		"tags": ["uber", "support"],
 		"weight": 4,
-		"rarity": 1
+		"rarity": 2
 	},
 	"Squad #135":
 	{
@@ -1124,7 +1124,7 @@
 		"squads":["Flasher Medic", "Barrage Demoman", "Medic", "Grinder"],
 		"tags": ["uber"],
 		"weight": 4,
-		"rarity": 6
+		"rarity": 4
 	},
 	"Squad #162":
 	{
@@ -1138,14 +1138,14 @@
 		"squads":["Flasher Medic", "Barrage Demoman", "Kritz Medic", "Grinder Giant"],
 		"tags": ["uber", "giant"],
 		"weight": 4,
-		"rarity": 7
+		"rarity": 6
 	},
 	"Squad #164":
 	{
 		"squads":["Flasher Medic", "Barrage Demoman", "Kritz Medic", "Grinder Giant", "Cannonball Spammer Giant"],
 		"tags": ["uber", "giant"],
 		"weight": 4,
-		"rarity": 5
+		"rarity": 7
 	},
 	"Squad #165":
 	{
@@ -1324,7 +1324,7 @@
 	},
 	"Squad #190":
 	{
-		"squads":["Medic", "Uber Medic", "Flasher Medic"],
+		"squads":["Medic", "Flasher Medic"],
 		"tags": ["uber", "support"],
 		"weight": 4,
 		"rarity": 3
@@ -1398,5 +1398,47 @@
 		"tags": ["uber", "support"],
 		"weight": 4,
 		"rarity": 4
+	},
+	"Squad #201":
+	{
+		"squads":["Buck", "Slug Shotgunner"],
+		"tags": ["uber", "giant", "boss"],
+		"weight": 4,
+		"rarity": 1
+	},
+	"Squad #202":
+	{
+		"squads":["Buck", "Slug Shotgunner", "Giant Slug Shotgunner"],
+		"tags": ["uber", "giant", "boss"],
+		"weight": 4,
+		"rarity": 2
+	},
+	"Squad #203":
+	{
+		"squads":["Hunter", "Crit SMGer"],
+		"tags": ["uber"],
+		"weight": 3,
+		"rarity": 2
+	},
+	"Squad #204":
+	{
+		"squads":["The Iron Bomber", "Demoknight", "Pyro"],
+		"tags": ["uber", "boss"],
+		"weight": 5,
+		"rarity": 1
+	},
+	"Squad #205":
+	{
+		"squads":["The Iron Bomber", "The Skullcutter", "Raging Pyro Giant"],
+		"tags": ["uber", "boss"],
+		"weight": 4,
+		"rarity": 3
+	},
+	"Squad #206":
+	{
+		"squads":["The Incendiary Bomber", "Tavish"],
+		"tags": ["uber", "superboss"],
+		"weight": 5,
+		"rarity": 6
 	}
 }
