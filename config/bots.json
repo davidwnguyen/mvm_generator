@@ -2121,7 +2121,7 @@
 		"weapons" : ["Minigun", "Macho Mann", "Trash Man", "Tyurtlenek"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "350000",
+		"health" : "375000",
 		"is_boss" : true,
 		"class_icon" : "heavy_deflector_giant",
 		"scale" : 1.8,
@@ -2131,8 +2131,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 0,
 		"currency_weight": 75,
-		"weapon_attributes": [["bleeding duration", "6"], ["sapper damage bonus", "2.0"], ["armor piercing", "6.0"], ["radiation buildup", "3.0"], ["fire rate penalty", "1.5"], ["aiming movespeed increased", "3.0"]],
-		"attributes" : [  ["damage mult 13", "20.0"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.5"]]
+		"weapon_attributes": [["bleeding duration", "8"], ["sapper damage bonus", "10.0"], ["armor piercing", "10.0"], ["radiation buildup", "10.0"], ["fire rate penalty", "0.8"], ["aiming movespeed increased", "3.0"]],
+		"attributes" : [  ["damage mult 13", "22.5"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.5"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "1.5"]]
 	},
 	"Flasher Medic" :
 	{
