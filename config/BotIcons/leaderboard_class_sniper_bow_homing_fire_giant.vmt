@@ -1,6 +1,6 @@
-"UnlitGeneric"
+"LightmappedGeneric"
 {
-	"$basetexture" "hud/leaderboard_class_vex_soldier_whip_electric"
+	"$basetexture" "hud/leaderboard_class_sniper_bow_homing_fire"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
