@@ -456,7 +456,7 @@
 	},
 	"Squad #66":
 	{
-		"squads": ["Not Aimless Bowman", "Squad Leader", "Greatbow Sniper", "Guard Giant"],
+		"squads": ["Precise Bowman", "Squad Leader", "Greatbow Sniper", "Guard Giant"],
 		"tags": ["uber", "giant"],
 		"weight": 6,
 		"rarity": 5
@@ -617,7 +617,7 @@
 	},
 	"Squad #89":
 	{
-		"squads":["Armored Dragon's Fury", "Squad Leader", "Not Aimless Bowman"],
+		"squads":["Armored Dragon's Fury", "Squad Leader", "Precise Bowman"],
 		"tags": ["uber", "giant"],
 		"weight": 5,
 		"rarity": 6
@@ -652,7 +652,7 @@
 	},
 	"Squad #94":
 	{
-		"squads":["White Ops Scout", "White Ops Pyro"],
+		"squads":["Arctic Ops Scout", "Arctic Ops Pyro"],
 		"tags": ["uber", "giant"],
 		"weight": 5,
 		"rarity": 4
@@ -673,7 +673,7 @@
 	},
 	"Squad #97":
 	{
-		"squads":["Lightning Rod", "Blood Medic", "White Ops Pyro"],
+		"squads":["Lightning Rod", "Blood Medic", "Arctic Ops Pyro"],
 		"tags": ["uber", "boss"],
 		"weight": 4,
 		"rarity": 6
@@ -708,7 +708,7 @@
 	},
 	"Squad #102":
 	{
-		"squads":["Greatbow Sniper", "Not Aimless Bowman", "Crossbow Medic"],
+		"squads":["Greatbow Sniper", "Precise Bowman", "Crossbow Medic"],
 		"tags": ["uber", "giant"],
 		"weight": 4,
 		"rarity": 3
@@ -897,7 +897,7 @@
 	},
 	"Squad #129":
 	{
-		"squads":["Black Ops Sniper", "Hitman's Heatmaker Giant", "Not Aimless Bowman"],
+		"squads":["Black Ops Sniper", "Hitman's Heatmaker Giant", "Precise Bowman"],
 		"tags": ["uber", "giant"],
 		"weight": 4,
 		"rarity": 5
@@ -1065,7 +1065,7 @@
 	},
 	"Squad #153":
 	{
-		"squads":["Irradiated Worker", "White Ops Pyro", "Giant Gas Passer", "Phlogistinator Giant"],
+		"squads":["Irradiated Worker", "Arctic Ops Pyro", "Giant Gas Passer", "Phlogistinator Giant"],
 		"tags": ["uber", "giant", "boss"],
 		"weight": 4,
 		"rarity": 5

@@ -193,7 +193,7 @@
 		"health" : "1000",
 		"class_icon" : "scout_cleaver",
 		"count" : 9,
-		"max_active" : 9,
+		"max_active" : 6,
 		"spawn_per_timer" : 3,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
@@ -496,7 +496,7 @@
 		"time_between_spawn" : 1,
 		"currency_weight": 40,
 		"weapon_attributes" : [ ["damage mult 13", "6.0"], ["override projectile type","47.0"], ["Projectile speed increased", "2.0"] ],
-		"attributes" : [ ["disguise on backstab", "500.0"], ["move speed bonus", "1.7"],
+		"attributes" : [ ["disguise on backstab", "500.0"], ["move speed bonus", "1.3"],
 		 ["damage force reduction","0.0"], ["damage force increase text","4.0"], ["agility powerup", "3.0"] ]
 	},
 	"Barrage Blaster" :
@@ -539,9 +539,9 @@
 		"time_between_spawn" : 1,
 		"currency_weight": 60,
 		"weapon_attributes" : [ ["burst fire count", "-4.0"], ["burst fire rate mult", "20.0"], ["weapon fire rate", "0.1"], ["projectile spread angle penalty", "2.0"],
-		["mult projectile count", "5.0"], ["override projectile type", "2.0"], ["damage mult 13", "2.0"], ["flame_ignore_player_velocity", "1.0"], ["multiple sentries", "1.0"],
+		["mult projectile count", "5.0"], ["override projectile type", "2.0"], ["flame_ignore_player_velocity", "1.0"], ["multiple sentries", "1.0"],
 		["shot penetrate all players", "3.0"], ["paintkit_proto_def_index", "403.0"], ["set_item_texture_wear", "0.0"] ],
-		"attributes" : [ ["damage mult 13", "20.0"], ["disguise on backstab", "200.0"], ["Blast radius increased", "2.0"],
+		"attributes" : [ ["damage mult 13", "40.0"], ["disguise on backstab", "200.0"], ["Blast radius increased", "2.0"],
 		 ["damage force reduction","0.0"], ["damage force increase text","5.0"], ["supernova powerup", "2.0"], ["damage taken mult 4", "0.33"], ["move speed bonus", "0.5"] ]
 	},
 	"Accursed Prince Tavish" :
@@ -586,7 +586,7 @@
 	"Blood Medic" :
 	{
 		"class" : "medic",
-		"weapons" : ["Medi Gun", "The Blutsauger"],
+		"weapons" : ["TF_WEAPON_MEDIGUN", "The Blutsauger"],
 		"difficulty" : 4,
 		"bot_attributes" : ["SpawnWithFullCharge", "AlwaysCrit"],
 		"health" : "70000",
@@ -779,7 +779,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 7,
-		"attributes" : [ ["damage mult 13", "35.0"], ["supernova powerup","1.0"], ["mod max primary clip override", "-1.0"],
+		"attributes" : [ ["damage mult 13", "45.0"], ["supernova powerup","1.0"], ["mod max primary clip override", "-1.0"],
 		["grenade launcher mortar mode", "-1.0"], ["Blast radius increased","2.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"], ["move speed bonus", "0.6"] ]
 	},
 	"Dragon's Fury Giant" :
@@ -1134,7 +1134,7 @@
 		"weapons" : ["Baby Face's Blaster"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "6000",
+		"health" : "5000",
 		"is_giant" : true,
 		"class_icon" : "scout_giant_fast",
 		"count" : 3,
@@ -1143,7 +1143,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 18,
-		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.3"], ["faster reload rate","0.2"], ["move speed bonus", "1.8"], ["agility powerup", "1.0"] ]
+		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.3"], ["faster reload rate","0.2"], ["move speed bonus", "1.5"], ["agility powerup", "1.0"] ]
 	},
 	"Direct Hit Soldier" :
 	{
@@ -1152,7 +1152,7 @@
 		"weapon_restriction":"PrimaryOnly",
 		"bot_attributes" : ["AlwaysCrit"],
 		"difficulty" : 4,
-		"health" : "3500",
+		"health" : "2500",
 		"class_icon" : "soldier_directhit",
 		"count" : 30,
 		"max_active" : 15,
@@ -1236,7 +1236,7 @@
 		"weapon_restriction":"MeleeOnly",
 		"bot_attributes": ["AlwaysCrit"],
 		"difficulty" : 4,
-		"health" : "8000",
+		"health" : "5000",
 		"class_icon" : "heavy_champ",
 		"count" : 48,
 		"max_active" : 24,
@@ -1278,7 +1278,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["engy building health bonus", "60.0"], ["engy sentry damage bonus", "2.0"], ["engy sentry fire rate increased", "0.5"]],
+		"weapon_attributes": [["engy building health bonus", "60.0"], ["engy sentry damage bonus", "1.5"], ["engy sentry fire rate increased", "0.5"]],
 		"attributes" : [ ["damage mult 13", "16.0"], ["sentry bolt rounds", "1.0"] ]
 	},
 	"Hellstorm Engineer" :
@@ -1297,7 +1297,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["engy building health bonus", "75.0"], ["engy sentry damage bonus", "3.0"], 
+		"weapon_attributes": [["engy building health bonus", "75.0"], ["engy sentry damage bonus", "2.0"], 
 		["engy sentry fire rate increased", "0.4"]],
 		"attributes" : [ ["damage mult 13", "25.0"], ["supernova powerup", "2"], ["sentry bolt rounds", "1.0"] ]
 	},
@@ -1316,7 +1316,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["engy building health bonus", "60.0"], ["engy sentry damage bonus", "3.5"]],
+		"weapon_attributes": [["engy building health bonus", "60.0"], ["engy sentry damage bonus", "1.5"]],
 		"attributes" : [ ["damage mult 13", "14.0"], ["sentry bolt rounds", "2.0"] ]
 	},
 	"Electro-Ballista Engineer" :
@@ -1336,7 +1336,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
-		"weapon_attributes": [["engy building health bonus", "75.0"], ["engy sentry damage bonus", "4.5"], 
+		"weapon_attributes": [["engy building health bonus", "75.0"], ["engy sentry damage bonus", "1.5"], 
 		["engy sentry fire rate increased", "0.75"], ["engy sentry radius increased", "1.75"]],
 		"attributes" : [ ["damage mult 13", "20.0"], ["supernova powerup", "3.0"], ["sentry bolt rounds", "2.0"] ]
 	},
@@ -1361,7 +1361,7 @@
 	"Eagle Artillery Engineer" :
 	{
 		"class"	: "engineer",
-		"weapons" : ["Wrench"],
+		"weapons" : ["TF_WEAPON_WRENCH"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
 		"health" : "75000",
@@ -1492,7 +1492,7 @@
 	"Fly" :
 	{
 		"class"	: "scout",
-		"weapons" : ["Scout's Pistol"],
+		"weapons" : ["TF_WEAPON_PISTOL"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
@@ -1512,7 +1512,7 @@
 	"Giant Fly" :
 	{
 		"class"	: "scout",
-		"weapons" : ["Scout's Pistol"],
+		"weapons" : ["TF_WEAPON_PISTOL"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
@@ -1552,7 +1552,7 @@
 	"Elder Leech" :
 	{
 		"class"	: "spy",
-		"weapons" : ["Knife"],
+		"weapons" : ["TF_WEAPON_KNIFE"],
 		"weapon_restriction":"MeleeOnly",
 		"is_mission_bot": true,
 		"difficulty" : 4,
@@ -1832,7 +1832,7 @@
 	{
 		"class" : "demoman",
 		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"], 
-		"weapons" : ["Ullapool Caber"],
+		"weapons" : ["The Ullapool Caber"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
 		"health" : "5000",
@@ -1909,7 +1909,7 @@
 	"Black Ops Spy" :
 	{
 		"class" : "spy",
-		"weapons" : ["Big Kill", "Six-Eyed Specs", "Night Vision Gawkers", "Le Professionnel"],
+		"weapons" : ["TTG Sam Revolver", "Six-Eyed Specs", "Night Vision Gawkers", "Le Professionnel"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "12500",
@@ -1961,13 +1961,13 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 25,
-		"weapon_attributes" : [ ["clip size bonus", "3.0"], ["SPELL: Halloween green flames", "1.0"], ["flame size bonus", "2.5"], ["flame_lifetime", "15.0"], ["radiation buildup", "9.5"]],
-		"attributes" : [ ["damage mult 13", "10.0"],  ["move speed bonus", "0.6"]]
+		"weapon_attributes" : [["SPELL: Halloween green flames", "1.0"], ["flame size bonus", "2.5"]],
+		"attributes" : [ ["damage mult 13", "15.0"],  ["move speed bonus", "0.6"], ["radiation buildup", "9.5"]]
 	},
 	"Arctic Ops Scout" :
 	{
 		"class" : "scout",
-		"weapons" : ["Scattergun", "Cross-Comm Express", "Isotopic Insulator", "Blizzard Britches"],
+		"weapons" : ["TF_WEAPON_SCATTERGUN", "Cross-Comm Express", "Isotopic Insulator", "Blizzard Britches"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "12500",
@@ -1980,7 +1980,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
-		"weapon_attributes" : [ ["damage causes freeze", "25.0"]],
+		"weapon_attributes" : [ ["damage causes freeze", "80.0"]],
 		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus", "2.0"], ["bullets per shot bonus", "3.0"], ["spread penalty", "2.0"], ["move speed bonus", "0.6"] ]
 	},
 	"Arctic Ops Pyro" :
@@ -2000,7 +2000,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
-		"weapon_attributes" : [ ["damage causes freeze", "35.0"] ],
+		"weapon_attributes" : [ ["damage causes freeze", "80.0"] ],
 		"attributes" : [ ["damage mult 13", "80.0"],  ["flame_speed", "7000.0"], ["move speed bonus", "0.6"] ]
 	},
 	"Hunter" :
@@ -2024,7 +2024,7 @@
 	"Radiation Doctor" :
 	{
 		"class" : "medic",
-		"weapons" : ["Syringe Gun", "Emerald Jarate", "Blighted Beak", "Quadwrangler"],
+		"weapons" : ["TF_WEAPON_SYRINGEGUN_MEDIC", "Emerald Jarate", "Blighted Beak", "Quadwrangler"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "2500",
@@ -2036,13 +2036,13 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 15,
-		"weapon_attributes" : [ ["radiation buildup", "25.0"], ["override projectile type", "1.0"]],
-		"attributes" : [ ["damage mult 13", "15.0"],  ["clip size bonus", "3.0"], ["fire rate bonus", "0.1"], ["Reload time decreased","2.5"]]
+		"weapon_attributes" : [ ["radiation buildup", "1.0"], ["override projectile type", "1.0"]],
+		"attributes" : [ ["damage mult 13", "5.0"],  ["clip size bonus", "3.0"], ["fire rate bonus", "0.1"], ["Reload time decreased","2.5"]]
 	},
 	"Chaos" :
 	{
 		"class" : "pyro",
-		"weapons" : ["Festive Shotgun", "Pop-Eyes", "Lollichop Licker", "Arsonist Apparatus"],
+		"weapons" : ["Festive Shotgun 2014", "Pop-Eyes", "Lollichop Licker", "Arsonist Apparatus"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"health" : "13000",
@@ -2118,7 +2118,7 @@
 	"Elbersson" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["Minigun", "Macho Mann", "Trash Man", "Tyurtlenek"],
+		"weapons" : ["TF_WEAPON_MINIGUN", "Macho Mann", "Trash Man", "Tyurtlenek"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "375000",
@@ -2155,7 +2155,7 @@
 	{
 		"class" : "heavyweapons",
 		"weapon_restriction":"SecondaryOnly",
-		"weapons" : ["Heavy's Shotgun"],
+		"weapons" : ["TF_WEAPON_SHOTGUN_HWG"],
 		"difficulty" : 4,
 		"health" : "5000",
 		"class_icon" : "heavy_shotgun_accurate_lite",
@@ -2173,7 +2173,7 @@
 	{
 		"class" : "heavyweapons",
 		"weapon_restriction":"SecondaryOnly",
-		"weapons" : ["Heavy's Shotgun"],
+		"weapons" : ["TF_WEAPON_SHOTGUN_HWG"],
 		"difficulty" : 4,
 		"health" : "30000",
 		"is_giant" : true,
@@ -2192,7 +2192,7 @@
 	{
 		"class" : "heavyweapons",
 		"weapon_restriction":"SecondaryOnly",
-		"weapons" : ["Heavy's Shotgun"],
+		"weapons" : ["TF_WEAPON_SHOTGUN_HWG"],
 		"difficulty" : 4,
 		"health" : "30000",
 		"is_giant" : true,
@@ -2212,7 +2212,7 @@
 		"class" : "heavyweapons",
 		"weapon_restriction":"SecondaryOnly",
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"weapons" : ["Heavy's Shotgun"],
+		"weapons" : ["TF_WEAPON_SHOTGUN_HWG"],
 		"difficulty" : 4,
 		"health" : "75000",
 		"is_boss" : true,
@@ -2256,7 +2256,7 @@
 		"class" : "scout",
 		"weapon_restriction":"PrimaryOnly",
 		"bot_attributes" : [ "HoldFireUntilFullReload"],
-		"weapons" : ["Scattergun"],
+		"weapons" : ["TF_WEAPON_SCATTERGUN"],
 		"difficulty" : 4,
 		"health" : "12000",
 		"is_giant" : true,
@@ -2268,7 +2268,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 25,
-		"weapon_attributes": [["override projectile type", "8.0"], ["apply look velocity on damage", "80.0"], ["clip size bonus", "2.0"], ["faster reload rate","0.3"]],
+		"weapon_attributes": [["override projectile type", "8.0"], ["apply look velocity on damage", "-300.0"], ["clip size bonus", "2.0"], ["faster reload rate","0.3"]],
 		"attributes" : [  ["damage mult 13", "15"], ["plague powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.0"]]
 	},
 	"Battalion Commander" :

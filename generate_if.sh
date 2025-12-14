@@ -15,14 +15,6 @@
 ./mvm_generator -m mvm_rottenburg -n lol -c intermediate_if.json
 ./mvm_generator -m mvm_mannhattan -n lol -c intermediate_if.json
 ./mvm_generator -m mvm_ghost_town -n lol -c intermediate_if.json
-# Cash Starve
-./mvm_generator -m mvm_coaltown -n lol -c cash_starve_if.json
-./mvm_generator -m mvm_decoy -n lol -c cash_starve_if.json
-./mvm_generator -m mvm_mannworks -n lol -c cash_starve_if.json
-./mvm_generator -m mvm_bigrock -n lol -c cash_starve_if.json
-./mvm_generator -m mvm_rottenburg -n lol -c cash_starve_if.json
-./mvm_generator -m mvm_mannhattan -n lol -c cash_starve_if.json
-./mvm_generator -m mvm_ghost_town -n lol -c cash_starve_if.json
 # Hard
 ./mvm_generator -m mvm_coaltown -n lol -c hard_if.json
 ./mvm_generator -m mvm_decoy -n lol -c hard_if.json
