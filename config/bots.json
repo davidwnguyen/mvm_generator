@@ -99,7 +99,7 @@
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
-		["heal rate bonus","15.0"], ["add uber charge on hit","0.02"], ["uber duration bonus","-2.0"]]
+		["heal rate bonus","15.0"], ["add uber charge on hit","0.02"] ]
 	},
 	"Shield Medic" :
 	{
@@ -107,13 +107,13 @@
 		"weapons" : ["The Quick-Fix"],
 		"bot_attributes" : ["SpawnWithFullCharge", "ProjectileShield"],
 		"difficulty" : 4,
-		"health" : "1300",
+		"health" : "3000",
 		"class_icon" : "medic_shield",
 		"count" : 10,
-		"max_active" : 5,
+		"max_active" : 10,
 		"spawn_per_timer" : 5,
 		"time_before_spawn" : 0,
-		"time_between_spawn" : 8,
+		"time_between_spawn" : 5,
 		"currency_weight": 8,
 		"weapon_attributes" : [["generate rage on heal", "2.0"]],
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
@@ -741,8 +741,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus","0.035"], ["projectile spread angle penalty","2.5"],
-		 ["agility powerup","1.0"], ["move speed bonus", "0.65"], ["weapon burn dmg increased","2.5"]]
+		"attributes" : [ ["damage mult 13", "15.0"], ["fire rate bonus","0.04"], ["projectile spread angle penalty","3.0"],
+		 ["agility powerup","1.0"], ["move speed bonus", "0.65"] ]
 	},
 	"Pyro Shotgun Giant" :
 	{
@@ -889,8 +889,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "8.0"], ["faster reload rate", "0.3"], ["mult projectile count", "3"],
-		["Blast radius increased","1.5"], ["Projectile speed increased","1.25"], ["dmg falloff decreased","0.5"],
+		"attributes" : [ ["damage mult 13", "8.0"], ["faster reload rate", "0.3"], ["fire rate bonus HIDDEN", "0.002"],
+		["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"],
 		["precision powerup","1.0"], ["projectile spread angle penalty","3.0"], ["move speed bonus", "0.4"] ]
 	},
 	"Tomislav Giant" :
@@ -910,7 +910,7 @@
 		"time_between_spawn" : 3,
 		"currency_weight": 8,
 		"weapon_attributes" : [ ["fire rate penalty", "3.0"], ["damage bonus", "3.0"] ],
-		"attributes" : [ ["damage mult 13", "20.0"], ["bullets per shot bonus","2.0"], ["relentless powerup","1.0"], ["move speed bonus", "0.65"] ]
+		"attributes" : [ ["damage mult 13", "15.0"], ["bullets per shot bonus","2.0"], ["relentless powerup","1.0"], ["move speed bonus", "0.65"] ]
 	},
 	"Grinder Giant" :
 	{
@@ -983,7 +983,7 @@
 		"time_between_spawn" : 7,
 		"currency_weight": 8,
 		"weapon_attributes": [ ["override projectile type", "2.0"], ["Projectile speed increased", "1000.0"] ],
-		"attributes" : [ ["damage mult 13", "12.5"], ["supernova powerup","1.0"], ["faster reload rate", "0.2"], ["move speed bonus", "0.65"] ]
+		"attributes" : [ ["damage mult 13", "15.0"], ["supernova powerup","1.0"], ["faster reload rate", "0.1"], ["move speed bonus", "0.65"] ]
 	},
 	"Electrified Bowman Giant" :
 	{
@@ -991,7 +991,7 @@
 		"weapons" : ["The Huntsman"],
 		"difficulty" : 4,
 		"health" : "20000",
-		"class_icon" : "sniper_bow_multi_giant",
+		"class_icon" : "sniper_bow_multi_electric_cake",
 		"scale" : 1.6,
 		"is_giant": true,
 		"count" : 2,
@@ -1035,7 +1035,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "12.5"], ["faster reload rate", "0.1"], ["fire rate bonus HIDDEN", "0.5"], 
+		"attributes" : [ ["damage mult 13", "3.5"], ["faster reload rate", "0.1"], ["fire rate bonus HIDDEN", "0.005"], 
 		["Blast radius increased","2.0"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"],
 		["clip size bonus","10.0"], ["projectile spread angle penalty", "5.0"], ["relentless powerup", "1.0"], ["move speed bonus", "0.5"] ]
 	},
@@ -1202,7 +1202,7 @@
 		"weapons" : ["The Righteous Bison"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "2750",
+		"health" : "3000",
 		"class_icon" : "soldier_bison",
 		"count" : 18,
 		"max_active" : 18,
@@ -1219,7 +1219,7 @@
 		"weapons" : ["The Cow Mangler 5000"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "4500",
+		"health" : "5000",
 		"class_icon" : "soldier_cowmangler",
 		"count" : 24,
 		"max_active" : 24,
@@ -1227,7 +1227,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 12,
-		"attributes" : [ ["damage mult 13", "60.0"], ["faster reload rate","0.01"] ]
+		"attributes" : [ ["damage mult 13", "90.0"], ["faster reload rate","0.01"] ]
 	},
 	"Heavyweight Champion" :
 	{
@@ -1299,7 +1299,7 @@
 		"currency_weight": 12,
 		"weapon_attributes": [["engy building health bonus", "75.0"], ["engy sentry damage bonus", "3.0"], 
 		["engy sentry fire rate increased", "0.4"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["supernova powerup", "2"], ["sentry bolt rounds", "1.0"] ]
+		"attributes" : [ ["damage mult 13", "40.0"], ["supernova powerup", "2"], ["sentry bolt rounds", "1.0"] ]
 	},
 	"Ballista Engineer" :
 	{
@@ -1337,8 +1337,8 @@
 		"time_between_spawn" : 15,
 		"currency_weight": 12,
 		"weapon_attributes": [["engy building health bonus", "75.0"], ["engy sentry damage bonus", "4.5"], 
-		["engy sentry fire rate increased", "0.75"], ["engy sentry radius increased", "1.75"]],
-		"attributes" : [ ["damage mult 13", "20.0"], ["supernova powerup", "3.0"], ["sentry bolt rounds", "2.0"] ]
+		["engy sentry fire rate increased", "0.25"], ["engy sentry radius increased", "1.75"]],
+		"attributes" : [ ["damage mult 13", "40.0"], ["supernova powerup", "3.0"], ["sentry bolt rounds", "2.0"] ]
 	},
 	"Artillery Engineer" :
 	{
@@ -1348,7 +1348,7 @@
 		"is_mission_bot" : true,
 		"difficulty" : 4,
 		"health" : "20000",
-		"class_icon" : "engineer",
+		"class_icon" : "engineer_eagle",
 		"count" : 1,
 		"max_active" : 1,
 		"spawn_per_timer" : 1,
@@ -1365,7 +1365,7 @@
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
 		"health" : "75000",
-		"class_icon" : "engineer",
+		"class_icon" : "engineer_eagle_giant",
 		"is_boss" : true,
 		"scale" : 0.75,
 		"count" : 1,
@@ -1376,7 +1376,7 @@
 		"currency_weight": 25,
 		"weapon_attributes": [["engy building health bonus", "150.0"], ["engy sentry damage bonus", "1.5"], 
 		["mult firerocket rate", "2.0"],["engy sentry fire rate increased", "8.0"], ["engy sentry radius increased", "10.0"], ["build rate bonus", "0.18"], ["Construction rate decreased", "5.5"]],
-		"attributes" : [ ["damage mult 13", "22.5"], ["strength powerup", "3.0"], ["sentry rocket projectile add", "10.0"] ]
+		"attributes" : [ ["damage mult 13", "40.0"], ["strength powerup", "3.0"], ["sentry rocket projectile add", "10.0"] ]
 	},
 	"Rooter" :
 	{
@@ -1384,7 +1384,7 @@
 		"weapons" : ["Rocket Jumper"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "35000",
+		"health" : "45000",
 		"class_icon" : "soldier_jumper_sif",
 		"is_giant" : true,
 		"count" : 2,
@@ -1393,8 +1393,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 20,
-		"weapon_attributes": [["projectile spread angle penalty", "9.0"], ["mult projectile count", "3"], ["projectile homing radius", "125"]],
-		"attributes" : [ ["fire rate bonus", "1.1"], ["rocket specialist", "1.0"], ["Projectile speed increased","0.6"], ["faster reload rate","0.01"], ["move speed bonus", "0.5"]]
+		"weapon_attributes": [["projectile spread angle penalty", "3.0"], ["mult projectile count", "3"], ["projectile homing radius", "50"]],
+		"attributes" : [ ["fire rate bonus", "1.1"], ["rocket specialist", "1.0"], ["Projectile speed increased","0.75"], ["faster reload rate","0.01"], ["move speed bonus", "0.5"]]
 	},
 	"Quaker Market Gardener" :
 	{
@@ -1419,10 +1419,11 @@
 	"Loch-n-Load Demoman" :
 	{
 		"class"	: "demoman",
+		"bot_attributes" : ["HoldFireUntilFullReload"],
 		"weapons" : ["The Loch-n-Load"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "2000",
+		"health" : "5000",
 		"class_icon" : "demo_loch_nys",
 		"count" : 12,
 		"max_active" : 12,
@@ -1430,14 +1431,14 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 12,
-		"weapon_attributes" : [["sticky air burst mode", "0.0"], ["grenade no drag","1.0"], ["damage bonus", "2.0"], ["grenade explode on impact", "1.0"]],
-		"attributes" : [ ["damage mult 13", "30.0"], ["faster reload rate", "0.75"], ["fire rate bonus", "0.4"], ["clip size penalty", "1.5"]]
+		"weapon_attributes" : [["sticky air burst mode", "0.0"], ["projectile gravity native", "0.0"], ["grenade no drag","1.0"], ["damage bonus", "2.0"], ["grenade explode on impact", "1.0"]],
+		"attributes" : [ ["damage mult 13", "30.0"], ["faster reload rate", "0.75"], ["auto fires full clip all at once", "1"], ["clip size penalty", "0.66"]]
 	},
 	"Giant Loch-n-Load Demoman" :
 	{
 		"class"	: "demoman",
+		"bot_attributes" : ["HoldFireUntilFullReload"],
 		"weapons" : ["The Loch-n-Load"],
-		"bot_attributes" : ["AlwaysCrit"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "25000",
@@ -1449,8 +1450,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 20,
-		"weapon_attributes" : [["sticky air burst mode", "0.0"], ["grenade no drag","1.0"], ["damage bonus", "2.0"], ["grenade explode on impact", "1.0"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["strength", "2.0"], ["fire rate bonus", "0.4"], ["faster reload rate", "0.5"], ["clip size penalty", "1.5"], ["move speed bonus", "0.6"]]
+		"weapon_attributes" : [["sticky air burst mode", "0.0"], ["projectile gravity native", "0.0"], ["grenade no drag","1.0"], ["damage bonus", "2.0"], ["grenade explode on impact", "1.0"]],
+		"attributes" : [ ["damage mult 13", "25.0"], ["precision powerup", "3.0"], ["faster reload rate", "0.5"], ["auto fires full clip all at once", "1"], ["clip size penalty", "0.66"], ["move speed bonus", "0.6"]]
 	},
 	"Gas Passer" :
 	{
@@ -1459,7 +1460,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon"],
-		"health" : "1750",
+		"health" : "2000",
 		"class_icon" : "pyro_gascann_explode",
 		"count" : 8,
 		"max_active" : 8,
@@ -1467,8 +1468,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 12,
-		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.03"], ["Blast radius increased", "1.25"]],
-		"attributes" : [ ["damage mult 13", "7.5"]]
+		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.03"], ["Blast radius increased", "2.0"]],
+		"attributes" : [ ["damage mult 13", "9.0"]]
 	},
 	"Giant Gas Passer" :
 	{
@@ -1486,8 +1487,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 20,
-		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.02"], ["Blast radius increased", "2.0"]],
-		"attributes" : [ ["damage mult 13", "11.5"], ["supernova powerup", "2.0"], ["move speed bonus", "0.6"]]
+		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.02"]],
+		"attributes" : [ ["damage mult 13", "15.0"], ["supernova powerup", "2.0"], ["move speed bonus", "0.6"]]
 	},
 	"Fly" :
 	{
@@ -1496,7 +1497,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"health" : "500",
+		"health" : "600",
 		"class_icon" : "scout",
 		"scale" : 0.5,
 		"auto_jump_min" : 4,
@@ -1505,9 +1506,9 @@
 		"max_active" : 24,
 		"spawn_per_timer" : 12,
 		"time_before_spawn" : 0,
-		"time_between_spawn" : 7,
+		"time_between_spawn" : 3,
 		"currency_weight": 4,
-		"attributes" : [ ["damage mult 13", "15.0"], ["cannot pick up intelligence", "1.0"], ["fire rate bonus", "0.8"], ["player gravity ballon head", "300"], ["voice pitch scale", "3.0"]]
+		"attributes" : [ ["damage mult 13", "15.0"], ["cannot pick up intelligence", "1.0"], ["fire rate bonus", "2.0"], ["player gravity ballon head", "300"], ["voice pitch scale", "3.0"]]
 	},
 	"Giant Fly" :
 	{
@@ -1528,7 +1529,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "17.5"], ["cannot pick up intelligence", "1.0"], ["fire rate bonus", "0.75"], ["player gravity ballon head", "300"], 
+		"attributes" : [ ["damage mult 13", "15.0"], ["cannot pick up intelligence", "1.0"], ["fire rate bonus", "1.75"], ["player gravity ballon head", "300"], 
 		["voice pitch scale", "4.0"], ["resistance powerup", "2.0"]]
 	},
 	"Leech" :
@@ -1538,7 +1539,7 @@
 		"weapon_restriction":"MeleeOnly",
 		"is_mission_bot": true,
 		"difficulty" : 4,
-		"health" : "800",
+		"health" : "1000",
 		"class_icon" : "spy",
 		"scale" : 0.5,
 		"count" : 4,
@@ -1547,7 +1548,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "20.0"], ["cannot pick up intelligence", "1.0"], ["plague powerup", "2.0"], ["voice pitch scale", "4.0"], ["melee range multiplier", "3.0"], ["disguise on backstab", "-60.0"]]
+		"attributes" : [ ["damage mult 13", "20.0"], ["cannot pick up intelligence", "1.0"], ["plague powerup", "2.0"], ["voice pitch scale", "4.0"], ["melee range multiplier", "3.0"], ["disguise on backstab", "-30.0"]]
 	},
 	"Elder Leech" :
 	{
@@ -1556,7 +1557,7 @@
 		"weapon_restriction":"MeleeOnly",
 		"is_mission_bot": true,
 		"difficulty" : 4,
-		"health" : "1600",
+		"health" : "2500",
 		"class_icon" : "spy",
 		"is_giant" : true,
 		"scale" : 0.65,
@@ -1567,7 +1568,7 @@
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "20.0"], ["cannot pick up intelligence", "1.0"], ["plague powerup", "2.0"], ["vampire powerup", "2.0"], 
-		["voice pitch scale", "2.5"], ["melee range multiplier", "3.0"], ["disguise on backstab", "-120.0"]]
+		["voice pitch scale", "2.5"], ["melee range multiplier", "3.0"], ["disguise on backstab", "-60.0"]]
 	},
 	"Giant SVF Pyro" :
 	{
@@ -1636,8 +1637,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 12,
 		"currency_weight": 35,
-		"weapon_attributes" : [["explosive fragment count", "5"], ["explosive_fragment_damage", "50.0"], ["Blast radius increased", "2.0"]],
-		"attributes" : [ ["damage mult 13", "22.5"], ["inverter powerup", "3.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "2.0"], ["move speed bonus", "0.4"]]
+		"weapon_attributes" : [["explosive fragment count", "10"], ["explosive_fragment_damage", "75.0"], ["Blast radius increased", "2.0"]],
+		"attributes" : [ ["damage mult 13", "30.0"], ["inverter powerup", "3.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "2.0"], ["move speed bonus", "0.4"]]
 	},
 	"The Incendiary Bomber" :
 	{
@@ -1655,7 +1656,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 12,
 		"currency_weight": 45,
-		"weapon_attributes" : [["explosive fragment count", "10"], ["explosive_fragment_damage", "75.0"], ["Blast radius increased", "2.5"]],
+		"weapon_attributes" : [["explosive fragment count", "15"], ["explosive_fragment_damage", "100.0"], ["Blast radius increased", "2.5"]],
 		"attributes" : [ ["damage mult 13", "27.5"], ["inverter powerup", "3.0"],["supernova powerup", "2.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "3.0"], ["move speed bonus", "0.4"]]
 	},
 	"Aimless Bowman" :
@@ -1677,13 +1678,13 @@
 		"weapon_attributes" : [["sapper damage bonus", "35.0"]],
 		"attributes" : [ ["damage mult 13", "45.0"], ["precision powerup", "2.0"], ["faster reload rate", "0.1"], ["fire rate bonus", "0.16"], ["clip size bonus", "5.0"], ["move speed bonus", "0.6"]]
 	},
-	"Precise Bowman" :
+	"Not Aimless Bowman" :
 	{
 		"class"	: "sniper",
 		"weapons" : ["The Huntsman"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "13000",
+		"health" : "12500",
 		"class_icon" : "sniper_bow_multi_homing",
 		"scale" : 1.5,
 		"is_giant": true,
@@ -1694,7 +1695,7 @@
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
 		"weapon_attributes" : [["sapper damage bonus", "50.0"], ["crit from behind", "150.0"]],
-		"attributes" : [ ["damage mult 13", "35.0"], ["precision powerup", "1.0"], ["faster reload rate", "0.1"], ["fire rate bonus", "0.15"], ["clip size bonus", "6.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "40.0"], ["precision powerup", "1.0"], ["faster reload rate", "0.08"], ["fire rate bonus", "0.12"], ["clip size bonus", "6.0"], ["move speed bonus", "0.6"]]
 	},
 	"Quake Soldier" :
 	{
@@ -1703,7 +1704,7 @@
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump"],
-		"health" : "5500",
+		"health" : "6000",
 		"class_icon" : "soldier_quake_cake",
 		"auto_jump_min" : 1,
 		"auto_jump_max" : 1,
@@ -1723,7 +1724,7 @@
 		"bot_attributes" : ["SpawnWithFullCharge"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "7500",
+		"health" : "8000",
 		"class_icon" : "vex_soldier_whip_electric",
 		"scale" : 1.25,
 		"count" : 4,
@@ -1733,8 +1734,8 @@
 		"time_between_spawn" : 8,
 		"currency_weight": 12,
 		"weapon_attributes" : [ ["has pipboy build interface", "4.0"] ],
-		"attributes" : [ ["damage mult 13", "25.0"], ["increase buff duration", "50.0"], ["clip size bonus", "3.0"], 
-		["melee range multiplier", "15.0"], ["apply look velocity on damage", "-300.0"], ["fire rate bonus", "0.5"]]
+		"attributes" : [ ["damage mult 13", "35.0"], ["increase buff duration", "50.0"], ["clip size bonus", "3.0"], 
+		["melee range multiplier", "15.0"], ["apply look velocity on damage", "-300.0"]]
 	},
 	"Giant Lightning Rod" :
 	{
@@ -1743,7 +1744,7 @@
 		"bot_attributes" : ["SpawnWithFullCharge"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "30000",
+		"health" : "35000",
 		"is_giant" : true,
 		"class_icon" : "vex_soldier_whip_electric_giant",
 		"scale" : 1.6,
@@ -1755,7 +1756,7 @@
 		"currency_weight": 12,
 		"weapon_attributes" : [ ["has pipboy build interface", "4.0"] ],
 		"attributes" : [ ["damage mult 13", "35.0"], ["increase buff duration", "50.0"], ["clip size bonus", "3.0"], 
-		["melee range multiplier", "15.0"], ["apply look velocity on damage", "-350.0"], ["move speed bonus", "0.6"], ["fire rate bonus", "0.5"]]
+		["melee range multiplier", "15.0"], ["apply look velocity on damage", "-300.0"], ["move speed bonus", "0.6"]]
 	},
 	"Giant Direct Hit Soldier" :
 	{
@@ -1774,12 +1775,12 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 30,
-		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.5"], ["Projectile speed increased","2.0"], ["precision powerup", "3.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.3"], ["Projectile speed increased","2.0"], ["precision powerup", "3.0"], ["move speed bonus", "0.6"]]
 	},
 	"Jarate Sniper" :
 	{
 		"class" : "sniper",
-		"weapons" : ["Jarate"],
+		"weapons" : ["The Jarate"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"health" : "3000",
@@ -1790,15 +1791,15 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 10,
-		"attributes" : [ ["damage mult 13", "25.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], ["Projectile speed increased","2.0"], ["jar applies armor decay","10"], ["jar gives armor penetration","3"], ["additive piercing damage","30"], ["building cost reduction","2.0"]]
+		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus","0.3"], ["Projectile speed increased","2.0"], ["jar applies armor decay","10"], ["jar gives armor penetration","3"], ["additive piercing damage","30"], ["building cost reduction","2.0"]]
 	},
 	"Giant Jarate Sniper" :
 	{
 		"class" : "sniper",
-		"weapons" : ["Jarate"],
+		"weapons" : ["The Jarate"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "20000",
+		"health" : "30000",
 		"is_giant" : true,
 		"scale" : 1.6,
 		"class_icon" : "sniper_jarate_giant",
@@ -1808,7 +1809,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 10,
-		"attributes" : [ ["damage mult 13", "30.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], ["Projectile speed increased","2.0"], ["jar applies armor decay","20"], ["jar gives armor penetration","6"], ["additive piercing damage","60"], ["precision powerup", "1.0"], ["building cost reduction","2.5"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "30.0"], ["fire rate bonus","0.9"], ["Projectile speed increased","2.0"], ["jar applies armor decay","20"], ["jar gives armor penetration","6"], ["additive piercing damage","60"], ["precision powerup", "1.0"], ["building cost reduction","2.5"], ["move speed bonus", "0.6"]]
 	},
 	"The Pain Train" :
 	{
@@ -1817,7 +1818,7 @@
 		"weapons" : ["The Bootlegger","The Splendid Screen","The Pain Train"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "11500",
+		"health" : "10000",
 		"class_icon" : "demo_paintrain",
 		"scale"	: 1.25,
 		"count" : 4,
@@ -1826,7 +1827,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "22.5"], ["fire rate bonus","0.25"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "5.0"], ["full charge turn control", "50.0"]]
+		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus","0.25"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "5.0"], ["full charge turn control", "50.0"]]
 	},
 	"Suicide Bomber" :
 	{
@@ -1844,7 +1845,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "250.0"], ["melee range multiplier", "2.25"], ["use large smoke explosion", "1.0"], ["dmg taken from self reduced", "1000.0"], ["move speed bonus", "2.25"], ["Blast radius increased", "3.0"]]
+		"attributes" : [ ["damage mult 13", "150.0"], ["melee range multiplier", "2.25"], ["use large smoke explosion", "1.0"], ["dmg taken from self reduced", "1000.0"], ["move speed bonus", "2.25"], ["Blast radius increased", "3.0"]]
 	},
 	"Mortar Operator":
 	{
@@ -1852,7 +1853,7 @@
 		"weapons" : ["The Manmelter"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "125000",
+		"health" : "75000",
 		"is_boss" : true,
 		"class_icon" : "pyro_manmelter_giant",
 		"scale"	: 1.8,
@@ -1862,7 +1863,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 50,
-		"attributes" : [ ["damage mult 13", "42.5"], ["cloak_consume_on_feign_death_activate", "12.0"], ["Converts Firerate to Damage", "1.0"], ["fire rate bonus", "0.1"], ["Projectile speed increased", "5.5"]]
+		"attributes" : [ ["damage mult 13", "35.0"], ["cloak_consume_on_feign_death_activate", "12.0"], ["Converts Firerate to Damage", "1.0"], ["fire rate bonus", "0.25"], ["Projectile speed increased", "5.0"]]
 	},
 	"Paratrooper" :
 	{
@@ -1870,7 +1871,7 @@
 		"weapons" : ["The Air Strike", "The B.A.S.E. Jumper", "Jumper's Jeepcap"],
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump"],
-		"health" : "4500",
+		"health" : "7500",
 		"class_icon" : "soldier_libertylauncher",
 		"scale" : 1.05,
 		"auto_jump_min" : 4,
@@ -1891,7 +1892,7 @@
 		"weapons" : ["The Buff Banner", "The Air Strike", "Jumper's Jeepcap"],
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump", "SpawnWithFullCharge"],
-		"health" : "7500",
+		"health" : "12500",
 		"class_icon" : "soldier_libertylauncher",
 		"scale" : 1.2,
 		"auto_jump_min" : 4,
@@ -1912,7 +1913,7 @@
 		"weapons" : ["Big Kill", "Six-Eyed Specs", "Night Vision Gawkers", "Le Professionnel"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "12500",
+		"health" : "15000",
 		"is_giant" : true,
 		"class_icon" : "spy_giant",
 		"scale" : 0.8,
@@ -1923,7 +1924,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 15,
 		"weapon_attributes" : [ ["silent killer", "1.0"]],
-		"attributes" : [ ["damage mult 13", "35.0"], ["fire rate bonus", "0.25"], ["weapon spread bonus", "0.05"], ["clip size bonus", "1.5"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "35.0"], ["fire rate bonus", "0.3"], ["weapon spread bonus", "0.05"], ["clip size bonus", "3.0"], ["move speed bonus", "0.6"]]
 	},
 	"Black Ops Sniper" :
 	{
@@ -1942,7 +1943,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 15,
 		"weapon_attributes" : [ ["clip size bonus", "3.0"] ],
-		"attributes" : [ ["damage mult 13", "37.5"], ["fire rate bonus", "2.0"], ["weapon spread bonus", "0.05"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "35.0"], ["fire rate bonus", "2.25"], ["weapon spread bonus", "0.05"], ["move speed bonus", "0.6"]]
 	},
 	"Irradiated Worker" :
 	{
@@ -1961,16 +1962,16 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 25,
-		"weapon_attributes" : [ ["clip size bonus", "3.0"], ["SPELL: Halloween green flames", "1.0"], ["flame size bonus", "2.5"], ["flame_lifetime", "15.0"], ["radiation buildup", "9.5"]],
-		"attributes" : [ ["damage mult 13", "10.0"],  ["move speed bonus", "0.6"]]
+		"weapon_attributes" : [ ["clip size bonus", "3.0"], ["SPELL: Halloween green flames", "1.0"], ["flame size bonus", "2.5"], ["flame_lifetime", "15.0"]],
+		"attributes" : [ ["damage mult 13", "10.0"], ["radiation buildup", "9.5"], ["move speed bonus", "0.6"]]
 	},
-	"Arctic Ops Scout" :
+	"White Ops Scout" :
 	{
 		"class" : "scout",
 		"weapons" : ["Scattergun", "Cross-Comm Express", "Isotopic Insulator", "Blizzard Britches"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "12500",
+		"health" : "10500",
 		"is_giant" : true,
 		"class_icon" : "scout_freeze",
 		"scale" : 0.75,
@@ -1983,14 +1984,14 @@
 		"weapon_attributes" : [ ["damage causes freeze", "25.0"]],
 		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus", "2.0"], ["bullets per shot bonus", "3.0"], ["spread penalty", "2.0"], ["move speed bonus", "0.6"] ]
 	},
-	"Arctic Ops Pyro" :
+	"White Ops Pyro" :
 	{
 		"class" : "pyro",
 		"weapons" : ["The Degreaser", "Triclops", "Sub Zero Suit", "Portable Smissmas Spirit Dispenser"],
 		"weapon_restriction":"PrimaryOnly",
 		"bot_attributes" : [ "AlwaysFireWeapon"],
 		"difficulty" : 4,
-		"health" : "15000",
+		"health" : "17500",
 		"is_giant" : true,
 		"class_icon" : "pyro_freeze_giant",
 		"scale" : 0.75,
@@ -2001,7 +2002,7 @@
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["damage causes freeze", "35.0"] ],
-		"attributes" : [ ["damage mult 13", "80.0"],  ["flame_speed", "7000.0"], ["move speed bonus", "0.6"] ]
+		"attributes" : [ ["damage mult 13", "20.0"],  ["flame_speed", "7000.0"], ["move speed bonus", "0.6"] ]
 	},
 	"Hunter" :
 	{
@@ -2056,7 +2057,7 @@
 		"time_between_spawn" : 15,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["radiation buildup", "12.0"], ["sapper damage bonus", "25.0"], ["bleeding duration", "5.0"], ["mark for death", "5.0"], ["afterburn rating","1.0"]],
-		"attributes" : [ ["damage mult 13", "15.0"], ["fire rate bonus", "2.5"], ["Reload time decreased","2.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "15.0"], ["fire rate bonus", "2.5"], ["Reload time decreased","2.5"], ["move speed bonus", "0.6"]]
 	},
 	"The Skullcutter" :
 	{
@@ -2075,7 +2076,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["damage bonus", "2.0"], ["melee range multiplier", "6.0"]],
-		"attributes" : [ ["damage mult 13", "10.0"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "2000.0"], ["cannot pick up intelligence", "1.0"]]
+		"attributes" : [ ["damage mult 13", "25.0"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "2000.0"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Sucker Giant" :
 	{
@@ -2085,7 +2086,7 @@
 		"difficulty" : 4,
 		"health" : "30000",
 		"is_giant" : true,
-		"class_icon" : "heavy_natascha_magnet_cake_giant",
+		"class_icon" : "heavy_magnet_cake_giant",
 		"scale": 1.6,
 		"count" : 2,
 		"max_active" : 2,
@@ -2094,7 +2095,7 @@
 		"time_between_spawn" : 20,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["apply look velocity on damage", "-80.0"]],
-		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate penalty", "2.5"], ["bullets per shot bonus", "3.0"], ["weapon spread bonus", "0.5"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "5.0"], ["fire rate penalty", "2.5"], ["bullets per shot bonus", "3.0"], ["weapon spread bonus", "0.5"], ["move speed bonus", "0.6"]]
 	},
 	"Smoke Mortar" :
 	{
@@ -2113,7 +2114,7 @@
 		"time_between_spawn" : 0,
 		"currency_weight": 20,
 		"weapon_attributes": [["projectile spread angle penalty", "10.0"], ["mult projectile count", "6"]],
-		"attributes" : [ ["fire rate bonus", "3.5"], ["Projectile speed increased","2.0"], ["faster reload rate","0.01"], ["precision powerup", "2.0"], ["use large smoke explosion", "1.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["fire rate bonus", "8.5"], ["Projectile speed increased","2.0"], ["faster reload rate","0.01"], ["precision powerup", "2.0"], ["use large smoke explosion", "1.0"], ["move speed bonus", "0.6"]]
 	},
 	"Elbersson" :
 	{
@@ -2121,7 +2122,7 @@
 		"weapons" : ["Minigun", "Macho Mann", "Trash Man", "Tyurtlenek"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "375000",
+		"health" : "350000",
 		"is_boss" : true,
 		"class_icon" : "heavy_katana",
 		"scale" : 1.8,
@@ -2131,15 +2132,16 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 0,
 		"currency_weight": 75,
-		"weapon_attributes": [["bleeding duration", "8"], ["sapper damage bonus", "10.0"], ["armor piercing", "10.0"], ["radiation buildup", "10.0"], ["fire rate penalty", "0.8"], ["aiming movespeed increased", "3.0"]],
-		"attributes" : [  ["damage mult 13", "22.5"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.5"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "1.5"]]
+		"weapon_attributes": [["bleeding duration", "6"], ["sapper damage bonus", "2.0"], ["armor piercing", "6.0"], ["radiation buildup", "3.0"], ["fire rate penalty", "1.5"], ["aiming movespeed increased", "3.0"]],
+		"attributes" : [  ["damage mult 13", "20.0"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.5"]]
 	},
 	"Flasher Medic" :
 	{
 		"class" : "medic",
 		"weapon_restriction":"SecondaryOnly",
+		"bot_attributes" : [ "AlwaysFireWeapon" ],
 		"difficulty" : 4,
-		"health" : "1600",
+		"health" : "3500",
 		"class_icon" : "medic_uber_fast",
 		"scale" : 1,
 		"count" : 4,
@@ -2148,8 +2150,8 @@
 		"time_before_spawn" : 2,
 		"time_between_spawn" : 10,
 		"currency_weight": 20,
-		"weapon_attributes": [["ubercharge rate bonus", "17.5"], ["uber duration bonus", "-6.5"]],
-		"attributes" : [ ["damage mult 13", "7.0"], ["cannot pick up intelligence", "1.0"]]
+		"weapon_attributes": [["ubercharge rate bonus", "15.0"], ["uber duration bonus", "-6.5"]],
+		"attributes" : [ ["damage mult 13", "20.0"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Slug Shotgunner" :
 	{
@@ -2167,7 +2169,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 25,
 		"weapon_attributes": [["weapon spread bonus", "0.01"]],
-		"attributes" : [ ["damage mult 13", "10.0"], ["bullets per shot bonus", "4.0"], ["fire rate bonus", "2.0"], ["faster reload rate", "1.25"]]
+		"attributes" : [ ["damage mult 13", "10.0"], ["bullets per shot bonus", "4.0"], ["fire rate bonus", "2.00"], ["faster reload rate", "1.25"]]
 	},
 	"Giant Slug Shotgunner" :
 	{
@@ -2175,7 +2177,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"weapons" : ["Heavy's Shotgun"],
 		"difficulty" : 4,
-		"health" : "30000",
+		"health" : "35000",
 		"is_giant" : true,
 		"class_icon" : "heavy_shotgun_accurate_lite_giant",
 		"scale" : 1.6,
@@ -2186,7 +2188,7 @@
 		"time_between_spawn" : 15,
 		"currency_weight": 35,
 		"weapon_attributes": [["weapon spread bonus", "0.01"]],
-		"attributes" : [ ["damage mult 13", "12.5"], ["bullets per shot bonus", "5"], ["fire rate bonus", "3.5"], ["faster reload rate", "2.25"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "12.5"], ["bullets per shot bonus", "4.5"], ["fire rate bonus", "3.5"], ["faster reload rate", "2.25"], ["move speed bonus", "0.6"]]
 	},
 	"Buckshot Shotgunner Giant" :
 	{
@@ -2211,7 +2213,7 @@
 	{
 		"class" : "heavyweapons",
 		"weapon_restriction":"SecondaryOnly",
-		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
+		"bot_attributes" : [ "AutoJump"],
 		"weapons" : ["Heavy's Shotgun"],
 		"difficulty" : 4,
 		"health" : "75000",
@@ -2227,18 +2229,18 @@
 		"time_between_spawn" : 0,
 		"currency_weight": 55,
 		"weapon_attributes": [["weapon spread bonus", "0.5"]],
-		"attributes" : [ ["damage mult 13", "22.5"], ["bullets per shot bonus", "3.5"], ["fire rate bonus", "1.5"], ["increased air control", "3.0"]]
+		"attributes" : [ ["damage mult 13", "15.0"], ["bullets per shot bonus", "2.0"], ["fire rate bonus", "1.5"], ["increased air control", "3.0"]]
 	},
 	"Giant Super Shotgun" :
 	{
 		"class" : "scout",
 		"weapon_restriction":"SecondaryOnly",
-		"bot_attributes" : ["AutoJump"],
+		"bot_attributes" : [ "AutoJump"],
 		"weapons" : ["The Force-a-Nature"],
 		"difficulty" : 4,
 		"health" : "10000",
 		"is_giant" : true,
-		"class_icon" : "scout_fan_giant",
+		"class_icon" : "scout_jumping_nys_fan_cake",
 		"scale" : 1.35,
 		"count" : 4,
 		"max_active" : 4,
@@ -2249,7 +2251,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 25,
 		"weapon_attributes": [["weapon spread bonus", "0.5"]],
-		"attributes" : [ ["damage mult 13", "15.0"], ["bullets per shot bonus", "5.0"], ["fire rate bonus", "1.5"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "15.0"], ["bullets per shot bonus", "2.0"], ["fire rate bonus", "1.5"], ["move speed bonus", "0.6"]]
 	},
 	"Grabber" :
 	{
@@ -2268,8 +2270,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 25,
-		"weapon_attributes": [["override projectile type", "8.0"], ["apply look velocity on damage", "80.0"], ["clip size bonus", "2.0"], ["faster reload rate","0.3"]],
-		"attributes" : [  ["damage mult 13", "15"], ["plague powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.0"]]
+		"weapon_attributes": [["override projectile type", "8.0"],["apply look velocity on damage", "80.0"]],
+		"attributes" : [  ["damage mult 13", "20"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.0"]]
 	},
 	"Battalion Commander" :
 	{
