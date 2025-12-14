@@ -1450,7 +1450,7 @@
 		"time_between_spawn" : 5,
 		"currency_weight": 20,
 		"weapon_attributes" : [["sticky air burst mode", "0.0"], ["grenade no drag","1.0"], ["damage bonus", "2.0"], ["grenade explode on impact", "1.0"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["strength", "2.0"], ["fire rate bonus", "0.4"], ["faster reload rate", "0.5"], ["clip size penalty", "1.5"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "25.0"], ["strength powerup", "2.0"], ["fire rate bonus", "0.4"], ["faster reload rate", "0.5"], ["clip size penalty", "1.5"], ["move speed bonus", "0.6"]]
 	},
 	"Gas Passer" :
 	{
