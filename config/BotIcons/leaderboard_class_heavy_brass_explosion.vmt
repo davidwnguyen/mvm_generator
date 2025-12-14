@@ -1,9 +1,10 @@
 "UnlitGeneric"
 {
-	"$basetexture" "hud/leaderboard_class_demo_ironbomber_lite_infernal"
+	"$baseTexture" "hud/leaderboard_class_heavy_brass_explosion"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
 	"$translucent" 1
 }
+

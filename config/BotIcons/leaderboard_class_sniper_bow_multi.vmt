@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "hud/leaderboard_class_demo_ironbomber_lite_infernal"
+	"$baseTexture" "hud/leaderboard_class_sniper_bow_multi"
 	"$vertexcolor" 1
 	"$no_fullbright" 1
 	"$ignorez" 1
