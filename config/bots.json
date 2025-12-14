@@ -991,7 +991,7 @@
 		"weapons" : ["The Huntsman"],
 		"difficulty" : 4,
 		"health" : "20000",
-		"class_icon" : "sniper_bow_multi_electric_cake",
+		"class_icon" : "sniper_bow_multi_electric_cake_giant",
 		"scale" : 1.6,
 		"is_giant": true,
 		"count" : 2,
