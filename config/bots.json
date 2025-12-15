@@ -1790,7 +1790,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 10,
-		"attributes" : [ ["damage mult 13", "25.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], ["Projectile speed increased","2.0"], ["jar applies armor decay","10"], ["jar gives armor penetration","3"], ["additive piercing damage","30"], ["building cost reduction","2.0"]]
+		"attributes" : [ ["damage mult 13", "25.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], ["Projectile speed increased","2.0"], ["additive piercing damage","30"]]
 	},
 	"Giant Jarate Sniper" :
 	{
@@ -1808,7 +1808,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 10,
-		"attributes" : [ ["damage mult 13", "30.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], ["Projectile speed increased","2.0"], ["jar applies armor decay","20"], ["jar gives armor penetration","6"], ["additive piercing damage","60"], ["precision powerup", "1.0"], ["building cost reduction","2.5"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "30.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], ["Projectile speed increased","2.0"], ["additive piercing damage","60"], ["precision powerup", "1.0"], ["move speed bonus", "0.6"]]
 	},
 	"The Pain Train" :
 	{
