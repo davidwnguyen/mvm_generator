@@ -1251,7 +1251,6 @@
 		"class" : "heavyweapons",
 		"weapons" : ["The Brass Beast"],
 		"weapon_restriction":"PrimaryOnly",
-		"bot_attributes": ["AlwaysCrit"],
 		"difficulty" : 4,
 		"health" : "8000",
 		"class_icon" : "heavy_brass_explosion",
@@ -1262,7 +1261,7 @@
 		"time_between_spawn" : 3,
 		"currency_weight": 12,
 		"weapon_attributes": [["override projectile type","42.0"], ["mini rockets", "1.0"]],
-		"attributes" : [ ["damage mult 13", "20.0"] ]
+		"attributes" : [ ["damage mult 13", "40.0"],  ["fire rate penalty", "2.0"]]
 	},
 	"Firestorm Engineer" :
 	{
