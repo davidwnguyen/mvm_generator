@@ -1979,7 +1979,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
-		"weapon_attributes" : [ ["damage causes freeze", "80.0"]],
+		"weapon_attributes" : [ ["damage causes freeze", "1.2"]],
 		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus", "2.0"], ["bullets per shot bonus", "3.0"], ["spread penalty", "2.0"], ["move speed bonus", "0.6"] ]
 	},
 	"Arctic Ops Pyro" :
@@ -1999,7 +1999,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
-		"weapon_attributes" : [ ["damage causes freeze", "80.0"] ],
+		"weapon_attributes" : [ ["damage causes freeze", "1.2"] ],
 		"attributes" : [ ["damage mult 13", "80.0"],  ["flame_speed", "7000.0"], ["move speed bonus", "0.6"] ]
 	},
 	"Hunter" :
