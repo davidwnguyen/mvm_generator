@@ -68,8 +68,8 @@
 		"bot_path_length" : 0.7,
 		"gatebots": true,
 		"engies" : true,
-		"spawnbots" : ["spawnbot_main0",  "spawnbot_main1", "spawnbot_main2"],
-		"spawngiants" : ["spawnbot_main0", "spawnbot_main1", "spawnbot_main2"],
+		"spawnbots" : ["spawnbot_main0",  "spawnbot_main1", "spawnbot_main2","spawnbot_mission_sniper0", "spawnbot_mission_sniper1"],
+		"spawngiants" : ["spawnbot_main0", "spawnbot_main1", "spawnbot_main2", "spawnbot_mission_sniper0", "spawnbot_mission_sniper1"],
 		"spawnbosses" : ["spawnbot_main0", "spawnbot_main1", "spawnbot_main2"],
 		"scale_mega" : 1.9,
 		"spawnsupports" : ["spawnbot_mission_sniper0", "spawnbot_mission_sniper1", "spawnbot_main2"]

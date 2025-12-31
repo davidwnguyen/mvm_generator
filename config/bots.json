@@ -610,7 +610,7 @@
 		"weapon_restriction" : "SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit"],
-		"health" : "10000",
+		"health" : "100000",
 		"class_icon" : "scout_basher_lite",
 		"count" : 15,
 		"max_active" : 15,
@@ -618,7 +618,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 1,
-		"attributes" : [ ["damage mult 13","12.0"], ["fire rate bonus", "0.3"], ["damage taken mult 4", "30.0"], ["plague powerup","3.0"] ]
+		"attributes" : [ ["damage mult 13","12.0"], ["fire rate bonus", "0.3"], ["damage taken mult 3", "50.0"], ["plague powerup","3.0"] ]
 	},
 	"Greatbow Sniper" :
 	{
