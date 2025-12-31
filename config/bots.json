@@ -1816,7 +1816,7 @@
 		"weapons" : ["The Bootlegger","The Splendid Screen","The Pain Train"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "11500",
+		"health" : "10000",
 		"class_icon" : "demo_paintrain",
 		"scale"	: 1.25,
 		"count" : 15,
@@ -1825,7 +1825,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 20,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "22.5"], ["fire rate bonus","0.25"], ["charge recharge rate increased", "0.01"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "6.5"], ["full charge turn control", "50.0"]]
+		"attributes" : [ ["damage mult 13", "16.0"], ["fire rate bonus","0.66"], ["charge recharge rate increased", "0.01"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "6.5"], ["full charge turn control", "50.0"]]
 	},
 	"Suicide Bomber" :
 	{
