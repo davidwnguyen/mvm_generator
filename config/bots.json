@@ -1820,10 +1820,10 @@
 		"class_icon" : "demo_paintrain",
 		"scale"	: 1.25,
 		"count" : 15,
-		"max_active" : 15,
+		"max_active" : 10,
 		"spawn_per_timer" : 5,
 		"time_before_spawn" : 0,
-		"time_between_spawn" : 15,
+		"time_between_spawn" : 20,
 		"currency_weight": 20,
 		"attributes" : [ ["damage mult 13", "22.5"], ["fire rate bonus","0.25"], ["charge recharge rate increased", "0.01"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "6.5"], ["full charge turn control", "50.0"]]
 	},
