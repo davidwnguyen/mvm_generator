@@ -542,8 +542,8 @@
 	{
 		"squads":["Paratrooper", "Mortar Operator", "The Pain Train"],
 		"tags": ["uber", "boss"],
-		"weight": 5,
-		"rarity": 2
+		"weight": 4,
+		"rarity": 3.48
 	},
 	"Squad #79":
 	{
@@ -627,7 +627,7 @@
 		"squads":["Demoknight", "Suicide Bomber", "The Pain Train", "Tavish"],
 		"tags": ["uber", "boss"],
 		"weight": 6,
-		"rarity": 4
+		"rarity": 4.48
 	},
 	"Squad #91":
 	{
