@@ -1834,7 +1834,7 @@
 		"weapons" : ["The Ullapool Caber"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "5000",
+		"health" : "2000",
 		"class_icon" : "sentry_buster",
 		"scale"	: 1.0,
 		"count" : 8,
@@ -1843,7 +1843,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "250.0"], ["melee range multiplier", "2.25"], ["use large smoke explosion", "1.0"], ["dmg taken from self reduced", "1000.0"], ["move speed bonus", "2.25"], ["Blast radius increased", "3.0"]]
+		"attributes" : [ ["damage mult 13", "75.0"], ["melee range multiplier", "2.25"], ["use large smoke explosion", "1.0"], ["dmg taken from self reduced", "100000.0"], ["move speed bonus", "1.5"], 
+		["Blast radius increased", "2.5"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Mortar Operator":
 	{
