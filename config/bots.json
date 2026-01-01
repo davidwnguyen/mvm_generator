@@ -497,7 +497,7 @@
 		"currency_weight": 40,
 		"weapon_attributes" : [ ["damage mult 13", "6.0"], ["override projectile type","47.0"], ["Projectile speed increased", "2.0"] ],
 		"attributes" : [ ["disguise on backstab", "500.0"], ["move speed bonus", "1.3"],
-		 ["damage force reduction","0.0"], ["damage force increase text","4.0"], ["agility powerup", "3.0"] ]
+		 ["damage force reduction","0.0"], ["player boss type","4.0"], ["agility powerup", "3.0"] ]
 	},
 	"Barrage Blaster" :
 	{
@@ -519,7 +519,7 @@
 		"currency_weight": 60,
 		"weapon_attributes" : [ ["fire rate bonus", "0.3"], ["Projectile speed increased", "2.0"] ],
 		"attributes" : [ ["damage mult 13", "18.0"], ["disguise on backstab", "500.0"], ["Blast radius increased", "2.0"],
-		 ["damage force reduction","0.0"], ["damage force increase text","2.0"], ["strength powerup", "3.0"], ["move speed bonus", "0.5"], ["cancel falling damage", "1.0"] ]
+		 ["damage force reduction","0.0"], ["player boss type","2.0"], ["strength powerup", "3.0"], ["move speed bonus", "0.5"], ["cancel falling damage", "1.0"] ]
 	},
 	"Armored Infernal Behemoth" :
 	{
@@ -542,7 +542,7 @@
 		["mult projectile count", "5.0"], ["override projectile type", "2.0"], ["flame_ignore_player_velocity", "1.0"], ["multiple sentries", "1.0"],
 		["shot penetrate all players", "3.0"], ["paintkit_proto_def_index", "403.0"], ["set_item_texture_wear", "0.0"] ],
 		"attributes" : [ ["damage mult 13", "40.0"], ["disguise on backstab", "200.0"], ["Blast radius increased", "2.0"],
-		 ["damage force reduction","0.0"], ["damage force increase text","5.0"], ["supernova powerup", "2.0"], ["damage taken mult 4", "0.33"], ["move speed bonus", "0.5"] ]
+		 ["damage force reduction","0.0"], ["player boss type","5.0"], ["supernova powerup", "2.0"], ["damage taken mult 4", "0.33"], ["move speed bonus", "0.5"] ]
 	},
 	"Accursed Prince Tavish" :
 	{
@@ -561,7 +561,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 90,
-		"attributes" : [ ["damage mult 13", "22.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "8.0"], ["damage force increase text", "6.0"],
+		"attributes" : [ ["damage mult 13", "22.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "8.0"], ["player boss type", "6.0"],
 		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.0"], ["mult smack time", "0.2"], ["king powerup", "1.0"], ["move speed bonus", "0.8"] ]
 	},
 	"The Brass Beast" :
@@ -580,7 +580,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 125,
-		"attributes" : [ ["damage mult 13", "19.0"], ["fire rate bonus", "0.2"], ["damage force increase text", "7.0"], ["major move speed bonus", "0.4"],
+		"attributes" : [ ["damage mult 13", "19.0"], ["fire rate bonus", "0.2"], ["player boss type", "7.0"], ["major move speed bonus", "0.4"],
 		 ["damage force reduction","0.0"], ["increase buff duration","1000.0"], ["minigun spinup time decreased", "0.2"],  ["supernova powerup", "3.0"], ["move speed bonus", "0.4"]]
 	},
 	"Blood Medic" :
@@ -600,7 +600,7 @@
 		"time_between_spawn" : 1,
 		"currency_weight": 50,
 		"weapon_attributes" : [ ["additional ubers bit", "127.0"], ["ubercharge rate bonus", "10.0"] ],
-		"attributes" : [ ["damage mult 13", "19.0"], ["fire rate bonus", "0.2"], ["damage force increase text", "3.0"], ["move speed bonus", "0.7"],
+		"attributes" : [ ["damage mult 13", "19.0"], ["fire rate bonus", "0.2"], ["player boss type", "3.0"], ["move speed bonus", "0.7"],
 		 ["damage force reduction","0.0"], ["minigun spinup time decreased", "0.2"], ["king powerup", "1.0"], ["precision powerup", "1.0"] ]
 	},
 	"Blood Sacrifice":
@@ -1884,7 +1884,7 @@
 		"currency_weight": 15,
 		"weapon_attributes" : [ ["fire rate bonus", "0.3"], ["Projectile speed increased", "2.0"], ["clip size bonus", "2.0"] ],
 		"attributes" : [ ["damage mult 13", "18.0"], ["disguise on backstab", "500.0"], ["Blast radius increased", "2.0"],
-		 ["damage force reduction","0.0"], ["damage force increase text","2.0"], ["cannot pick up intelligence", "1"], ["cancel falling damage", "1.0"] ]
+		 ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"], ["cancel falling damage", "1.0"] ]
 	},
 	"Electrotrooper" :
 	{
@@ -1905,7 +1905,7 @@
 		"currency_weight": 18,
 		"weapon_attributes" : [ ["clip size bonus", "4.0"] ],
 		"attributes" : [ ["damage mult 13", "20.0"], ["disguise on backstab", "500.0"], ["Blast radius increased", "2.0"],
-		 ["damage force reduction","0.0"], ["damage force increase text","2.0"], ["cannot pick up intelligence", "1"], ["fire rate bonus", "0.3"], ["Projectile speed increased", "2.0"], 
+		 ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"], ["fire rate bonus", "0.3"], ["Projectile speed increased", "2.0"], 
 		 ["has pipboy build interface", "4.0"], ["cancel falling damage", "1.0"] ]
 	},
 	"Black Ops Spy" :
