@@ -216,8 +216,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
     let bot_wavespawns: Vec<Wavespawn> = wavespawns.clone().into_par_iter()
         .filter(|i| !( i.tags.contains(&String::from("giant")) || i.tags.contains(&String::from("boss")) || i.tags.contains(&String::from("superboss")) || i.tags.contains(&String::from("support"))) ).collect();
-    let giant_wavespawns: Vec<Wavespawn> = wavespawns.clone().into_par_iter().filter(|i| i.tags.contains(&String::from("giant")) && !i.tags.contains(&String::from("support"))).collect();
-    let boss_wavespawns: Vec<Wavespawn> = wavespawns.clone().into_par_iter().filter(|i| i.tags.contains(&String::from("boss")) && !i.tags.contains(&String::from("support"))).collect();
+    let giant_wavespawns: Vec<Wavespawn> = wavespawns.clone().into_par_iter().filter(|i| i.tags.contains(&String::from("giant")) && !i.tags.contains(&String::from("boss")) && !i.tags.contains(&String::from("superboss")) && !i.tags.contains(&String::from("support"))).collect();
+    let boss_wavespawns: Vec<Wavespawn> = wavespawns.clone().into_par_iter().filter(|i| i.tags.contains(&String::from("boss")) && !i.tags.contains(&String::from("superboss")) && !i.tags.contains(&String::from("support")) && !i.tags.contains(&String::from("support"))).collect();
     let superboss_wavespawns: Vec<Wavespawn> = wavespawns.clone().into_par_iter().filter(|i| i.tags.contains(&String::from("superboss")) && !i.tags.contains(&String::from("support"))).collect();
     let mission_bots: Vec<Bot> = bots.clone().into_par_iter().filter(|i| i.is_mission_bot).collect();
     let non_engineer_mission_bots: Vec<Bot> = bots.clone().into_par_iter().filter(|i| i.is_mission_bot && i.class != "engineer").collect();
