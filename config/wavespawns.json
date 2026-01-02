@@ -491,10 +491,10 @@
 	},
 	"Squad #71":
 	{
-		"squads":["Rusher Giant Scout"],
+		"squads":["Soldier"],
 		"tags": ["uber", "support"],
-		"weight": 3,
-		"rarity": 4
+		"weight": 5,
+		"rarity": 1
 	},
 	"Squad #72":
 	{
@@ -879,7 +879,7 @@
 		"squads":["Rusher Giant Scout", "Fly", "Airstrafe Shortstop Scout", "Medic"],
 		"tags": ["uber", "giant"],
 		"weight": 4,
-		"rarity": 2
+		"rarity": 3.48
 	},
 	"Squad #127":
 	{
@@ -967,10 +967,10 @@
 	},
 	"Squad #139":
 	{
-		"squads":["Rusher Giant Scout"],
+		"squads":["Tomislav Giant"],
 		"tags": ["uber", "support", "giant"],
 		"weight": 4,
-		"rarity": 3.24
+		"rarity": 5.5
 	},
 	"Squad #140":
 	{
@@ -1303,10 +1303,10 @@
 	},
 	"Squad #187":
 	{
-		"squads":["Raging Pyro Giant"],
+		"squads":[""],
 		"tags": ["uber", "support", "giant"],
-		"weight": 4,
-		"rarity": 4
+		"weight": 2,
+		"rarity": 5.5
 	},
 	"Squad #188":
 	{
@@ -1352,10 +1352,10 @@
 	},
 	"Squad #194":
 	{
-		"squads":["Smoke Mortar"],
+		"squads":["Smoke Mortar", "Cannonball Spammer Giant"],
 		"tags": ["uber", "support", "giant"],
 		"weight": 4,
-		"rarity": 2
+		"rarity": 5
 	},
 	"Squad #195":
 	{

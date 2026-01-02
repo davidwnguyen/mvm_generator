@@ -821,7 +821,7 @@
 	"Machina Sniper Giant" :
 	{
 		"class" : "sniper",
-		"weapon" : ["The Machina"],
+		"weapons" : ["The Machina"],
 		"difficulty" : 4,
 		"health" : "15000",
 		"class_icon" : "sniper_machina1_giant",
@@ -1495,7 +1495,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"health" : "500",
+		"health" : "300",
 		"class_icon" : "scout",
 		"scale" : 0.5,
 		"auto_jump_min" : 4,
@@ -1503,8 +1503,8 @@
 		"count" : 48,
 		"max_active" : 24,
 		"spawn_per_timer" : 12,
-		"time_before_spawn" : 0,
-		"time_between_spawn" : 7,
+		"time_before_spawn" : 5,
+		"time_between_spawn" : 17,
 		"currency_weight": 4,
 		"attributes" : [ ["damage mult 13", "15.0"], ["cannot pick up intelligence", "1.0"], ["fire rate bonus", "0.8"], ["player gravity ballon head", "300"], ["voice pitch scale", "3.0"]]
 	},
@@ -1515,7 +1515,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"health" : "1500",
+		"health" : "1000",
 		"class_icon" : "scout_giant",
 		"scale" : 0.6,
 		"is_giant": true,
@@ -1525,7 +1525,7 @@
 		"max_active" : 8,
 		"spawn_per_timer" : 4,
 		"time_before_spawn" : 0,
-		"time_between_spawn" : 4,
+		"time_between_spawn" : 12,
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "17.5"], ["cannot pick up intelligence", "1.0"], ["fire rate bonus", "0.75"], ["player gravity ballon head", "300"], 
 		["voice pitch scale", "4.0"], ["resistance powerup", "2.0"]]
@@ -1976,7 +1976,7 @@
 		"health" : "12500",
 		"is_giant" : true,
 		"class_icon" : "scout_freeze",
-		"scale" : 0.75,
+		"scale" : 1.0,
 		"count" : 2,
 		"max_active" : 2,
 		"spawn_per_timer" : 1,
@@ -1996,7 +1996,7 @@
 		"health" : "15000",
 		"is_giant" : true,
 		"class_icon" : "pyro_freeze_giant",
-		"scale" : 0.75,
+		"scale" : 1.0,
 		"count" : 2,
 		"max_active" : 2,
 		"spawn_per_timer" : 1,
@@ -2021,8 +2021,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 15,
-		"weapon_attributes" : [ ["mod crit while airborne", "1.0"] ],
-		"attributes" : [ ["damage mult 13", "25.0"],  ["weapon spread bonus", "0.25"], ["fire rate penalty", "2.0"], ["sapper damage bonus", "25.0"]]
+		"weapon_attributes" : [ ["mod crit while airborne", "1.0"], ["sapper damage bonus", "25.0"]],
+		"attributes" : [ ["damage mult 13", "25.0"],  ["weapon spread bonus", "0.25"], ["fire rate penalty", "2.0"]]
 	},
 	"Radiation Doctor" :
 	{
@@ -2273,7 +2273,7 @@
 		"time_between_spawn" : 6,
 		"currency_weight": 25,
 		"weapon_attributes": [["override projectile type", "8.0"], ["apply look velocity on damage", "-500.0"], ["clip size bonus", "3.0"], ["faster reload rate","0.25"]],
-		"attributes" : [  ["damage mult 13", "15"], ["plague powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "2.0"]]
+		"attributes" : [  ["damage mult 13", "15"], ["plague powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "0.8"]]
 	},
 	"Battalion Commander" :
 	{
