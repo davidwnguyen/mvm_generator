@@ -44,7 +44,7 @@
 	"Squad #7" :
 	{
 		"squads": ["Heavy Shotgun", "Deflector Boss", "Uber Medic"],
-		"tags": ["uber","superboss"],
+		"tags": ["uber","superboss"], 
 		"weight": 5,
 		"rarity": 5
 	},
@@ -290,8 +290,8 @@
 	{
 		"squads": ["Super Scout", "Shield Medic", "Airstrafe Shortstop Scout", "Beggar's Bazooka Giant"],
 		"tags": ["uber", "superboss"],
-		"weight": 5,
-		"rarity": 1
+		"weight": 4,
+		"rarity": 3
 	},
 	"Squad #43":
 	{
@@ -304,7 +304,7 @@
 	{
 		"squads": ["Super Scout", "Guard", "Shield Medic", "Armored Dragon's Fury"],
 		"tags": ["uber", "superboss"],
-		"weight": 2,
+		"weight": 5,
 		"rarity": 2
 	},
 	"Squad #45":
@@ -332,7 +332,7 @@
 	{
 		"squads": ["Armored Infernal Behemoth", "Guard Giant", "Shield Medic", "Armored Dragon's Fury", "Squad Leader"],
 		"tags": ["uber", "superboss"],
-		"weight": 4,
+		"weight": 5,
 		"rarity": 6
 	},
 	"Squad #49":
@@ -346,22 +346,22 @@
 	{
 		"squads": ["Accursed Prince Tavish", "Demoknight", "Guard Giant", "Concheror Samurai", "Squad Leader"],
 		"tags": ["uber", "superboss"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 7
 	},
 	"Squad #51":
 	{
 		"squads": ["The Brass Beast", "Guard Giant", "Shield Medic", "Expert Greatbow Sniper", "Squad Leader"],
 		"tags": ["uber", "superboss"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 7
 	},
 	"Squad #52":
 	{
 		"squads": ["Blood Medic", "Heavy Shotgun", "Greatbow Sniper", "Guard", "Brass Beast Heavy", "Blood Sacrifice", "Squad Leader"],
 		"tags": ["uber", "boss"],
-		"weight": 3,
-		"rarity": 4
+		"weight": 4,
+		"rarity": 5
 	},
 	"Squad #53":
 	{
@@ -645,7 +645,7 @@
 	},
 	"Squad #93":
 	{
-		"squads":["Black Ops Spy", "Black Ops Sniper"],
+		"squads":["Greatbow Sniper", "Black Ops Sniper"],
 		"tags": ["uber", "giant"],
 		"weight": 5,
 		"rarity": 4
@@ -659,7 +659,7 @@
 	},
 	"Squad #95":
 	{
-		"squads":["Righteous Bison Soldier", "Raging Pyro Giant", "Black Ops Spy"],
+		"squads":["Righteous Bison Soldier", "Raging Pyro Giant", "Black Ops Sniper"],
 		"tags": ["uber", "giant"],
 		"weight": 4,
 		"rarity": 5
@@ -995,10 +995,10 @@
 	},
 	"Squad #143":
 	{
-		"squads":["Smoke Mortar", "Black Ops Sniper", "Black Ops Spy"],
+		"squads":["Smoke Mortar", "Black Ops Sniper", "Arctic Ops Pyro", "Arctic Ops Scout"],
 		"tags": ["uber", "giant"],
-		"weight": 4,
-		"rarity": 3
+		"weight": 2,
+		"rarity": 5
 	},
 	"Squad #144":
 	{
@@ -1011,7 +1011,7 @@
 	{
 		"squads":["Elbersson"],
 		"tags": ["uber", "superboss"],
-		"weight": 4,
+		"weight": 5,
 		"rarity": 6
 	},
 	"Squad #146":
@@ -1023,10 +1023,10 @@
 	},
 	"Squad #147":
 	{
-		"squads":["Burst Enforcer Spy", "Black Ops Spy"],
+		"squads":["Infernal Soldier Giant", "Infernal Soldier Giant"],
 		"tags": ["uber", "giant"],
-		"weight": 4,
-		"rarity": 4
+		"weight": 3,
+		"rarity": 5
 	},
 	"Squad #148":
 	{
@@ -1219,7 +1219,7 @@
 	},
 	"Squad #175":
 	{
-		"squads":["Direct Hit Soldier", "Cow Mangler Soldier"],
+		"squads":["Support Direct Hit Soldier", "Support Cow Mangler Soldier"],
 		"tags": ["uber", "support"],
 		"weight": 4,
 		"rarity": 5
@@ -1369,7 +1369,7 @@
 		"squads":["Demoknight"],
 		"tags": ["uber", "support"],
 		"weight": 4,
-		"rarity": 1
+		"rarity": 2
 	},
 	"Squad #197":
 	{
@@ -1383,7 +1383,7 @@
 		"squads":["Jarate Sniper", "Crowd Control Soldier"],
 		"tags": ["uber", "support"],
 		"weight": 4,
-		"rarity": 3
+		"rarity": 4
 	},
 	"Squad #199":
 	{
@@ -1411,7 +1411,7 @@
 		"squads":["Buck", "Slug Shotgunner", "Giant Slug Shotgunner"],
 		"tags": ["uber", "giant", "boss"],
 		"weight": 4,
-		"rarity": 2
+		"rarity": 3
 	},
 	"Squad #203":
 	{
@@ -1425,20 +1425,174 @@
 		"squads":["The Iron Bomber", "Demoknight", "Pyro"],
 		"tags": ["uber", "boss"],
 		"weight": 5,
-		"rarity": 2
+		"rarity": 3.5
 	},
 	"Squad #205":
 	{
 		"squads":["The Iron Bomber", "The Skullcutter", "Raging Pyro Giant"],
 		"tags": ["uber", "boss"],
 		"weight": 4,
-		"rarity": 3
+		"rarity": 5
 	},
 	"Squad #206":
 	{
 		"squads":["The Incendiary Bomber", "Tavish"],
 		"tags": ["uber", "superboss"],
+		"weight": 4,
+		"rarity": 6
+	},
+	"Squad #207":
+	{
+		"squads":["Sucker Giant", "Sucker Giant", "Grabber"],
+		"tags": ["uber", "giant"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #208":
+	{
+		"squads":["Grinder Giant", "Righteous Bison Soldier", "Barrage Soldier"],
+		"tags": ["uber", "giant"],
 		"weight": 5,
+		"rarity": 3
+	},
+	"Squad #209":
+	{
+		"squads":["Barrage Blaster", "Sergeant Crits"],
+		"tags": ["uber", "superboss"],
+		"weight": 2,
+		"rarity": 7
+	},
+	"Squad #210":
+	{
+		"squads":["Deflector Boss", "Sergeant Crits"],
+		"tags": ["uber", "superboss"],
+		"weight": 2,
+		"rarity": 7
+	},
+	"Squad #211":
+	{
+		"squads":["Sucker Giant", "Accursed Prince Tavish", "Precise Bowman", "Aimless Bowman"],
+		"tags": ["uber", "superboss"],
+		"weight": 1,
+		"rarity": 7
+	},
+	"Squad #212":
+	{
+		"squads":["The Incendiary Bomber", "Infernal Soldier Giant", "Gas Passer"],
+		"tags": ["uber", "superboss"],
+		"weight": 3,
+		"rarity": 7
+	},
+	"Squad #213":
+	{
+		"squads":["The Incendiary Bomber", "Infernal Soldier Giant", "Gas Passer"],
+		"tags": ["uber", "superboss"],
+		"weight": 3,
+		"rarity": 7
+	},
+	"Squad #214":
+	{
+		"squads":["Camotrooper", "Paratrooper", "Barrage Blaster"],
+		"tags": ["uber", "superboss"],
+		"weight": 3,
+		"rarity": 6
+	},
+	"Squad #215":
+	{
+		"squads":["Camotrooper", "Electrotrooper", "Barrage Blaster"],
+		"tags": ["uber", "superboss"],
+		"weight": 2.5,
+		"rarity": 7
+	},
+	"Squad #216":
+	{
+		"squads":["Captain Liberty", "Barrage Soldier", "Sergeant Crits", "Grinder Giant"],
+		"tags": ["uber", "superboss"],
+		"weight": 2,
+		"rarity": 7
+	},
+	"Squad #276":
+	{
+		"squads":["The Brass Beast", "Brass Beast Giant", "Squad Leader", "The Skullcutter"],
+		"tags": ["uber", "superboss"],
+		"weight": 2,
+		"rarity": 7
+	},
+	"Squad #277":
+	{
+		"squads":["The Brass Beast", "Deflector Boss"],
+		"tags": ["uber", "superboss"],
+		"weight": 1.5,
+		"rarity": 7
+	},
+	"Squad #278":
+	{
+		"squads":["Deflector Boss", "Grinder Giant", "Grinder Giant", "Brass Beast Heavy"],
+		"tags": ["uber", "superboss"],
+		"weight": 3,
+		"rarity": 6
+	},
+	"Squad #279":
+	{
+		"squads":["Vortex Scout", "Grabber", "Jumper Scout Giant"],
+		"tags": ["uber", "boss"],
+		"weight": 4,
+		"rarity": 6
+	},
+	"Squad #280":
+	{
+		"squads":["Vortex Scout", "Camotrooper", "Giant Slug Shotgunner"],
+		"tags": ["uber", "boss"],
+		"weight": 3,
+		"rarity": 6
+	},
+	"Squad #281":
+	{
+		"squads":["Elbersson", "Mini Elbersson"],
+		"tags": ["uber", "boss"],
+		"weight": 1,
+		"rarity": 7
+	},
+	"Squad #282":
+	{
+		"squads":["Elbersson", "Mini Elbersson", "Camotrooper"],
+		"tags": ["uber", "boss"],
+		"weight": 1,
+		"rarity": 8
+	},
+	"Squad #283":
+	{
+		"squads":["Elbersson", "Mini Elbersson", "Camotrooper"],
+		"tags": ["uber", "boss"],
+		"weight": 1,
+		"rarity": 8
+	},
+	"Squad #284":
+	{
+		"squads":["Arctic Ops Pyro", "Raging Pyro Giant", "Dragon's Fury Giant"],
+		"tags": ["uber", "boss"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #285":
+	{
+		"squads":["Arctic Ops Scout", "Blaster", "Rusher Giant Scout"],
+		"tags": ["uber", "boss"],
+		"weight": 3,
+		"rarity": 6
+	},
+	"Squad #286":
+	{
+		"squads":["Equalizer Giant", "Giant SVF Pyro", "Tavish", "Demoknight"],
+		"tags": ["uber", "superboss"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #287":
+	{
+		"squads":["Giant Fly", "Giant Fly", "Rooter", "Giant Direct Hit Soldier"],
+		"tags": ["uber", "superboss"],
+		"weight": 2,
 		"rarity": 6
 	}
 }
