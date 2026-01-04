@@ -258,7 +258,7 @@
 		"difficulty" : 4,
 		"weapon_restriction" : "MeleeOnly",
 		"bot_attributes" : ["SpawnWithFullCharge","AlwaysCrit"],
-		"health" : "5000",
+		"health" : "1500",
 		"class_icon" : "soldier_samurai_conch",
 		"count" : 20,
 		"max_active" : 20,
@@ -266,7 +266,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "11.0"], ["melee range multiplier", "15.0"], ["increase buff duration","100.0"], ["damage taken mult 4","0.33"] ]
+		"attributes" : [ ["damage mult 13", "11.0"], ["melee range multiplier", "15.0"], ["increase buff duration","100.0"], ["damage taken mult 3","0.33"] ]
 	},
 	"Hyper League" :
 	{
@@ -542,7 +542,7 @@
 		["mult projectile count", "5.0"], ["override projectile type", "2.0"], ["flame_ignore_player_velocity", "1.0"], ["multiple sentries", "1.0"],
 		["shot penetrate all players", "3.0"], ["paintkit_proto_def_index", "403.0"], ["set_item_texture_wear", "0.0"] ],
 		"attributes" : [ ["damage mult 13", "40.0"], ["disguise on backstab", "200.0"], ["Blast radius increased", "2.0"],
-		 ["damage force reduction","0.0"], ["player boss type","5.0"], ["supernova powerup", "2.0"], ["damage taken mult 4", "0.33"], ["move speed bonus", "0.5"] ]
+		 ["damage force reduction","0.0"], ["player boss type","5.0"], ["supernova powerup", "2.0"], ["damage taken mult 3", "0.33"], ["move speed bonus", "0.5"] ]
 	},
 	"Accursed Prince Tavish" :
 	{
@@ -626,7 +626,7 @@
 		"weapons" : ["The Fortified Compound"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit"],
-		"health" : "1500",
+		"health" : "800",
 		"class_icon" : "sniper_bow_fire",
 		"count" : 12,
 		"max_active" : 12,
@@ -634,7 +634,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 9,
-		"attributes" : [ ["fire rate bonus", "2.0"], ["arrow ignite", "1.0"], ["damage taken mult 4", "0.66"], ["damage mult 13","90.0"], ["Projectile speed increased HIDDEN","4.5"] ]
+		"attributes" : [ ["fire rate bonus", "2.0"], ["arrow ignite", "1.0"], ["damage taken mult 3", "0.66"], ["damage mult 13","90.0"], ["Projectile speed increased HIDDEN","4.5"] ]
 	},
 	"Expert Greatbow Sniper" :
 	{
@@ -642,7 +642,7 @@
 		"weapons" : ["The Fortified Compound"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit"],
-		"health" : "2500",
+		"health" : "1500",
 		"class_icon" : "sniper_bow_homing_fire",
 		"count" : 18,
 		"max_active" : 9,
@@ -650,7 +650,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 9,
-		"attributes" : [ ["precision powerup", "1.0"], ["arrow ignite", "1.0"], ["damage taken mult 4", "0.66"], ["damage mult 13","90.0"], ["Projectile speed increased HIDDEN","4.5"] ]
+		"attributes" : [ ["precision powerup", "1.0"], ["arrow ignite", "1.0"], ["damage taken mult 3", "0.66"], ["damage mult 13","90.0"], ["Projectile speed increased HIDDEN","4.5"] ]
 	},
 	"Crossbow Medic" :
 	{
@@ -2292,6 +2292,6 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "40.0"], ["increase buff duration","100.0"], ["damage taken mult 4","0.33"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "40.0"], ["increase buff duration","100.0"], ["damage taken mult 3","0.33"], ["move speed bonus", "0.6"]]
 	}
 }

@@ -7,6 +7,10 @@
 ./mvm_generator -m mvm_rottenburg -n lol -c normal_if.json
 ./mvm_generator -m mvm_mannhattan -n lol -c normal_if.json
 ./mvm_generator -m mvm_ghost_town -n lol -c normal_if.json
+./mvm_generator -m mvm_isolation_rc3 -n lol -c normal_if.json
+./mvm_generator -m mvm_coastrock_rc3 -n lol -c normal_if.json
+./mvm_generator -m mvm_sequoia_rc8 -n lol -c normal_if.json
+./mvm_generator -m mvm_waterfront_rc4 -n lol -c normal_if.json
 # Intermediate
 ./mvm_generator -m mvm_coaltown -n lol -c intermediate_if.json
 ./mvm_generator -m mvm_decoy -n lol -c intermediate_if.json
@@ -15,6 +19,10 @@
 ./mvm_generator -m mvm_rottenburg -n lol -c intermediate_if.json
 ./mvm_generator -m mvm_mannhattan -n lol -c intermediate_if.json
 ./mvm_generator -m mvm_ghost_town -n lol -c intermediate_if.json
+./mvm_generator -m mvm_isolation_rc3 -n lol -c intermediate_if.json
+./mvm_generator -m mvm_coastrock_rc3 -n lol -c intermediate_if.json
+./mvm_generator -m mvm_sequoia_rc8 -n lol -c intermediate_if.json
+./mvm_generator -m mvm_waterfront_rc4 -n lol -c intermediate_if.json
 # Hard
 ./mvm_generator -m mvm_coaltown -n lol -c hard_if.json
 ./mvm_generator -m mvm_decoy -n lol -c hard_if.json
@@ -23,6 +31,10 @@
 ./mvm_generator -m mvm_rottenburg -n lol -c hard_if.json
 ./mvm_generator -m mvm_mannhattan -n lol -c hard_if.json
 ./mvm_generator -m mvm_ghost_town -n lol -c hard_if.json
+./mvm_generator -m mvm_isolation_rc3 -n lol -c hard_if.json
+./mvm_generator -m mvm_coastrock_rc3 -n lol -c hard_if.json
+./mvm_generator -m mvm_sequoia_rc8 -n lol -c hard_if.json
+./mvm_generator -m mvm_waterfront_rc4 -n lol -c hard_if.json
 # Madness
 ./mvm_generator -m mvm_coaltown -n lol -c madness_if.json
 ./mvm_generator -m mvm_decoy -n lol -c madness_if.json
@@ -31,6 +43,10 @@
 ./mvm_generator -m mvm_rottenburg -n lol -c madness_if.json
 ./mvm_generator -m mvm_mannhattan -n lol -c madness_if.json
 ./mvm_generator -m mvm_ghost_town -n lol -c madness_if.json
+./mvm_generator -m mvm_isolation_rc3 -n lol -c madness_if.json
+./mvm_generator -m mvm_coastrock_rc3 -n lol -c madness_if.json
+./mvm_generator -m mvm_sequoia_rc8 -n lol -c madness_if.json
+./mvm_generator -m mvm_waterfront_rc4 -n lol -c madness_if.json
 # Boss Rush
 ./mvm_generator -m mvm_coaltown -n lol -c boss_rush_if.json
 ./mvm_generator -m mvm_decoy -n lol -c boss_rush_if.json
@@ -39,3 +55,7 @@
 ./mvm_generator -m mvm_rottenburg -n lol -c boss_rush_if.json
 ./mvm_generator -m mvm_mannhattan -n lol -c boss_rush_if.json
 ./mvm_generator -m mvm_ghost_town -n lol -c boss_rush_if.json
+./mvm_generator -m mvm_isolation_rc3 -n lol -c boss_rush_if.json
+./mvm_generator -m mvm_coastrock_rc3 -n lol -c boss_rush_if.json
+./mvm_generator -m mvm_sequoia_rc8 -n lol -c boss_rush_if.json
+./mvm_generator -m mvm_waterfront_rc4 -n lol -c boss_rush_if.json
