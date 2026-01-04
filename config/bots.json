@@ -2244,7 +2244,7 @@
 		"bot_attributes" : [ "HoldFireUntilFullReload"],
 		"weapons" : ["TF_WEAPON_SCATTERGUN"],
 		"difficulty" : 4,
-		"behavior" : ["Mobber"],
+		"behavior" : "Mobber",
 		"health" : "12000",
 		"is_giant" : true,
 		"class_icon" : "scout_giant",
