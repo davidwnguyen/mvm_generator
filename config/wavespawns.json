@@ -1601,5 +1601,12 @@
 		"tags": ["uber", "support", "giant"],
 		"weight": 1,
 		"rarity": 7
+	},
+	"Squad #230":
+	{
+		"squads":["The Tag-Team Sniper", "The Tag-Team Heavy"],
+		"tags": ["uber", "superboss"],
+		"weight": 2,
+		"rarity": 8
 	}
 }
