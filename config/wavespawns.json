@@ -1549,21 +1549,14 @@
 	"Squad #281":
 	{
 		"squads":["Elbersson", "Mini Elbersson"],
-		"tags": ["uber", "boss"],
+		"tags": ["uber", "superboss"],
 		"weight": 1,
 		"rarity": 7
 	},
 	"Squad #282":
 	{
 		"squads":["Elbersson", "Mini Elbersson", "Camotrooper"],
-		"tags": ["uber", "boss"],
-		"weight": 1,
-		"rarity": 8
-	},
-	"Squad #283":
-	{
-		"squads":["Elbersson", "Mini Elbersson", "Camotrooper"],
-		"tags": ["uber", "boss"],
+		"tags": ["uber", "superboss"],
 		"weight": 1,
 		"rarity": 8
 	},

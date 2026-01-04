@@ -1883,8 +1883,8 @@
 		"time_between_spawn" : 15,
 		"currency_weight": 15,
 		"weapon_attributes" : [ ["Projectile speed increased", "2.0"], ["clip size bonus", "2.0"] ],
-		"attributes" : [ ["damage mult 13", "15.0"], ["disguise on backstab", "50.0"], ["Blast radius increased", "2.0"],
-		 ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"], ["cancel falling damage", "1.0"], ["fire rate bonus", "0.8"]]
+		"attributes" : [ ["damage mult 13", "15.0"], ["disguise on backstab", "50.0"], ["Blast radius increased", "1.25"],
+		 ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"], ["cancel falling damage", "1.0"]]
 	},
 	"Electrotrooper" :
 	{
@@ -1904,8 +1904,8 @@
 		"time_between_spawn" : 15,
 		"currency_weight": 18,
 		"weapon_attributes" : [ ["clip size bonus", "4.0"], ["has pipboy build interface", "4.0"]],
-		"attributes" : [ ["damage mult 13", "18.0"], ["disguise on backstab", "75.0"], ["Blast radius increased", "2.0"],
-		 ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"], ["fire rate bonus", "0.8"], 
+		"attributes" : [ ["damage mult 13", "18.0"], ["disguise on backstab", "75.0"], ["Blast radius increased", "1.5"],
+		 ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"],
 		 ["Projectile speed increased", "2.0"], ["cancel falling damage", "1.0"] ]
 	},
 	
@@ -2276,5 +2276,79 @@
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "40.0"], ["increase buff duration","100.0"], ["damage taken mult 3","0.33"], ["move speed bonus", "0.6"]]
+	},
+	"Camotrooper" :
+	{
+		"class" : "soldier",
+		"weapons" : ["The Air Strike", "The B.A.S.E. Jumper", "Jumper's Jeepcap"],
+		"difficulty" : 4,
+		"bot_attributes" : [ "AutoJump"],
+		"health" : "2000",
+		"class_icon" : "soldier_airstrike_para",
+		"scale" : 1.1,
+		"auto_jump_min" : 4,
+		"auto_jump_max" : 4,
+		"count" : 8,
+		"max_active" : 8,
+		"spawn_per_timer" : 4,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 15,
+		"currency_weight": 15,
+		"weapon_attributes" : [ ["Projectile speed increased", "2.0"], ["clip size bonus", "1.5"] ],
+		"attributes" : [ ["damage mult 13", "15.0"], ["disguise on backstab", "50.0"], ["Blast radius increased", "2.0"],
+		 ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"], ["cancel falling damage", "1.0"], ["fire rate bonus", "0.8"],
+		["has pipboy build interface", "4.0"]]
+	},
+	"Mini Elbersson" :
+	{
+		"class" : "heavyweapons",
+		"weapons" : ["TF_WEAPON_MINIGUN", "Macho Mann", "Trash Man", "Tyurtlenek"],
+		"weapon_restriction":"PrimaryOnly",
+		"difficulty" : 4,
+		"health" : "37500",
+		"is_boss" : true,
+		"class_icon" : "heavy_katana",
+		"scale" : 1.6,
+		"count" : 5,
+		"max_active" : 5,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 10,
+		"currency_weight": 75,
+		"weapon_attributes": [["bleeding duration", "2"], ["sapper damage bonus", "2.5"], ["armor piercing", "2.5"], ["radiation buildup", "2.5"], ["fire rate penalty", "1.5"], ["aiming movespeed increased", "3.0"]],
+		"attributes" : [  ["damage mult 13", "12.5"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.0"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "1.5"]]
+	},
+	"Support Direct Hit Soldier" :
+	{
+		"class" : "soldier",
+		"weapons" : ["The Direct Hit"],
+		"weapon_restriction":"PrimaryOnly",
+		"bot_attributes" : ["AlwaysCrit"],
+		"difficulty" : 4,
+		"health" : "2000",
+		"class_icon" : "soldier_directhit",
+		"count" : 8,
+		"max_active" : 8,
+		"spawn_per_timer" : 4,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 10,
+		"currency_weight": 9,
+		"attributes" : [ ["damage mult 13", "8.0"], ["fire rate bonus","0.3"], ["Projectile speed increased","2.0"] ]
+	},
+	"Support Cow Mangler Soldier" :
+	{
+		"class" : "soldier",
+		"weapons" : ["The Cow Mangler 5000"],
+		"weapon_restriction":"PrimaryOnly",
+		"difficulty" : 4,
+		"health" : "3500",
+		"class_icon" : "soldier_cowmangler",
+		"count" : 8,
+		"max_active" : 8,
+		"spawn_per_timer" : 5,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 10,
+		"currency_weight": 12,
+		"attributes" : [ ["damage mult 13", "50.0"], ["faster reload rate","0.01"] ]
 	}
 }
