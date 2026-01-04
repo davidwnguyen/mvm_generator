@@ -2444,7 +2444,7 @@
 		"currency_weight": 80,
 		"weapon_attributes" : [ ["additive piercing damage", "150"] ],
 		"attributes" : [ ["damage mult 13", "35.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], 
-		["Projectile speed increased","2.0"] , ["Blast radius increased", "2.0"]]
+		["Projectile speed increased","2.0"] , ["Blast radius increased", "2.0"], ["king powerup", "2.0"]]
 	},
 	"The Tag-Team Heavy" :
 	{
