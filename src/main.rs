@@ -293,6 +293,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             for bot_attribute in &chosen_bot.bot_attributes{
                 wave_portion.push_str(&format!("\t\t\tAttributes\t\"{}\"\n", bot_attribute));
             }
+            wave_portion.push_str(&format!("\t\t\tAttributes\tTeleportToHint\n"));
+            if chosen_bot.class.eq("engineer") {
+                wave_portion.push_str(&format!("\t\t\tTeleportWhere\tspawnbot\n"));
+            }
             if chosen_bot.is_boss {
                 wave_portion.push_str("\t\t\tAttributes\t\"UseBossHealthBar\"\n");
             }
