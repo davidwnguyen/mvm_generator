@@ -1,0 +1,14 @@
+{
+    "wave_amount": 25,
+    "wavespawn_amount": 6,
+    "starting_money": 100000,
+    "money_per_wave": "25000.0 * (1.1+(0.16*wave)) * 1.15^(wave-1)",
+    "bot_giant_chance": 1.0,
+    "bot_boss_waves": 4,
+    "bot_superboss_waves": 8,
+    "attributes": [ ["dmg taken divided","5+(1.45^(wave-1)*(wave+1)^2.35)+(wave+1)^3.6"],  ["damage mult 2","2+(4.5*1.6^(wave-1)*wave)"], ["knockback resistance", "0.2"], ["cancel falling damage", "1"], ["buff magnitude bonus", "1.2"], 
+     ["debuff magnitude bonus", "1.2"], ["debuff block rating", "20"], ["sapper damage penalty", "150"], ["slow resistance", "0.4"], ["critical block rating", "5"], ["bot move speed bonus", "1.15"] ],
+    "mission_name": "extreme_if",
+    "allowed_tags": ["uber"],
+    "rarity_formula": "1+0.4*wave"
+}

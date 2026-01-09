@@ -1411,7 +1411,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 12,
-		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus", "0.33"], ["move speed bonus", "2.25"], ["cannot pick up intelligence", "1.0"], 
+		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus", "0.33"], ["move speed bonus", "2.5"], ["cannot pick up intelligence", "1.0"], 
 		["melee range multiplier", "10.0"], ["agility powerup", "2.0"], ["increased jump height", "8.0"], ["noise maker", "20.0"], ["cancel falling damage", "1.0"]]
 	},
 	"Loch-n-Load Demoman" :
@@ -2511,7 +2511,7 @@
 		"spawn_per_timer" : 4,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
-		"currency_weight": 80,
+		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "15.0"], ["mult projectile count", "2.0"], ["regeneration powerup", "1.0"], ["fire rate penalty", "2.0"], ["projectile spread angle penalty","3.0"]]
 	},
 	"Giant Black Box" :
@@ -2527,7 +2527,7 @@
 		"spawn_per_timer" : 1,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
-		"currency_weight": 80,
+		"currency_weight": 16,
 		"attributes" : [ ["damage mult 13", "17.5"], ["mult projectile count", "3.0"], ["regeneration powerup", "3.0"], ["fire rate penalty", "2.0"], ["projectile spread angle penalty","3.0"], ["disguise on backstab", "400"]]
 	}
 }
