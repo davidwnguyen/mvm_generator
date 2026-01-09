@@ -475,6 +475,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 if bot.max_vision_range != 0{
                     wave_portion.push_str(&format!("\t\t\t\t\tMaxVisionRange\t{}\n", bot.max_vision_range));
                 }
+                if !bot.behavior.is_empty(){
+                    wave_portion.push_str(&format!("\t\t\t\t\tBehaviorModifiers\t{}\n", bot.behavior));
+                }
                 if bot.is_giant || bot.is_boss {
                     wave_portion.push_str("\t\t\t\t\tAttributes\t\"MiniBoss\"\n");
                     wave_portion.push_str(&format!("\t\t\t\t\tTag\t\"bot_giant\"\n"));
@@ -497,18 +500,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     wave_portion.push_str(&format!("\t\t\t\t\t\t\t\tItemName\t\"{}\"\n", give_gatebot_cap_name(&bot.class)));
                     wave_portion.push_str("\t\t\t\t\t\t\t\t\"item style override\"\t1\n");
                     wave_portion.push_str("\t\t\t\t\t\t\t}\n");
-                    
-                    if !bot.behavior.is_empty(){
-                        wave_portion.push_str(&format!("\t\t\t\t\tBehaviorModifiers\t{}\n", bot.behavior));
-                    }
+
                     parse_bot_attributes(bot, &mission, &mut wave_portion, &mut context);
                     wave_portion.push_str("\t\t\t\t\t\t}\n");
                     wave_portion.push_str("\t\t\t\t\t}\n");
                 }else{
                     parse_bot_attributes(bot, &mission, &mut wave_portion, &mut context);
-                    if !bot.behavior.is_empty(){
-                        wave_portion.push_str(&format!("\t\t\t\t\tBehaviorModifiers\t{}\n", bot.behavior));
-                    }
                 }
 
                 wave_portion.push_str("\t\t\t\t}\n");
