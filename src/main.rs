@@ -18,16 +18,13 @@ struct Args {
     #[arg(short, long)]
     map: String,
     #[arg(short, long)]
-    name: String,
-    #[arg(short, long)]
     config: String,
 }
 //Hierarchy: Mission -> Waves -> Wavespawns -> Bots
-//Test: cargo run -- -m mvm_decoy -n lol -s 10000 -c normal_if.json
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let beginning = Instant::now();
     
-    let args = Args::parse();
+    let args: Args = Args::parse();
     let mut mission: Mission = Mission {
         ..Default::default()
     };

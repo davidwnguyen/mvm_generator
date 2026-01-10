@@ -2460,7 +2460,7 @@
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "75.0"], ["redirect teammate damage taken", "0.75"], ["move speed bonus", "0.45"], ["resistance powerup", "2.0"] ]
 	},
-	"Steel Guard Giant " :
+	"Steel Guard Giant" :
 	{
 		"class" : "heavyweapons",
 		"weapons" : ["Fists of Steel"],

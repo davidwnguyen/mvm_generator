@@ -1590,7 +1590,7 @@
 	},
 	"Squad #229":
 	{
-		"squads":["Deflector Boss", "Squad Leader", "Battalion Commander", "Blood Ogre", ""],
+		"squads":["Deflector Boss", "Squad Leader", "Battalion Commander", "Blood Ogre", "Grinder"],
 		"tags": ["uber", "superboss"],
 		"weight": 3,
 		"rarity": 7
