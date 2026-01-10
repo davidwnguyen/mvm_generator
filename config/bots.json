@@ -760,7 +760,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "80.0"], ["afterburn rating","1.0"], ["","1.0"], ["mod max primary clip override", "-1.0"], ["move speed bonus", "0.65"] ]
+		"attributes" : [ ["damage mult 13", "80.0"], ["afterburn rating","1.0"], ["vampire powerup","1.0"], ["mod max primary clip override", "-1.0"], ["move speed bonus", "0.65"] ]
 	},
 	"Cannonball Spammer Giant" :
 	{
