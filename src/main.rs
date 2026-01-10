@@ -351,7 +351,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             }
             finalized_spawns.push(chosen_wavespawn);
         }
-        else if i >= mission.bot_boss_waves {
+        if i >= mission.bot_boss_waves {
             let chosen_wavespawn: &Wavespawn = boss_wavespawns.choose_weighted(&mut rand::thread_rng(), |item| (item.weight*(1.0-((item.rarity-wave_rarity).abs())/wave_rarity)).clamp(0.0, 1000.0) ).unwrap();
             for chosen_bot in &chosen_wavespawn.squads{
                 total_weight += chosen_bot.currency_weight;
