@@ -2278,7 +2278,7 @@
 		"behavior" : "Mobber",
 		"health" : "12000",
 		"is_giant" : true,
-		"class_icon" : "scout_giant",
+		"class_icon" : "grappling_hook",
 		"scale" : 1.4,
 		"count" : 4,
 		"max_active" : 4,
