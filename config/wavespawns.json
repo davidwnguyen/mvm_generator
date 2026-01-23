@@ -1452,14 +1452,14 @@
 	{
 		"squads":["Barrage Blaster", "Sergeant Crits"],
 		"tags": ["uber", "superboss"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 7
 	},
 	"Squad #210":
 	{
 		"squads":["Deflector Boss", "Sergeant Crits"],
 		"tags": ["uber", "superboss"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 7
 	},
 	"Squad #211":
@@ -1471,10 +1471,10 @@
 	},
 	"Squad #212":
 	{
-		"squads":["The Incendiary Bomber", "Infernal Soldier Giant", "Gas Passer"],
+		"squads":["The Iron Bomber", "Loch-n-Load Demoman", "Giant Loch-n-Load Demoman"],
 		"tags": ["uber", "superboss"],
-		"weight": 3,
-		"rarity": 7
+		"weight": 4,
+		"rarity": 6
 	},
 	"Squad #213":
 	{
@@ -1668,8 +1668,148 @@
 	"Squad #240":
 	{
 		"squads":["Armored Demoknight","Armored Dragon's Fury", "Armored Skullcutter"],
-		"tags": ["uber", "superboss"],
+		"tags": ["uber", "giant"],
 		"weight": 4,
 		"rarity": 6
-	}	
+	},
+	"Squad #241":
+	{
+		"squads":["Bread Monster", "Heavyweight Champion"],
+		"tags": ["uber"],
+		"weight": 4,
+		"rarity": 5
+	},
+	"Squad #242":
+	{
+		"squads":["Bread Monster", "Heavyweight Champion", "Giant Bread Monster", "Grinder Giant"],
+		"tags": ["uber", "giant"],
+		"weight": 3,
+		"rarity": 6
+	},
+	"Squad #243":
+	{
+		"squads":["Raging Pyro Giant", "Raging Pyro Giant"],
+		"tags": ["uber", "giant"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #244":
+	{
+		"squads":["Cannonball Spammer Giant", "Precise Bowman", "Demoknight"],
+		"tags": ["uber", "giant"],
+		"weight": 4,
+		"rarity": 5
+	},
+	"Squad #245":
+	{
+		"squads":["Cannonball Spammer Giant", "Precise Bowman", "Armored Demoknight"],
+		"tags": ["uber", "giant"],
+		"weight": 3.5,
+		"rarity": 5
+	},
+	"Squad #246":
+	{
+		"squads":["Black Box Soldier", "Shrapnel Soldier"],
+		"tags": ["uber"],
+		"weight": 5,
+		"rarity": 2
+	},
+	"Squad #247":
+	{
+		"squads":["Smoke Mortar", "Smoke Mortar", "Smoke Mortar", "Camotrooper"],
+		"tags": ["uber", "giant"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #248":
+	{
+		"squads":["SMGer Giant", "SMGer Giant", "Airstrafe Shortstop Scout", "Blaster"],
+		"tags": ["uber", "giant"],
+		"weight": 3,
+		"rarity": 5
+	},
+	"Squad #249":
+	{
+		"squads":["Nuke Suicide Bomber", "Suicide Bomber"],
+		"tags": ["uber"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #250":
+	{
+		"squads":["Nuke Suicide Bomber"],
+		"tags": ["uber", "giant"],
+		"weight": 3,
+		"rarity": 5
+	},
+	"Squad #251":
+	{
+		"squads":["Radiation Doctor", "Irradiated Worker", "Chaos", "Elbersson"],
+		"tags": ["uber", "superboss"],
+		"weight": 3,
+		"rarity": 7
+	},
+	"Squad #252":
+	{
+		"squads":["Shrapnel Soldier", "Chaos", "Aimless Bowman", "Radiation Doctor"],
+		"tags": ["uber", "giant"],
+		"weight": 3,
+		"rarity": 6
+	},
+	"Squad #253":
+	{
+		"squads":["Giant Direct Hit Soldier", "Giant Black Box", "Giant Direct Hit Soldier"],
+		"tags": ["uber", "giant"],
+		"weight": 3,
+		"rarity": 6
+	},
+	"Squad #254":
+	{
+		"squads":["Giant Direct Hit Soldier", "Giant Black Box", "Giant Direct Hit Soldier", "Black Box Soldier", "Direct Hit Soldier"],
+		"tags": ["uber", "giant"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #255":
+	{
+		"squads":["Steel Guard Giant", "Guard Giant", "Brass Beast Giant", "Brass Beast Giant"],
+		"tags": ["uber", "giant"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #256":
+	{
+		"squads":["Steel Guard Giant", "Guard Giant", "Brass Beast Giant", "Brass Beast Giant"],
+		"tags": ["uber", "giant"],
+		"weight": 2,
+		"rarity": 6
+	},
+	"Squad #257":
+	{
+		"squads":["Armored Skullcutter", "Armored Infernal Behemoth", "Suicide Bomber"],
+		"tags": ["uber", "boss"],
+		"weight": 3,
+		"rarity": 5
+	},
+	"Squad #258":
+	{
+		"squads":["Greatbow Sniper", "Rooter", "Captain Liberty", "Direct Hit Soldier"],
+		"tags": ["uber", "giant"],
+		"weight": 3,
+		"rarity": 5
+	},
+	"Squad #259":
+	{
+		"squads":["Expert Greatbow Sniper", "Rooter", "Captain Liberty", "Giant Direct Hit Soldier"],
+		"tags": ["uber", "boss"],
+		"weight": 3,
+		"rarity": 6
+	},
+	"Squad #260":
+	{
+		"squads":["Expert Greatbow Sniper", "Rooter", "Captain Liberty", "Sergeant Crits"],
+		"tags": ["uber", "superboss"],
+		"weight": 4,
+		"rarity": 7
+	}
 }

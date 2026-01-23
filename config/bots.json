@@ -2150,9 +2150,9 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 0,
 		"currency_weight": 20,
-		"weapon_attributes": [["projectile spread angle penalty", "10.0"], ["auto fires full clip all at once", "1"]],
+		"weapon_attributes": [["projectile spread angle penalty", "8.0"], ["auto fires full clip all at once", "1"]],
 		"attributes" : [ ["damage mult 13", "35.0"], ["fire rate bonus", "4"], ["Projectile speed increased","2.0"], ["faster reload rate","0.01"], ["resistance powerup", "1.0"], 
-		["use large smoke explosion", "1.0"], ["move speed bonus", "0.45"], ["Blast radius increased", "2.5"]]
+		["use large smoke explosion", "1.0"], ["move speed bonus", "0.45"], ["Blast radius increased", "3.0"]]
 	},
 	"Elbersson" :
 	{
