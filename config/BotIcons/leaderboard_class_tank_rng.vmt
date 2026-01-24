@@ -1,0 +1,39 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "hud/leaderboard_class_tank_rng"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"$translucent" 1
+	"$color" "[0 0 0]"
+	"$blendTintColorOverBase" "1"
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" "3"
+			"sinemin" "0"
+			"sinemax" "2"
+			"timeoffset" "0"
+			"resultVar" "$color[0]"
+		}
+		"Sine"
+		{
+			"sineperiod" "3"
+			"sinemin" "0"
+			"sinemax" "2"
+			"timeoffset" "1"
+			"resultVar" "$color[1]"
+		}
+		"Sine"
+		{
+			"sineperiod" "3"
+			"sinemin" "0"
+			"sinemax" "2"
+			"timeoffset" "2"
+			"resultVar" "$color[2]"
+		}
+	}
+}
+
