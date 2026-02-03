@@ -649,9 +649,9 @@
 		"max_active" : 12,
 		"spawn_per_timer" : 3,
 		"time_before_spawn" : 0,
-		"time_between_spawn" : 4,
+		"time_between_spawn" : 8,
 		"currency_weight": 9,
-		"attributes" : [ ["fire rate bonus", "2.0"], ["arrow ignite", "1.0"], ["damage taken mult 3", "0.66"], ["damage mult 13","90.0"], ["Projectile speed increased HIDDEN","4.5"] ]
+		"attributes" : [ ["fire rate bonus", "2.0"], ["arrow ignite", "1.0"], ["damage taken mult 3", "0.66"], ["damage mult 13","80.0"], ["Projectile speed increased HIDDEN","4.0"] ]
 	},
 	"Expert Greatbow Sniper" :
 	{
@@ -665,9 +665,9 @@
 		"max_active" : 9,
 		"spawn_per_timer" : 3,
 		"time_before_spawn" : 0,
-		"time_between_spawn" : 2,
+		"time_between_spawn" : 6,
 		"currency_weight": 9,
-		"attributes" : [ ["precision powerup", "1.0"], ["arrow ignite", "1.0"], ["damage taken mult 3", "0.66"], ["damage mult 13","90.0"], ["Projectile speed increased HIDDEN","4.5"] ]
+		"attributes" : [ ["precision powerup", "1.0"], ["arrow ignite", "1.0"], ["damage taken mult 3", "0.66"], ["damage mult 13","80.0"], ["Projectile speed increased HIDDEN","4.0"] ]
 	},
 	"Crossbow Medic" :
 	{

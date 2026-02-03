@@ -1772,17 +1772,17 @@
 	},
 	"Squad #255":
 	{
-		"squads":["Steel Guard Giant", "Guard Giant", "Brass Beast Giant", "Brass Beast Giant"],
+		"squads":["Steel Guard Giant", "Brass Beast Giant", "Brass Beast Giant", "Brass Beast Heavy"],
 		"tags": ["uber", "giant"],
-		"weight": 2,
+		"weight": 3,
 		"rarity": 6
 	},
 	"Squad #256":
 	{
 		"squads":["Steel Guard Giant", "Guard Giant", "Brass Beast Giant", "Brass Beast Giant"],
 		"tags": ["uber", "giant"],
-		"weight": 2,
-		"rarity": 6
+		"weight": 3,
+		"rarity": 7
 	},
 	"Squad #257":
 	{
