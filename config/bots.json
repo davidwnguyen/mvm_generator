@@ -242,7 +242,7 @@
 		"difficulty" : 4,
 		"bot_attributes" : ["HoldFireUntilFullReload"],
 		"health" : "2000",
-		"class_icon" : "soldier_barr",
+		"class_icon" : "soldier_barrage",
 		"count" : 12,
 		"max_active" : 12,
 		"spawn_per_timer" : 3,
