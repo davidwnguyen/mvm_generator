@@ -1683,14 +1683,14 @@
 	{
 		"squads":["Bread Monster", "Heavyweight Champion", "Giant Bread Monster", "Grinder Giant"],
 		"tags": ["uber", "giant"],
-		"weight": 3,
+		"weight": 3.5,
 		"rarity": 6
 	},
 	"Squad #243":
 	{
 		"squads":["Raging Pyro Giant", "Raging Pyro Giant"],
 		"tags": ["uber", "giant"],
-		"weight": 2,
+		"weight": 2.5,
 		"rarity": 6
 	},
 	"Squad #244":
@@ -1718,27 +1718,27 @@
 	{
 		"squads":["Smoke Mortar", "Smoke Mortar", "Smoke Mortar", "Camotrooper"],
 		"tags": ["uber", "giant"],
-		"weight": 2,
+		"weight": 3,
 		"rarity": 6
 	},
 	"Squad #248":
 	{
 		"squads":["SMGer Giant", "SMGer Giant", "Airstrafe Shortstop Scout", "Blaster"],
 		"tags": ["uber", "giant"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 5
 	},
 	"Squad #249":
 	{
 		"squads":["Nuke Suicide Bomber", "Suicide Bomber"],
 		"tags": ["uber"],
-		"weight": 2,
+		"weight": 3,
 		"rarity": 6
 	},
 	"Squad #250":
 	{
 		"squads":["Nuke Suicide Bomber"],
-		"tags": ["uber", "giant"],
+		"tags": ["uber"],
 		"weight": 3,
 		"rarity": 5
 	},
@@ -1746,7 +1746,7 @@
 	{
 		"squads":["Radiation Doctor", "Irradiated Worker", "Chaos", "Elbersson"],
 		"tags": ["uber", "superboss"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 7
 	},
 	"Squad #252":
@@ -1760,49 +1760,49 @@
 	{
 		"squads":["Giant Direct Hit Soldier", "Giant Black Box", "Giant Direct Hit Soldier"],
 		"tags": ["uber", "giant"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 6
 	},
 	"Squad #254":
 	{
 		"squads":["Giant Direct Hit Soldier", "Giant Black Box", "Giant Direct Hit Soldier", "Black Box Soldier", "Direct Hit Soldier"],
 		"tags": ["uber", "giant"],
-		"weight": 2,
+		"weight": 3,
 		"rarity": 6
 	},
 	"Squad #255":
 	{
 		"squads":["Steel Guard Giant", "Brass Beast Giant", "Brass Beast Giant", "Brass Beast Heavy"],
 		"tags": ["uber", "giant"],
-		"weight": 3,
+		"weight": 3.5,
 		"rarity": 6
 	},
 	"Squad #256":
 	{
 		"squads":["Steel Guard Giant", "Guard Giant", "Brass Beast Giant", "Brass Beast Giant"],
 		"tags": ["uber", "giant"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 7
 	},
 	"Squad #257":
 	{
 		"squads":["Armored Skullcutter", "Armored Infernal Behemoth", "Suicide Bomber"],
 		"tags": ["uber", "boss"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 5
 	},
 	"Squad #258":
 	{
 		"squads":["Greatbow Sniper", "Rooter", "Captain Liberty", "Direct Hit Soldier"],
 		"tags": ["uber", "giant"],
-		"weight": 3,
+		"weight": 5,
 		"rarity": 5
 	},
 	"Squad #259":
 	{
 		"squads":["Expert Greatbow Sniper", "Rooter", "Captain Liberty", "Giant Direct Hit Soldier"],
 		"tags": ["uber", "boss"],
-		"weight": 3,
+		"weight": 4,
 		"rarity": 6
 	},
 	"Squad #260":
