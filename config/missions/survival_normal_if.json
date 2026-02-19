@@ -1,0 +1,13 @@
+{
+    "wave_amount": 1,
+    "wavespawn_amount": 999,
+    "starting_money": 100000,
+    "money_per_wave": "25000.0 * (1+(0.15*wave)) * 1.15^(wave-1)",
+    "bot_giant_chance": 0.3,
+    "bot_boss_waves": 1,
+    "bot_superboss_waves": 1,
+    "attributes": [ ["dmg taken divided","1.5+(1.35^(wave-1)*(wave+1)^1.8)+(wave+1)^2"],  ["damage mult 2","1+(2.5*1.4^(wave-1)*wave)"], ["knockback resistance", "0.65"], ["cancel falling damage", "1"] ],
+    "mission_name": "survival_normal_if",
+    "allowed_tags": ["uber"],
+    "rarity_formula": "4"
+}

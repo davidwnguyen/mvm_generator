@@ -249,7 +249,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "2.5"], ["faster reload rate", "0.5"], ["auto fires full clip all at once", "1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
+		"attributes" : [ ["damage mult 13", "2.5"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
 	},
 	"Concheror Samurai" :
 	{
@@ -445,7 +445,7 @@
 		"weapons" : ["Ali Baba's Wee Booties", "The Chargin' Targe", "The Eyelander"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon"],
-		"health" : "3000",
+		"health" : "4500",
 		"class_icon" : "demoknight_armored",
 		"scale" : 1.1,
 		"count" : 12,
@@ -568,7 +568,7 @@
 		"weapon_restriction" : "MeleeOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"],
-		"health" : "350000",
+		"health" : "300000",
 		"class_icon" : "demoknight_boss_tavish",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -1051,7 +1051,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "12.5"], ["faster reload rate", "0.1"], ["fire rate bonus HIDDEN", "0.5"], 
+		"attributes" : [ ["damage mult 13", "12.5"], ["faster reload rate", "0.1"], ["fire rate bonus HIDDEN", "0.3"], 
 		["Blast radius increased","2.0"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"],
 		["clip size bonus","10.0"], ["projectile spread angle penalty", "5.0"], ["agility powerup", "1.0"], ["move speed bonus", "0.5"] ]
 	},
@@ -2518,7 +2518,7 @@
 		"bot_attributes" : ["AlwaysCrit"],
 		"weapon_restriction" : "MeleeOnly",
 		"health" : "80000",
-		"class_icon" : "tank_rng",
+		"class_icon" : "tank_gry",
 		"scale" : 1.6,
 		"is_giant": true,
 		"count" : 1,
@@ -2619,5 +2619,105 @@
 		"currency_weight": 16,
 		"weapon_attributes" : [ ["radiation buildup", "25.0"]],
 		"attributes" : [ ["damage mult 13", "10.0"], ["disguise on backstab", "300"], ["melee range multiplier", "15"], ["fire rate bonus", "0.5"], ["plague powerup", "1"]]
+	},
+	"Guaranteed Hit Soldier" :
+	{
+		"class" : "soldier",
+		"weapons" : ["The Direct Hit"],
+		"weapon_restriction":"PrimaryOnly",
+		"bot_attributes" : ["AlwaysCrit"],
+		"difficulty" : 4,
+		"health" : "2500",
+		"class_icon" : "soldier_directhit",
+		"count" : 15,
+		"max_active" : 15,
+		"spawn_per_timer" : 5,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 8,
+		"currency_weight": 9,
+		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate bonus","0.8"], ["Projectile speed increased","3.0"], ["projectile homing radius", "144"]]
+	},
+	"Escape Plan Soldier" :
+	{
+		"class" : "soldier",
+		"weapons" : ["The Escape Plan"],
+		"weapon_restriction" : "MeleeOnly",
+		"difficulty" : 4,
+		"bot_attributes" : ["AlwaysCrit", "AlwaysFireWeapon"],
+		"health" : "4500",
+		"class_icon" : "soldier_equalizer_giant",
+		"count" : 16,
+		"max_active" : 16,
+		"spawn_per_timer" : 4,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 6,
+		"currency_weight": 12,
+		"attributes" : [ ["damage mult 13", "27.0"], ["melee range multiplier", "15.0"], ["move speed bonus", "1.15"], ["critical block rating", "100.0"] ]
+	},
+	"Giant Escape Plan" :
+	{
+		"class" : "soldier",
+		"weapons" : ["The Escape Plan"],
+		"weapon_restriction" : "MeleeOnly",
+		"difficulty" : 4,
+		"bot_attributes" : ["AlwaysCrit", "AlwaysFireWeapon"],
+		"health" : "25000",
+		"class_icon" : "soldier_equalizer_giant",
+		"is_giant" : true,
+		"count" : 2,
+		"max_active" : 2,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 8,
+		"currency_weight": 15,
+		"attributes" : [ ["damage mult 13", "27.0"], ["melee range multiplier", "15.0"], ["inverter powerup", "2.0"], ["move speed bonus", "0.6"] ]
+	},
+	"Buff Banner Soldier" :
+	{
+		"class" : "soldier",
+		"weapons" : ["TF_WEAPON_ROCKETLAUNCHER", "The Buff Banner"],
+		"difficulty" : 4,
+		"health" : "2500",
+		"class_icon" : "soldier",
+		"count" : 8,
+		"max_active" : 8,
+		"spawn_per_timer" : 4,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 10,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "15.0"], ["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"], ["increase buff duration","100.0"]]
+	},
+	"Giant Buff Banner Soldier" :
+	{
+		"class" : "soldier",
+		"weapons" : ["TF_WEAPON_ROCKETLAUNCHER", "The Buff Banner"],
+		"difficulty" : 4,
+		"health" : "2500",
+		"class_icon" : "soldier",
+		"is_giant" : true,
+		"count" : 2,
+		"max_active" : 2,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 15,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "20.0"], ["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"], ["increase buff duration","100.0"], ["buff magnitude bonus", "1.35"]]
+	},
+	"K. Festival Medic" :
+	{
+		"class" : "medic",
+		"weapons" : ["The Kritzkrieg"],
+		"bot_attributes" : ["SpawnWithFullCharge"],
+		"difficulty" : 4,
+		"health" : "5000",
+		"class_icon" : "medic_kritz",
+		"count" : 5,
+		"max_active" : 5,
+		"spawn_per_timer" : 5,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 5,
+		"currency_weight": 4,
+		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
+		["uber duration bonus","500.0"], ["heal rate bonus","6.0"], ["add uber charge on hit","0.02"] ]
 	}
 }
