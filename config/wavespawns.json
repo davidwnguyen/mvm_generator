@@ -1585,7 +1585,7 @@
 	{
 		"squads":["Guard Giant"],
 		"tags": ["uber", "support", "giant"],
-		"weight": 1,
+		"weight": 1.5,
 		"rarity": 6.5
 	},
 	"Squad #229":
@@ -1599,7 +1599,7 @@
 	{
 		"squads":["The Tag-Team Sniper", "The Tag-Team Heavy"],
 		"tags": ["uber", "superboss"],
-		"weight": 2,
+		"weight": 3,
 		"rarity": 7
 	},
 	"Squad #231":
@@ -1627,14 +1627,14 @@
 	{
 		"squads":["Blood Sacrifice", "Battalion Commander", "Steel Guard Giant"],
 		"tags": ["uber", "giant"],
-		"weight": 2,
+		"weight": 3,
 		"rarity": 6
 	},
 	"Squad #235":
 	{
 		"squads":["Blood Sacrifice", "Black Box Soldier", "Steel Guard Giant", "Giant Black Box"],
 		"tags": ["uber", "giant"],
-		"weight": 2,
+		"weight": 3,
 		"rarity": 6
 	},
 	"Squad #236":
@@ -1690,21 +1690,21 @@
 	{
 		"squads":["Raging Pyro Giant", "Raging Pyro Giant"],
 		"tags": ["uber", "giant"],
-		"weight": 2.5,
+		"weight": 3,
 		"rarity": 6
 	},
 	"Squad #244":
 	{
 		"squads":["Cannonball Spammer Giant", "Precise Bowman", "Demoknight"],
 		"tags": ["uber", "giant"],
-		"weight": 4,
+		"weight": 5,
 		"rarity": 5
 	},
 	"Squad #245":
 	{
 		"squads":["Cannonball Spammer Giant", "Precise Bowman", "Armored Demoknight"],
 		"tags": ["uber", "giant"],
-		"weight": 3.5,
+		"weight": 4,
 		"rarity": 5
 	},
 	"Squad #246":
@@ -1930,5 +1930,12 @@
 		"tags": ["uber", "crit_festival"],
 		"weight": 7,
 		"rarity": 5
+	},
+	"Squad #278":
+	{
+		"squads":["Jumper Scout Giant", "Jumper Scout Giant", "Jumper Scout Giant"],
+		"tags": ["uber", "giant"],
+		"weight": 5,
+		"rarity": 4
 	}
 }
