@@ -201,6 +201,24 @@
 		"attributes" : [ ["damage mult 13", "9.0"], ["effect bar recharge rate increased","0.0"], ["fire rate bonus","0.1"],
 		["crit from behind","120.0"], ["afterburn rating","1.0"], ["cloak_consume_on_feign_death_activate", "1.0"] ]
 	},
+	"Support Shredder" :
+	{
+		"class" : "scout",
+		"weapons" : ["The Flying Guillotine"],
+		"bot_attributes" : ["AlwaysFireWeapon"],
+		"difficulty" : 4,
+		"weapon_restriction" : "SecondaryOnly",
+		"health" : "1000",
+		"class_icon" : "scout_cleaver",
+		"count" : 9,
+		"max_active" : 6,
+		"spawn_per_timer" : 3,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 8,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "9.0"], ["effect bar recharge rate increased","0.0"], ["fire rate bonus","0.2"],
+		["crit from behind","120.0"], ["afterburn rating","1.0"], ["cloak_consume_on_feign_death_activate", "1.0"] ]
+	},
 	"Milk Scout" :
 	{
 		"class" : "scout",
@@ -520,7 +538,7 @@
 	"Barrage Blaster" :
 	{
 		"class" : "soldier",
-		"weapons" : ["The Air Strike", "Sergeant's Drill Hat"],
+		"weapons" : ["The Air Strike", "The Whirly Warrior"],
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump", "AlwaysCrit"],
 		"health" : "200000",
@@ -541,7 +559,7 @@
 	"Armored Infernal Behemoth" :
 	{
 		"class" : "pyro",
-		"weapons" : ["The Reserve Shooter", "Last Breath", "Steel Sixpack"],
+		"weapons" : ["The Reserve Shooter", "The Last Breath", "The Steel Sixpack"],
 		"weapon_restriction" : "SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : [ "AlwaysCrit"],
@@ -1428,7 +1446,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 12,
-		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus", "0.33"], ["move speed bonus", "2.5"], ["cannot pick up intelligence", "1.0"], 
+		"attributes" : [ ["damage mult 13", "25.0"], ["fire rate bonus", "0.33"], ["move speed bonus", "3.25"], ["cannot pick up intelligence", "1.0"], 
 		["melee range multiplier", "10.0"], ["agility powerup", "2.0"], ["increased jump height", "8.0"], ["noise maker", "20.0"], ["cancel falling damage", "1.0"]]
 	},
 	"Loch-n-Load Demoman" :
@@ -1735,7 +1753,7 @@
 	{
 		"class"	: "soldier",
 		"weapons" : ["The Battalion's Backup", "The Disciplinary Action"],
-		"bot_attributes" : ["SpawnWithFullCharge"],
+		"bot_attributes" : ["SpawnWithFullCharge", "AlwaysFireWeapon"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
 		"health" : "7500",
@@ -1755,7 +1773,7 @@
 	{
 		"class"	: "soldier",
 		"weapons" : ["The Battalion's Backup", "The Disciplinary Action"],
-		"bot_attributes" : ["SpawnWithFullCharge"],
+		"bot_attributes" : ["SpawnWithFullCharge", "AlwaysFireWeapon"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
 		"health" : "30000",
@@ -1966,7 +1984,7 @@
 	"Irradiated Worker" :
 	{
 		"class" : "pyro",
-		"weapons" : ["The Phlogistinator", "Mishap Mercenary", "Space Diver", "Mucous Membrain"],
+		"weapons" : ["The Phlogistinator", "The Mishap Mercenary", "The Space Diver", "The Mucous Membrain"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit"],
@@ -1981,12 +1999,12 @@
 		"time_between_spawn" : 8,
 		"currency_weight": 25,
 		"weapon_attributes" : [["SPELL: Halloween green flames", "1.0"], ["flame size bonus", "2.5"], ["radiation buildup", "9.5"]],
-		"attributes" : [ ["damage mult 13", "35.0"],  ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "35.0"],  ["move speed bonus", "0.6"], ["flame_speed","2000.0"]]
 	},
 	"Arctic Ops Scout" :
 	{
 		"class" : "scout",
-		"weapons" : ["TF_WEAPON_SCATTERGUN", "Cross-Comm Express", "Isotopic Insulator", "Blizzard Britches"],
+		"weapons" : ["TF_WEAPON_SCATTERGUN", "The Cross-Comm Express", "Isotopic Insulator", "Blizzard Britches"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "12500",
@@ -2005,7 +2023,7 @@
 	"Arctic Ops Pyro" :
 	{
 		"class" : "pyro",
-		"weapons" : ["The Degreaser", "Triclops", "Sub Zero Suit", "Portable Smissmas Spirit Dispenser"],
+		"weapons" : ["The Degreaser", "The Triclops", "The Sub Zero Suit", "The Portable Smissmas Spirit Dispenser"],
 		"weapon_restriction":"PrimaryOnly",
 		"bot_attributes" : [ "AlwaysFireWeapon"],
 		"difficulty" : 4,
@@ -2025,7 +2043,7 @@
 	"Hunter" :
 	{
 		"class" : "soldier",
-		"weapons" : ["The Reserve Shooter", "Hat With No Name"],
+		"weapons" : ["The Reserve Shooter", "The Hat With No Name"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"health" : "5500",
@@ -2043,7 +2061,7 @@
 	"Radiation Doctor" :
 	{
 		"class" : "medic",
-		"weapons" : ["TF_WEAPON_SYRINGEGUN_MEDIC", "Emerald Jarate", "Blighted Beak", "Quadwrangler"],
+		"weapons" : ["TF_WEAPON_SYRINGEGUN_MEDIC", "Emerald Jarate", "Blighted Beak", "The Quadwrangler"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "2500",
@@ -2157,7 +2175,7 @@
 	"Elbersson" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["TF_WEAPON_MINIGUN", "Macho Mann", "Trash Man", "Tyurtlenek"],
+		"weapons" : ["TF_WEAPON_MINIGUN", "The Macho Mann", "The Trash Man", "The Tyurtlenek"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "375000",
@@ -2250,8 +2268,8 @@
 	{
 		"class" : "heavyweapons",
 		"weapon_restriction":"SecondaryOnly",
+		"weapons" : ["TF_WEAPON_SHOTGUN_HWG", "The Heavy-Weight Champ", "Kapitan's Kaftan", "Hog Heels"],
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"weapons" : ["TF_WEAPON_SHOTGUN_HWG"],
 		"difficulty" : 4,
 		"health" : "100000",
 		"is_boss" : true,
@@ -2331,7 +2349,7 @@
 	"Mini Elbersson" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["TF_WEAPON_MINIGUN", "Macho Mann", "Trash Man", "Tyurtlenek"],
+		"weapons" : ["TF_WEAPON_MINIGUN", "The Macho Mann", "The Trash Man", "The Tyurtlenek"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "37500",
@@ -2417,7 +2435,7 @@
 	"Support Mini Elbersson" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["TF_WEAPON_MINIGUN", "Macho Mann", "Trash Man", "Tyurtlenek"],
+		"weapons" : ["TF_WEAPON_MINIGUN", "The Macho Mann", "The Trash Man", "The Tyurtlenek"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"health" : "30000",
@@ -2496,7 +2514,7 @@
 	"Steel Guard" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["Fists of Steel"],
+		"weapons" : ["Fists of Steel", "War Head"],
 		"difficulty" : 4,
 		"weapon_restriction" : "MeleeOnly",
 		"health" : "20000",
@@ -2513,7 +2531,7 @@
 	"Steel Guard Giant" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["Fists of Steel"],
+		"weapons" : ["Fists of Steel", "War Head"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit"],
 		"weapon_restriction" : "MeleeOnly",
@@ -2532,7 +2550,7 @@
 	"Steel Guardian" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["Fists of Steel"],
+		"weapons" : ["Fists of Steel", "Big Steel Jaw of Summer Fun", "War Head"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit", "AlwaysFireWeapon"],
 		"weapon_restriction" : "MeleeOnly",
@@ -2585,7 +2603,7 @@
 	"Bread Monster" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["The Bread Bite"],
+		"weapons" : ["The Bread Bite", "Bread Heads"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon"],
 		"weapon_restriction" : "MeleeOnly",
@@ -2603,7 +2621,7 @@
 	"Giant Bread Monster" :
 	{
 		"class" : "heavyweapons",
-		"weapons" : ["The Bread Bite"],
+		"weapons" : ["The Bread Bite", "Bread Heads"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon"],
 		"weapon_restriction" : "MeleeOnly",
@@ -2821,7 +2839,7 @@
 		"currency_weight": 15,
 		"attributes" : [ ["damage mult 13", "4.5"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.25"], ["dmg falloff decreased","0.5"] ]
 	},
-	"Mine Cart" :
+	"Minecart" :
 	{
 		"class" : "demoman",
 		"bot_attributes" : ["AlwaysFireWeapon"],
@@ -2918,6 +2936,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
+		"weapon_attributes" : [ ["slow enemy on hit major", "0.5"], ["afterburn time increased(N)", "1.5"]],
 		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","10000.0"], ["weapon burn dmg increased","5.0"], ["supernova powerup", "3.0"], ["flame size bonus", "0.5"] ]
 	},
 	"Giant Welder" :
@@ -2930,10 +2949,11 @@
 		"class_icon" : "pyro",
 		"count" : 1,
 		"max_active" : 1,
-		"spawn_per_timer" : 5,
+		"spawn_per_timer" : 1,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 12,
+		"weapon_attributes" : [ ["slow enemy on hit major", "1"], ["afterburn time increased(N)", "2.0"]],
 		"attributes" : [ ["damage mult 13", "25.0"], ["flame_speed","10000.0"], ["weapon burn dmg increased","5.0"], ["supernova powerup", "3.0"], ["flame size bonus", "0.5"] ]
 	}
 }

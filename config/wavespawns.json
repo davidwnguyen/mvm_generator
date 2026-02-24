@@ -554,7 +554,7 @@
 	},
 	"Squad #80":
 	{
-		"squads":["Jarate Sniper", "Shredder", "Support Scorch Spammer"],
+		"squads":["Jarate Sniper", "Support Shredder", "Support Scorch Spammer"],
 		"tags": ["uber", "support"],
 		"weight": 4,
 		"rarity": 5
