@@ -77,3 +77,55 @@
 ./mvm_generator -m mvm_sequoia_rc8 -c extreme_if.json
 ./mvm_generator -m mvm_waterfront_rc4 -c extreme_if.json
 ./mvm_generator -m mvm_underground_rc4 -c extreme_if.json
+# Survival Normal
+./mvm_generator -m mvm_coaltown -c survival_normal_if.json
+./mvm_generator -m mvm_decoy -c survival_normal_if.json
+./mvm_generator -m mvm_mannworks -c survival_normal_if.json
+./mvm_generator -m mvm_bigrock -c survival_normal_if.json
+./mvm_generator -m mvm_rottenburg -c survival_normal_if.json
+./mvm_generator -m mvm_mannhattan -c survival_normal_if.json
+./mvm_generator -m mvm_ghost_town -c survival_normal_if.json
+./mvm_generator -m mvm_isolation_rc3 -c survival_normal_if.json
+./mvm_generator -m mvm_coastrock_rc3 -c survival_normal_if.json
+./mvm_generator -m mvm_sequoia_rc8 -c survival_normal_if.json
+./mvm_generator -m mvm_waterfront_rc4 -c survival_normal_if.json
+./mvm_generator -m mvm_underground_rc4 -c survival_normal_if.json
+# Survival Hard
+./mvm_generator -m mvm_coaltown -c survival_hard_if.json
+./mvm_generator -m mvm_decoy -c survival_hard_if.json
+./mvm_generator -m mvm_mannworks -c survival_hard_if.json
+./mvm_generator -m mvm_bigrock -c survival_hard_if.json
+./mvm_generator -m mvm_rottenburg -c survival_hard_if.json
+./mvm_generator -m mvm_mannhattan -c survival_hard_if.json
+./mvm_generator -m mvm_ghost_town -c survival_hard_if.json
+./mvm_generator -m mvm_isolation_rc3 -c survival_hard_if.json
+./mvm_generator -m mvm_coastrock_rc3 -c survival_hard_if.json
+./mvm_generator -m mvm_sequoia_rc8 -c survival_hard_if.json
+./mvm_generator -m mvm_waterfront_rc4 -c survival_hard_if.json
+./mvm_generator -m mvm_underground_rc4 -c survival_hard_if.json
+# Survival Extreme
+./mvm_generator -m mvm_coaltown -c survival_extreme_if.json
+./mvm_generator -m mvm_decoy -c survival_extreme_if.json
+./mvm_generator -m mvm_mannworks -c survival_extreme_if.json
+./mvm_generator -m mvm_bigrock -c survival_extreme_if.json
+./mvm_generator -m mvm_rottenburg -c survival_extreme_if.json
+./mvm_generator -m mvm_mannhattan -c survival_extreme_if.json
+./mvm_generator -m mvm_ghost_town -c survival_extreme_if.json
+./mvm_generator -m mvm_isolation_rc3 -c survival_extreme_if.json
+./mvm_generator -m mvm_coastrock_rc3 -c survival_extreme_if.json
+./mvm_generator -m mvm_sequoia_rc8 -c survival_extreme_if.json
+./mvm_generator -m mvm_waterfront_rc4 -c survival_extreme_if.json
+./mvm_generator -m mvm_underground_rc4 -c survival_extreme_if.json
+# Crit Festival
+./mvm_generator -m mvm_coaltown -c crit_festival_if.json
+./mvm_generator -m mvm_decoy -c crit_festival_if.json
+./mvm_generator -m mvm_mannworks -c crit_festival_if.json
+./mvm_generator -m mvm_bigrock -c crit_festival_if.json
+./mvm_generator -m mvm_rottenburg -c crit_festival_if.json
+./mvm_generator -m mvm_mannhattan -c crit_festival_if.json
+./mvm_generator -m mvm_ghost_town -c crit_festival_if.json
+./mvm_generator -m mvm_isolation_rc3 -c crit_festival_if.json
+./mvm_generator -m mvm_coastrock_rc3 -c crit_festival_if.json
+./mvm_generator -m mvm_sequoia_rc8 -c crit_festival_if.json
+./mvm_generator -m mvm_waterfront_rc4 -c crit_festival_if.json
+./mvm_generator -m mvm_underground_rc4 -c crit_festival_if.json
