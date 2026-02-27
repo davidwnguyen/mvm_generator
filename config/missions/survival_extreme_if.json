@@ -10,5 +10,5 @@
     ["debuff magnitude bonus", "1.2"], ["debuff block rating", "20"], ["sapper damage penalty", "150"], ["slow resistance", "0.4"], ["critical block rating", "100"], ["bot move speed bonus", "1.15"]],
     "mission_name": "survival_extreme_if",
     "allowed_tags": ["uber"],
-    "rarity_formula": "7"
+    "rarity_formula": "7.0"
 }
