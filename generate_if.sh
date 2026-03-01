@@ -129,3 +129,5 @@
 ./mvm_generator -m mvm_sequoia_rc8 -c crit_festival_if.json
 ./mvm_generator -m mvm_waterfront_rc4 -c crit_festival_if.json
 ./mvm_generator -m mvm_underground_rc4 -c crit_festival_if.json
+# Gold Plated
+./mvm_generator -m mvm_coaltown -c gold_plated_if.json
