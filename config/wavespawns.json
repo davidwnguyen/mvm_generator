@@ -1815,127 +1815,282 @@
 	"Squad #261":
 	{
 		"squads":["Jarate Sniper"],
-		"tags": ["uber", "crit_festival", "support"],
+		"tags": ["crit_festival", "support"],
 		"weight": 15,
 		"rarity": 1
 	},
 	"Squad #262":
 	{
 		"squads":["Jarate Sniper", "Guaranteed Hit Soldier"],
-		"tags": ["uber", "crit_festival"],
+		"tags": ["crit_festival"],
 		"weight": 10,
 		"rarity": 2
 	},
 	"Squad #263":
 	{
 		"squads":["Jarate Sniper", "Giant Jarate Sniper"],
-		"tags": ["uber", "crit_festival", "support"],
+		"tags": ["crit_festival", "support"],
 		"weight": 10,
 		"rarity": 3
 	},
 	"Squad #264":
 	{
 		"squads":["Jarate Sniper", "Escape Plan Soldier"],
-		"tags": ["uber", "crit_festival", "support"],
+		"tags": ["crit_festival", "support"],
 		"weight": 9,
 		"rarity": 2
 	},
 	"Squad #265":
 	{
 		"squads":["Jarate Sniper", "Escape Plan Soldier", "Giant Escape Plan"],
-		"tags": ["uber", "crit_festival", "giant"],
+		"tags": ["crit_festival", "giant"],
 		"weight": 8,
 		"rarity": 2
 	},
 	"Squad #266":
 	{
 		"squads":["Jarate Sniper", "Equalizer Giant", "Escape Plan Soldier", "Giant Escape Plan"],
-		"tags": ["uber", "crit_festival", "giant"],
+		"tags": ["crit_festival", "giant"],
 		"weight": 8,
 		"rarity": 3
 	},
 	"Squad #267":
 	{
 		"squads":["Jarate Sniper", "Chaos"],
-		"tags": ["uber", "crit_festival", "support"],
+		"tags": ["crit_festival", "support"],
 		"weight": 9,
 		"rarity": 4
 	},
 	"Squad #268":
 	{
 		"squads":["Jarate Sniper", "Buff Banner Soldier"],
-		"tags": ["uber", "crit_festival", "support"],
+		"tags": ["crit_festival", "support"],
 		"weight": 11,
 		"rarity": 3
 	},
 	"Squad #269":
 	{
 		"squads":["Giant Buff Banner Soldier"],
-		"tags": ["uber", "crit_festival", "support"],
+		"tags": ["crit_festival", "support"],
 		"weight": 7,
 		"rarity": 3
 	},
 	"Squad #270":
 	{
 		"squads":["Jarate Sniper", "Direct Hit Soldier", "Guaranteed Hit Soldier"],
-		"tags": ["uber", "crit_festival"],
+		"tags": ["crit_festival"],
 		"weight": 7,
 		"rarity": 4
 	},
 	"Squad #271":
 	{
 		"squads":["Buff Banner Soldier", "Concheror Samurai", "Battalion Commander"],
-		"tags": ["uber", "crit_festival"],
+		"tags": ["crit_festival"],
 		"weight": 7,
 		"rarity": 3
 	},
 	"Squad #272":
 	{
 		"squads":["Battalion Commander", "Giant Buff Banner Soldier", "Giant Buff Banner Soldier", "Battalion Commander", "Squad Leader", "Guaranteed Hit Soldier"],
-		"tags": ["uber", "crit_festival", "giant"],
+		"tags": ["crit_festival", "giant"],
 		"weight": 8,
 		"rarity": 5
 	},
 	"Squad #273":
 	{
 		"squads":["Sergeant Crits", "Buff Banner Soldier", "Giant Buff Banner Soldier", "Giant Black Box", "Giant Direct Hit Soldier"],
-		"tags": ["uber", "crit_festival", "giant"],
+		"tags": ["crit_festival", "giant"],
 		"weight": 8,
 		"rarity": 5
 	},
 	"Squad #274":
 	{
 		"squads":["Tavish", "Precise Bowman", "Buff Banner Soldier"],
-		"tags": ["uber", "crit_festival", "boss"],
+		"tags": ["crit_festival", "boss"],
 		"weight": 7,
 		"rarity": 5
 	},
 	"Squad #275":
 	{
 		"squads":["Kritz Medic", "K. Festival Medic"],
-		"tags": ["uber", "crit_festival", "support"],
+		"tags": ["crit_festival", "support"],
 		"weight": 8,
 		"rarity": 3
 	},
 	"Squad #276":
 	{
 		"squads":["K. Festival Medic"],
-		"tags": ["uber", "crit_festival", "support"],
+		"tags": ["crit_festival", "support"],
 		"weight": 10,
 		"rarity": 2
 	},
 	"Squad #277":
 	{
 		"squads":["Guaranteed Hit Soldier", "Precise Bowman", "Expert Greatbow Sniper", "Guard Giant"],
-		"tags": ["uber", "crit_festival"],
+		"tags": ["crit_festival", "giant"],
 		"weight": 7,
 		"rarity": 5
 	},
+	
 	"Squad #278":
 	{
 		"squads":["Jumper Scout Giant", "Jumper Scout Giant", "Jumper Scout Giant"],
 		"tags": ["uber", "giant"],
 		"weight": 5,
 		"rarity": 4
+	},
+	"Squad #279":
+	{
+		"squads":["Gold Grinder", "Grinder"],
+		"tags": ["gold_plated"],
+		"weight": 12,
+		"rarity": 2
+	},
+	"Squad #280":
+	{
+		"squads":["Gold Grinder", "Grinder", "Grinder Giant", "Giant Gold Grinder"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 10,
+		"rarity": 3
+	},
+	"Squad #281":
+	{
+		"squads":["Blood Ogre", "Gold Grinder", "Gold Grinder", "Giant Gold Grinder", "Giant Gold Grinder"],
+		"tags": ["gold_plated", "boss"],
+		"weight": 7,
+		"rarity": 5
+	},
+	"Squad #282":
+	{
+		"squads":["Rock Breaker Soldier", "Dynamite Detonator", "Giant Gold Grinder"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 9,
+		"rarity": 3
+	},
+	"Squad #283":
+	{
+		"squads":["Mine Blaster", "Welder", "Aqua-regia Sniper"],
+		"tags": ["gold_plated"],
+		"weight": 9,
+		"rarity": 3
+	},
+	"Squad #284":
+	{
+		"squads":["Aqua-regia Sniper"],
+		"tags": ["gold_plated", "support"],
+		"weight": 8,
+		"rarity": 3
+	},
+	"Squad #285":
+	{
+		"squads":["Giant Aqua-regia Sniper"],
+		"tags": ["gold_plated", "Support"],
+		"weight": 7,
+		"rarity": 5
+	},
+	"Squad #286":
+	{
+		"squads":["Giant Welder", "Raging Pyro Giant"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 7,
+		"rarity": 5
+	},
+	"Squad #287":
+	{
+		"squads":["Arc Welder", "Dragon's Fury"],
+		"tags": ["gold_plated"],
+		"weight": 8,
+		"rarity": 2
+	},
+	"Squad #288":
+	{
+		"squads":["Giant Arc Welder","Giant Arc Welder","Giant Arc Welder"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 8,
+		"rarity": 5
+	},
+	"Squad #289":
+	{
+		"squads":["Gold Guard Giant", "Giant Gold Grinder", "Aqua-regia Sniper", "Arc Welder"],
+		"tags": ["gold_plated"],
+		"weight": 7,
+		"rarity": 5
+	},
+	"Squad #290":
+	{
+		"squads":["Minecart", "Minecart", "Rock Breaker Soldier", "Gold Guard Giant"],
+		"tags": ["gold_plated"],
+		"weight": 11,
+		"rarity": 5
+	},
+	"Squad #291":
+	{
+		"squads":["Squad Leader"],
+		"tags": ["crit_festival", "support"],
+		"weight": 11,
+		"rarity": 4
+	},
+	"Squad #292":
+	{
+		"squads":["Minecart", "Minecart", "Rock Breaker Soldier", "Gold Guard Giant"],
+		"tags": ["gold_plated"],
+		"weight": 11,
+		"rarity": 5
+	},
+	"Squad #293":
+	{
+		"squads":["Minecart", "Mine Blaster", "Gold Mine Blaster"],
+		"tags": ["gold_plated"],
+		"weight": 11,
+		"rarity": 5
+	},
+	"Squad #294":
+	{
+		"squads":["Minecart", "Giant Rock Breaker", "Giant Rock Breaker", "Giant Rock Breaker"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 11,
+		"rarity": 5
+	},
+	"Squad #295":
+	{
+		"squads":["Minecart"],
+		"tags": ["gold_plated", "support"],
+		"weight": 10,
+		"rarity": 4
+	},
+	"Squad #296":
+	{
+		"squads":["Gold Mine Blaster"],
+		"tags": ["gold_plated", "support"],
+		"weight": 11,
+		"rarity": 5
+	},
+	"Squad #297":
+	{
+		"squads":["Gold Guard Giant"],
+		"tags": ["gold_plated", "support"],
+		"weight": 11,
+		"rarity": 6
+	},
+	"Squad #298":
+	{
+		"squads":["Giant Dynamite Detonator", "Giant Dynamite Detonator","Giant Dynamite Detonator","Giant Dynamite Detonator","Giant Dynamite Detonator"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 10,
+		"rarity": 4
+	},
+	"Squad #299":
+	{
+		"squads":["Giant Dynamite Detonator", "Giant Dynamite Detonator", "Dynamite Detonator", "Cannonball Spammer Giant", "Gold Guard Giant"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 11,
+		"rarity": 5
+	},
+	"Squad #300":
+	{
+		"squads":["Barrage Blaster", "Arc Welder", "Giant Arc Welder", "Gold Guard Giant", "Giant Dynamite Detonator", "Giant Dynamite Detonator"],
+		"tags": ["gold_plated", "superboss"],
+		"weight": 11,
+		"rarity": 5
 	}
 }

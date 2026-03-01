@@ -1968,7 +1968,7 @@
 		"weapons" : ["The Cleaner's Carbine", "Graybanns", "Preventative Measure", "Final Frontiersman"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "17500",
+		"health" : "12500",
 		"is_giant" : true,
 		"class_icon" : "sniper_blackops_cake_giant",
 		"scale" : 0.8,
@@ -1979,7 +1979,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 15,
 		"weapon_attributes" : [ ["clip size bonus", "3.0"] ],
-		"attributes" : [ ["damage mult 13", "37.5"], ["fire rate bonus", "2.0"], ["weapon spread bonus", "0.05"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "37.5"], ["fire rate bonus", "2.0"], ["weapon spread bonus", "0.05"], ["move speed bonus", "1.1"]]
 	},
 	"Irradiated Worker" :
 	{
@@ -2766,7 +2766,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 18,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "15.5"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.3"], ["sapper damage bonus","5.0"], ["bleeding duration", "3.0"], ["vampire powerup", "1.0"]]
+		"attributes" : [ ["damage mult 13", "15.5"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.3"], ["sapper damage bonus","5.0"], ["bleeding duration", "3.0"], ["vampire powerup", "1.0"], ["move speed bonus", "0.6"]]
 	},
 	"Mine Blaster" :
 	{
@@ -2775,16 +2775,16 @@
 		"weapons" : ["The Ullapool Caber"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "3000",
+		"health" : "8000",
 		"class_icon" : "demo_caber_nys",
-		"scale"	: 1.0,
+		"scale"	: 1.1,
 		"count" : 8,
 		"max_active" : 8,
 		"spawn_per_timer" : 2,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 7,
 		"currency_weight": 8,
-		"weapon_attributes" : [["dmg taken from self reduced", "100000.0"]],
+		"weapon_attributes" : [["dmg taken from self reduced", "100000.0"], ["self mark for death", "1"]],
 		"attributes" : [ ["damage mult 13", "90.0"], ["melee range multiplier", "2.0"], ["use large smoke explosion", "1.0"], ["move speed bonus", "1.5"]]
 	},
 	"Gold Mine Blaster" :
@@ -2794,16 +2794,16 @@
 		"weapons" : ["The Ullapool Caber"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "4000",
+		"health" : "10000",
 		"class_icon" : "demo_caber_nuke",
-		"scale"	: 1.0,
+		"scale"	: 1.15,
 		"count" : 8,
 		"max_active" : 8,
 		"spawn_per_timer" : 2,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 8,
-		"weapon_attributes" : [["dmg taken from self reduced", "100000.0"]],
+		"weapon_attributes" : [["dmg taken from self reduced", "100000.0"], ["self mark for death", "1"]],
 		"attributes" : [ ["damage mult 13", "110.0"], ["melee range multiplier", "2.25"], ["use large smoke explosion", "1.0"], ["move speed bonus", "1.5"], 
 		["Blast radius increased", "2.5"]]
 	},
@@ -2837,7 +2837,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "4.5"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.25"], ["dmg falloff decreased","0.5"] ]
+		"attributes" : [ ["damage mult 13", "4.5"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.25"], 
+		["dmg falloff decreased","0.5"], ["move speed bonus", "0.6"]]
 	},
 	"Minecart" :
 	{
@@ -2846,7 +2847,7 @@
 		"weapons" : ["The Bootlegger","The Splendid Screen","The Pain Train"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "11500",
+		"health" : "25500",
 		"class_icon" : "demo_paintrain",
 		"scale"	: 1.25,
 		"count" : 15,
@@ -2855,7 +2856,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 20,
 		"currency_weight": 12,
-		"attributes" : [ ["damage mult 13", "11.5"], ["fire rate bonus","0.5"], ["charge recharge rate increased", "0.01"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "6.5"], ["full charge turn control", "50.0"]]
+		"weapon_attributes" : [["self mark for death", "1"]],
+ 		"attributes" : [ ["damage mult 13", "11.5"], ["fire rate bonus","0.5"], ["charge recharge rate increased", "0.01"], ["Charging Velocity", "1750.0"], ["melee range multiplier", "6.5"], ["full charge turn control", "50.0"]]
 	},
 	"Dynamite Detonator" :
 	{
@@ -2887,7 +2889,7 @@
 		"time_between_spawn" : 5,
 		"currency_weight": 12,
 		"attributes" : [ ["damage mult 13", "12.0"], ["clip size bonus", "5.0"], ["faster reload rate", "0.33"], ["auto fires full clip all at once", "1"],
-		 ["Blast radius increased","3.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.4"] ]
+		 ["Blast radius increased","3.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.4"], ["move speed bonus", "0.45"] ]
 	},
 	"Aqua-regia Sniper" :
 	{
@@ -2921,7 +2923,7 @@
 		"time_between_spawn" : 1,
 		"currency_weight": 10,
 		"weapon_attributes" : [ ["additive piercing damage","20"], ["jarate corrosion dot", "25.0"] ],
-		"attributes" : [ ["damage mult 13", "28.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], ["Projectile speed increased","2.0"] ]
+		"attributes" : [ ["damage mult 13", "28.0"], ["effect bar recharge rate increased","0.0"], ["override projectile type","8.0"], ["Projectile speed increased","2.0"], ["move speed bonus", "0.6"]]
 	},
 	"Welder" :
 	{
@@ -2954,6 +2956,57 @@
 		"time_between_spawn" : 10,
 		"currency_weight": 12,
 		"weapon_attributes" : [ ["slow enemy on hit major", "1"], ["afterburn time increased(N)", "2.0"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["flame_speed","10000.0"], ["weapon burn dmg increased","5.0"], ["supernova powerup", "3.0"], ["flame size bonus", "0.5"] ]
+		"attributes" : [ ["damage mult 13", "25.0"], ["flame_speed","10000.0"], ["weapon burn dmg increased","5.0"], ["supernova powerup", "3.0"], ["flame size bonus", "0.5"], ["move speed bonus", "0.6"]]
+	},
+	"Arc Welder" :
+	{
+		"class" : "pyro",
+		"weapons" : ["The Dragon's Fury"],
+		"difficulty" : 4,
+		"health" : "3500",
+		"class_icon" : "pyro_dragon_fury",
+		"count" : 15,
+		"max_active" : 15,
+		"spawn_per_timer" : 5,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 6,
+		"currency_weight": 8,
+		"weapon_attributes" : [ ["electric orb child", "1"], ["blast radius increased", "2.0"], ["chain lightning meter on hit", "1.0"], ["additive piercing damage", "10"]],
+		"attributes" : [ ["damage mult 13", "75.0"], ["dmg pierces resists absorbs","1.0"], ["supernova powerup", "3.0"]]
+	},
+	"Giant Arc Welder" :
+	{
+		"class" : "pyro",
+		"weapons" : ["The Dragon's Fury"],
+		"difficulty" : 4,
+		"health" : "35000",
+		"class_icon" : "pyro_dragon_fury",
+		"count" : 1,
+		"max_active" : 1,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 1,
+		"currency_weight": 15,
+		"weapon_attributes" : [ ["electric orb child", "1"], ["blast radius increased", "3.0"], ["chain lightning meter on hit", "3.5"], ["additive piercing damage", "20"]],
+		"attributes" : [ ["damage mult 13", "70.0"], ["dmg pierces resists absorbs", "1.0"], ["move speed bonus", "0.6"]]
+	},
+	"Gold Guard Giant" :
+	{
+		"class" : "heavyweapons",
+		"weapons" : ["Fists of Steel", "War Head"],
+		"difficulty" : 4,
+		"bot_attributes" : ["AlwaysFireWeapon"],
+		"weapon_restriction" : "MeleeOnly",
+		"health" : "70000",
+		"class_icon" : "tank_gry",
+		"scale" : 1.6,
+		"is_giant": true,
+		"count" : 1,
+		"max_active" : 1,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 3,
+		"currency_weight": 20,
+		"attributes" : [ ["damage mult 13", "45.0"], ["redirect teammate damage taken", "0.8"], ["move speed bonus", "0.45"], ["resistance powerup", "juggernaut powerup", "1.0"] ]
 	}
 }
