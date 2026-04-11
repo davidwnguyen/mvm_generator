@@ -395,7 +395,6 @@
 	{
 		"class" : "pyro",
 		"weapons" : ["The Dragon's Fury"],
-		"bot_attributes" : ["SpawnWithFullCharge"],
 		"difficulty" : 4,
 		"health" : "3500",
 		"class_icon" : "pyro_dragon_fury_armored",
@@ -405,7 +404,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "70.0"], ["dmg pierces resists absorbs","1.0"], ["move speed bonus", "0.6"], ["increase buff duration", "100.0"], ["damage taken mult 3", "0.5"]]
+		"attributes" : [ ["damage mult 13", "70.0"], ["dmg pierces resists absorbs","1.0"], ["move speed bonus", "0.6"], ["damage taken mult 3", "0.5"]]
 	},
 	"Scorch Spammer" :
 	{
@@ -1753,7 +1752,7 @@
 	{
 		"class"	: "soldier",
 		"weapons" : ["The Battalion's Backup", "The Disciplinary Action"],
-		"bot_attributes" : ["SpawnWithFullCharge", "AlwaysFireWeapon"],
+		"bot_attributes" : ["SpawnWithFullCharge"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
 		"health" : "7500",
@@ -1773,7 +1772,7 @@
 	{
 		"class"	: "soldier",
 		"weapons" : ["The Battalion's Backup", "The Disciplinary Action"],
-		"bot_attributes" : ["SpawnWithFullCharge", "AlwaysFireWeapon"],
+		"bot_attributes" : ["SpawnWithFullCharge"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
 		"health" : "30000",
