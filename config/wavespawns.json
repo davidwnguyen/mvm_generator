@@ -2090,7 +2090,679 @@
 	{
 		"squads":["Barrage Blaster", "Arc Welder", "Giant Arc Welder", "Gold Guard Giant", "Giant Dynamite Detonator", "Giant Dynamite Detonator"],
 		"tags": ["gold_plated", "superboss"],
-		"weight": 11,
+		"weight": 10,
 		"rarity": 5
+	},
+	"Squad #301":
+	{
+		"squads":["Barrage Blaster", "Giant Rock Breaker", "Captain Liberty"],
+		"tags": ["gold_plated", "boss"],
+		"weight": 11,
+		"rarity": 4
+	},
+	"Squad #302":
+	{
+		"squads":["Barrage Blaster", "Gold Guard Giant", "Mine Blaster"],
+		"tags": ["gold_plated", "boss"],
+		"weight": 10,
+		"rarity": 4
+	},
+	"Squad #303":
+	{
+		"squads":["Welder", "Arctic Ops Pyro", "Irradiated Worker"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 12,
+		"rarity": 6
+	},
+	"Squad #304":
+	{
+		"squads":["Grinder Giant", "Gold Grinder", "Shield Medic"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 11,
+		"rarity": 4
+	},
+	"Squad #305":
+	{
+		"squads":["Squad Leader", "Gold Guard Giant", "Giant Gold Grinder", "Giant Gold Grinder"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 10,
+		"rarity": 6
+	},
+	"Squad #306":
+	{
+		"squads":["Smoke Mortar", "Smoke Mortar", "Gold Mine Blaster", "Gold Mine Blaster"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 11,
+		"rarity": 6
+	},
+	"Squad #307":
+	{
+		"squads":["Giant Arc Welder", "Armored Dragon's Fury", "Battalion Commander"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 11,
+		"rarity": 6
+	},
+	"Squad #308":
+	{
+		"squads":["The Brass Beast", "Aqua-regia Sniper", "Gold Guard Giant", "Gold Grinder"],
+		"tags": ["gold_plated", "superboss"],
+		"weight": 11,
+		"rarity": 7
+	},
+	"Squad #309":
+	{
+		"squads":["Minecart", "Smoke Mortar", "Giant Dynamite Detonator", "Nuke Suicide Bomber", "Giant Dynamite Detonator"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 11,
+		"rarity": 7
+	},
+	"Squad #310":
+	{
+		"squads":["Steel Guardian", "Gold Guard Giant", "Steel Guard Giant", "Guard Giant"],
+		"tags": ["gold_plated", "superboss"],
+		"weight": 11,
+		"rarity": 7
+	},
+	"Squad #311":
+	{
+		"squads":["Steel Guardian", "Minecart", "Minecart", "Gold Grinder", "Giant Aqua-regia Sniper"],
+		"tags": ["gold_plated", "superboss"],
+		"weight": 11,
+		"rarity": 6
+	},
+	"Squad #312":
+	{
+		"squads":["Gold Guard Giant", "Grinder Giant"],
+		"tags": ["gold_plated", "giant"],
+		"weight": 11,
+		"rarity": 3
+	},
+	"Squad #313":
+	{
+		"squads":["Mad Sergeant"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #314":
+	{
+		"squads":["Mad Sergeant"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #315":
+	{
+		"squads":["Mad Sergeant"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #316":
+	{
+		"squads":["Mad Sergeant"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #317":
+	{
+		"squads":["Mad Sergeant"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #318":
+	{
+		"squads":["Mad Sergeant"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #319":
+	{
+		"squads":["Mad Sergeant"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #320":
+	{
+		"squads":["Mad Deflector Boss"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #321":
+	{
+		"squads":["Mad Deflector Boss"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #322":
+	{
+		"squads":["Mad Deflector Boss"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #323":
+	{
+		"squads":["Mad Deflector Boss"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #324":
+	{
+		"squads":["Mad Deflector Boss"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #325":
+	{
+		"squads":["Mad Deflector Boss"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #326":
+	{
+		"squads":["Mad Deflector Boss"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #327":
+	{
+		"squads":["Mad Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #328":
+	{
+		"squads":["Mad Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #329":
+	{
+		"squads":["Mad Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #330":
+	{
+		"squads":["Mad Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #331":
+	{
+		"squads":["Mad Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #332":
+	{
+		"squads":["Mad Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #333":
+	{
+		"squads":["Mad Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #334":
+	{
+		"squads":["Mad Super Scout"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #335":
+	{
+		"squads":["Mad Super Scout"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #336":
+	{
+		"squads":["Mad Super Scout"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #337":
+	{
+		"squads":["Mad Super Scout"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #338":
+	{
+		"squads":["Mad Super Scout"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #339":
+	{
+		"squads":["Mad Super Scout"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #340":
+	{
+		"squads":["Mad Super Scout"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #341":
+	{
+		"squads":["Mad Barrage Blaster"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #342":
+	{
+		"squads":["Mad Barrage Blaster"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #343":
+	{
+		"squads":["Mad Barrage Blaster"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #344":
+	{
+		"squads":["Mad Barrage Blaster"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #345":
+	{
+		"squads":["Mad Barrage Blaster"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #346":
+	{
+		"squads":["Mad Barrage Blaster"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #347":
+	{
+		"squads":["Mad Barrage Blaster"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #348":
+	{
+		"squads":["Mad Armored Infernal Behemoth"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #349":
+	{
+		"squads":["Mad Armored Infernal Behemoth"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #350":
+	{
+		"squads":["Mad Armored Infernal Behemoth"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #351":
+	{
+		"squads":["Mad Armored Infernal Behemoth"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #352":
+	{
+		"squads":["Mad Armored Infernal Behemoth"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #353":
+	{
+		"squads":["Mad Armored Infernal Behemoth"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #354":
+	{
+		"squads":["Mad Armored Infernal Behemoth"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #355":
+	{
+		"squads":["Mad Accursed Prince Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #356":
+	{
+		"squads":["Mad Accursed Prince Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #357":
+	{
+		"squads":["Mad Accursed Prince Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #358":
+	{
+		"squads":["Mad Accursed Prince Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #359":
+	{
+		"squads":["Mad Accursed Prince Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #360":
+	{
+		"squads":["Mad Accursed Prince Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #361":
+	{
+		"squads":["Mad Accursed Prince Tavish"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #362":
+	{
+		"squads":["The Mad Brass Beast"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #363":
+	{
+		"squads":["The Mad Brass Beast"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #364":
+	{
+		"squads":["The Mad Brass Beast"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #365":
+	{
+		"squads":["The Mad Brass Beast"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #366":
+	{
+		"squads":["The Mad Brass Beast"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #367":
+	{
+		"squads":["The Mad Brass Beast"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #368":
+	{
+		"squads":["The Mad Brass Beast"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #369":
+	{
+		"squads":["Mad Blood Ogre"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #370":
+	{
+		"squads":["Mad Blood Ogre"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #371":
+	{
+		"squads":["Mad Blood Ogre"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #372":
+	{
+		"squads":["Mad Blood Ogre"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #373":
+	{
+		"squads":["Mad Blood Ogre"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #374":
+	{
+		"squads":["Mad Blood Ogre"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #375":
+	{
+		"squads":["Mad Blood Ogre"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #376":
+	{
+		"squads":["The Mad Iron Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #377":
+	{
+		"squads":["The Mad Iron Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #378":
+	{
+		"squads":["The Mad Iron Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #379":
+	{
+		"squads":["The Mad Iron Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #380":
+	{
+		"squads":["The Mad Iron Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #381":
+	{
+		"squads":["The Mad Iron Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #382":
+	{
+		"squads":["The Mad Iron Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #383":
+	{
+		"squads":["The Mad Incendiary Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #384":
+	{
+		"squads":["The Mad Incendiary Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #385":
+	{
+		"squads":["The Mad Incendiary Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #386":
+	{
+		"squads":["The Mad Incendiary Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #387":
+	{
+		"squads":["The Mad Incendiary Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #388":
+	{
+		"squads":["The Mad Incendiary Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #389":
+	{
+		"squads":["The Mad Incendiary Bomber"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
+	},
+	"Squad #390":
+	{
+		"squads":["Mad Buck"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 1
+	},
+	"Squad #391":
+	{
+		"squads":["Mad Buck"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 2
+	},
+	"Squad #392":
+	{
+		"squads":["Mad Buck"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 3
+	},
+	"Squad #393":
+	{
+		"squads":["Mad Buck"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 4
+	},
+	"Squad #394":
+	{
+		"squads":["Mad Buck"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 5
+	},
+	"Squad #395":
+	{
+		"squads":["Mad Buck"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 6
+	},
+	"Squad #396":
+	{
+		"squads":["Mad Buck"],
+		"tags": ["boss_madness", "support"],
+		"weight": 1000,
+		"rarity": 7
 	}
 }
