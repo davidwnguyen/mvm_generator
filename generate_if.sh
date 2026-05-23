@@ -131,3 +131,16 @@
 ./mvm_generator -m mvm_underground_rc4 -c crit_festival_if.json
 # Gold Plated
 ./mvm_generator -m mvm_coaltown -c gold_plated_if.json
+# Boss Madness
+./mvm_generator -m mvm_coaltown -c boss_madness_if.json
+./mvm_generator -m mvm_decoy -c boss_madness_if.json
+./mvm_generator -m mvm_mannworks -c boss_madness_if.json
+./mvm_generator -m mvm_bigrock -c boss_madness_if.json
+./mvm_generator -m mvm_rottenburg -c boss_madness_if.json
+./mvm_generator -m mvm_mannhattan -c boss_madness_if.json
+./mvm_generator -m mvm_ghost_town -c boss_madness_if.json
+./mvm_generator -m mvm_isolation_rc3 -c boss_madness_if.json
+./mvm_generator -m mvm_coastrock_rc3 -c boss_madness_if.json
+./mvm_generator -m mvm_sequoia_rc8 -c boss_madness_if.json
+./mvm_generator -m mvm_waterfront_rc4 -c boss_madness_if.json
+./mvm_generator -m mvm_underground_rc4 -c boss_madness_if.json
