@@ -261,9 +261,23 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             wave_portion.push_str(&format!("\t\tInitialCooldown\t{}\n", rng.gen_range(50..120)));
             wave_portion.push_str(&format!("\t\tCooldownTime\t{}\n", rng.gen_range(30..75)));
             wave_portion.push_str(&format!("\t\tDesiredCount\t{}\n", rng.gen_range(2..4)));
-            for area in &mission.spawn_support_areas{
-                wave_portion.push_str(&format!("\t\tWhere\t{}\n", area));
+
+            if chosen_bot.is_boss{
+                for area in &mission.spawn_boss_areas{
+                    wave_portion.push_str(&format!("\t\t\tWhere\t{}\n", area));
+                }
             }
+            else if chosen_bot.is_giant{
+                for area in &mission.spawn_giants_areas{
+                    wave_portion.push_str(&format!("\t\t\tWhere\t{}\n", area));
+                }
+            }
+            else {
+                for area in &mission.spawn_support_areas{
+                    wave_portion.push_str(&format!("\t\tWhere\t{}\n", area));
+                }
+            }
+            
             wave_portion.push_str(&format!("\t\tBeginAtWave\t{}\n", i));
             wave_portion.push_str("\t\tRunForThisManyWaves\t1\n");
 

@@ -40,7 +40,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "19.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","5.0"] ]
+		"attributes" : [ ["damage mult 13", "19.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","2.0"] ]
 	},
 	"Demoman" :
 	{
@@ -966,7 +966,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 7,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","6.0"],
+		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","3.0"],
 		 ["supernova powerup","2.0"], ["move speed bonus", "0.65"] ]
 	},
 	"Manmelter Giant" :
@@ -1094,7 +1094,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 7,
-		"attributes" : [ ["damage mult 13", "65.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","5.0"], ["revenge powerup", "2.0"], ["move speed bonus", "0.7"] ]
+		"attributes" : [ ["damage mult 13", "40.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","4.0"], ["revenge powerup", "2.0"], ["move speed bonus", "0.7"] ]
 	},
 	"Jumper Scout Giant" :
 	{
@@ -1829,7 +1829,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "80.0"], ["knockout powerup", "2.0"], ["melee range multiplier", "18.0"], ["move speed bonus", "0.65"], ["afterburn rating", "1"]]
+		"attributes" : [ ["damage mult 13", "50.0"], ["knockout powerup", "2.0"], ["melee range multiplier", "18.0"], ["move speed bonus", "0.65"], ["afterburn rating", "1"]]
 	},
 	"Sydney Sleeper Sniper" :
 	{
@@ -3253,8 +3253,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
-		"weapon_attributes" : [ ["slow enemy on hit major", "0.5"], ["afterburn time increased(N)", "1.5"]],
-		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","10000.0"], ["weapon burn dmg increased","5.0"], ["supernova powerup", "3.0"], ["flame size bonus", "0.5"] ]
+		"weapon_attributes" : [ ["slow enemy on hit major", "0.5"], ["weapon burn time increased", "1.5"]],
+		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","10000.0"], ["weapon burn dmg increased","2.0"], ["supernova powerup", "3.0"], ["flame size bonus", "0.5"] ]
 	},
 	"Giant Welder" :
 	{
@@ -3270,8 +3270,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 12,
-		"weapon_attributes" : [ ["slow enemy on hit major", "1"], ["afterburn time increased(N)", "2.0"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["flame_speed","10000.0"], ["weapon burn dmg increased","5.0"], ["supernova powerup", "3.0"], ["flame size bonus", "0.5"], ["move speed bonus", "0.6"]]
+		"weapon_attributes" : [ ["slow enemy on hit major", "1"], ["weapon burn time increased", "2.0"]],
+		"attributes" : [ ["damage mult 13", "25.0"], ["flame_speed","10000.0"], ["weapon burn dmg increased","2.0"], ["supernova powerup", "3.0"], ["flame size bonus", "0.5"], ["move speed bonus", "0.6"]]
 	},
 	"Arc Welder" :
 	{
