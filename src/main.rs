@@ -419,6 +419,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 wave_portion.push_str(&format!("\t\t\tWaitBeforeStarting\t{}\n", bot.time_before_spawn));
                 wave_portion.push_str(&format!("\t\t\tWaitBetweenSpawns\t{}\n", bot.time_between_spawn));
 
+                if bot.spawn_per_timer > bot.count || bot.spawn_per_timer > bot.max_active {
+                    println!("Bot '{:?}' has a greater spawn_per_timer than count!", bot.name);
+                }
+
 
 
                 if mission.gatebots_enabled {
