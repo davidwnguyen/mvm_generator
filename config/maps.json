@@ -120,7 +120,7 @@
 		"engies" : true,
 		"spawnbots" : ["spawnbot", "spawnbot_flank", "spawnbot_flank2"],
 		"spawngiants" : ["spawnbot", "spawnbot_flank", "spawnbot_flank2"],
-		"spawnbosses" : ["spawnbot", "spawnbot_boss"],
+		"spawnbosses" : ["spawnbot_boss"],
 		"spawnsupports" : ["spawnbot", "spawnbot_mission_sniper", "spawnbot_mission_spy"]
 	},
 	"mvm_underground_rc4" :
