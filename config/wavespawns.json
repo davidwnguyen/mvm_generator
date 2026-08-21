@@ -400,7 +400,7 @@
 	},
 	"Squad #58":
 	{
-		"squads": ["Giant Gas Passer", "Giant SVF Pyro"],
+		"squads": ["Giant Gas Passer", "Giant Volcano Pyro"],
 		"tags": ["uber", "giant"],
 		"weight": 4,
 		"rarity": 3
@@ -414,7 +414,7 @@
 	},
 	"Squad #60":
 	{
-		"squads": ["Giant SVF Pyro", "SMGer Giant", "Hyper League"],
+		"squads": ["Giant Volcano Pyro", "SMGer Giant", "Hyper League"],
 		"tags": ["uber", "giant"],
 		"weight": 5,
 		"rarity": 4
@@ -1224,6 +1224,27 @@
 		"weight": 4,
 		"rarity": 1
 	},
+	"Squad #176a":
+	{
+		"squads":["Flasher Medic"],
+		"tags": ["uber", "support"],
+		"weight": 4,
+		"rarity": 2
+	},
+	"Squad #176b":
+	{
+		"squads":["Flasher Medic"],
+		"tags": ["uber", "support"],
+		"weight": 4,
+		"rarity": 3
+	},
+	"Squad #176c":
+	{
+		"squads":["Flasher Medic"],
+		"tags": ["uber", "support"],
+		"weight": 4,
+		"rarity": 4
+	},
 	"Squad #177":
 	{
 		"squads":["Lightning Rod"],
@@ -1569,9 +1590,9 @@
 	},
 	"Squad #226":
 	{
-		"squads":["Equalizer Giant", "Giant SVF Pyro", "Tavish", "Demoknight"],
+		"squads":["Equalizer Giant", "Giant Volcano Pyro", "Tavish", "Demoknight"],
 		"tags": ["uber", "superboss"],
-		"weight": 4,
+		"weight": 5,
 		"rarity": 6
 	},
 	"Squad #227":
@@ -1816,91 +1837,119 @@
 	{
 		"squads":["Jarate Sniper"],
 		"tags": ["crit_festival", "support"],
-		"weight": 15,
+		"weight": 25,
 		"rarity": 1
 	},
 	"Squad #262":
 	{
 		"squads":["Jarate Sniper", "Guaranteed Hit Soldier"],
 		"tags": ["crit_festival"],
-		"weight": 10,
+		"weight": 25,
 		"rarity": 2
 	},
 	"Squad #263":
 	{
 		"squads":["Jarate Sniper", "Giant Jarate Sniper"],
 		"tags": ["crit_festival", "support"],
-		"weight": 10,
+		"weight": 25,
 		"rarity": 3
 	},
 	"Squad #264":
 	{
 		"squads":["Jarate Sniper", "Escape Plan Soldier"],
 		"tags": ["crit_festival", "support"],
-		"weight": 9,
+		"weight": 25,
 		"rarity": 2
 	},
 	"Squad #265":
 	{
 		"squads":["Jarate Sniper", "Escape Plan Soldier", "Giant Escape Plan"],
-		"tags": ["crit_festival", "giant"],
-		"weight": 8,
-		"rarity": 2
+		"tags": ["crit_festival", "giant", "support"],
+		"weight": 25,
+		"rarity": 5
 	},
 	"Squad #266":
 	{
 		"squads":["Jarate Sniper", "Equalizer Giant", "Escape Plan Soldier", "Giant Escape Plan"],
 		"tags": ["crit_festival", "giant"],
-		"weight": 8,
-		"rarity": 3
+		"weight": 10,
+		"rarity": 5
 	},
 	"Squad #267":
 	{
 		"squads":["Jarate Sniper", "Chaos"],
 		"tags": ["crit_festival", "support"],
-		"weight": 9,
+		"weight": 20,
 		"rarity": 4
 	},
 	"Squad #268":
 	{
 		"squads":["Jarate Sniper", "Buff Banner Soldier"],
 		"tags": ["crit_festival", "support"],
-		"weight": 11,
+		"weight": 20,
 		"rarity": 3
 	},
 	"Squad #269":
 	{
 		"squads":["Giant Buff Banner Soldier"],
 		"tags": ["crit_festival", "support"],
-		"weight": 7,
+		"weight": 20,
 		"rarity": 3
+	},
+	"Squad #269a":
+	{
+		"squads":["Giant Buff Banner Soldier"],
+		"tags": ["crit_festival", "support"],
+		"weight": 20,
+		"rarity": 4
+	},
+	"Squad #269b":
+	{
+		"squads":["Giant Buff Banner Soldier"],
+		"tags": ["crit_festival", "support"],
+		"weight": 20,
+		"rarity": 5
 	},
 	"Squad #270":
 	{
 		"squads":["Jarate Sniper", "Direct Hit Soldier", "Guaranteed Hit Soldier"],
-		"tags": ["crit_festival"],
-		"weight": 7,
+		"tags": ["crit_festival","support"],
+		"weight": 20,
+		"rarity": 4
+	},
+	"Squad #270a":
+	{
+		"squads":["Jarate Sniper", "Direct Hit Soldier", "Guaranteed Hit Soldier"],
+		"tags": ["crit_festival","support"],
+		"weight": 20,
 		"rarity": 4
 	},
 	"Squad #271":
 	{
 		"squads":["Buff Banner Soldier", "Concheror Samurai", "Battalion Commander"],
-		"tags": ["crit_festival"],
-		"weight": 7,
+		"tags": ["crit_festival","support"],
+		"weight": 20,
 		"rarity": 3
+	},
+	"Squad #271a":
+	{
+		"squads":["Buff Banner Soldier", "Concheror Samurai", "Battalion Commander"],
+		"tags": ["crit_festival","support"],
+		"weight": 20,
+		"rarity": 4
 	},
 	"Squad #272":
 	{
 		"squads":["Battalion Commander", "Giant Buff Banner Soldier", "Giant Buff Banner Soldier", "Battalion Commander", "Squad Leader", "Guaranteed Hit Soldier"],
 		"tags": ["crit_festival", "giant"],
-		"weight": 8,
+		"weight": 11,
 		"rarity": 5
 	},
 	"Squad #273":
 	{
 		"squads":["Sergeant Crits", "Buff Banner Soldier", "Giant Buff Banner Soldier", "Giant Black Box", "Giant Direct Hit Soldier"],
-		"tags": ["crit_festival", "giant"],
-		"weight": 8,
+		"tags": ["crit_festival", "boss"],
+		"weight": 11,
 		"rarity": 5
 	},
 	"Squad #274":
@@ -1914,21 +1963,42 @@
 	{
 		"squads":["Kritz Medic", "K. Festival Medic"],
 		"tags": ["crit_festival", "support"],
-		"weight": 8,
+		"weight": 15,
 		"rarity": 3
+	},
+	"Squad #275a":
+	{
+		"squads":["Kritz Medic", "K. Festival Medic"],
+		"tags": ["crit_festival", "support"],
+		"weight": 15,
+		"rarity": 4
+	},
+	"Squad #275b":
+	{
+		"squads":["Kritz Medic", "K. Festival Medic"],
+		"tags": ["crit_festival", "support"],
+		"weight": 15,
+		"rarity": 5
 	},
 	"Squad #276":
 	{
 		"squads":["K. Festival Medic"],
 		"tags": ["crit_festival", "support"],
-		"weight": 10,
+		"weight": 13,
+		"rarity": 2
+	},
+	"Squad #276a":
+	{
+		"squads":["K. Festival Medic"],
+		"tags": ["crit_festival", "support"],
+		"weight": 13,
 		"rarity": 2
 	},
 	"Squad #277":
 	{
 		"squads":["Guaranteed Hit Soldier", "Precise Bowman", "Expert Greatbow Sniper", "Guard Giant"],
 		"tags": ["crit_festival", "giant"],
-		"weight": 7,
+		"weight": 9,
 		"rarity": 5
 	},
 	
