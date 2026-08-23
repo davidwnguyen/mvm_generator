@@ -40,7 +40,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "19.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","2.0"] ]
+		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","3.5"] ]
 	},
 	"Support Pyro" :
 	{
@@ -55,7 +55,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","4.5"] ]
+		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","3.5"] ]
 	},
 	"Demoman" :
 	{
