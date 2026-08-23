@@ -13,19 +13,54 @@
 		"weight": 8,
 		"rarity": 2
 	},
+	"Squad #2a" :
+	{
+		"squads": ["Grinder", "Crit SMGer", "Blaster"],
+		"tags": ["uber"],
+		"weight": 6,
+		"rarity": 2
+	},
+	"Squad #2b" :
+	{
+		"squads": ["Giant Grinder", "Crit SMGer", "Blaster"],
+		"tags": ["uber", "giant"],
+		"weight": 6,
+		"rarity": 2
+	},
 	"Squad #3" :
 	{
 		"squads": ["Shredder", "Milk Scout", "Pistol Scout"],
 		"tags": ["uber"],
+		"weight": 6,
+		"rarity": 3
+	},
+	"Squad #3a" :
+	{
+		"squads": ["Shredder", "Milk Scout"],
+		"tags": ["uber"],
 		"weight": 8,
+		"rarity": 2
+	},
+	"Squad #3b" :
+	{
+		"squads": ["Shredder", "Milk Scout", "Crit Pistol Scout"],
+		"tags": ["uber"],
+		"weight": 5,
 		"rarity": 3
 	},
 	"Squad #4" :
 	{
 		"squads": ["Squad Leader", "Milk Scout", "Concheror Samurai"],
-		"tags": ["uber"],
-		"weight": 8,
+		"tags": ["uber", "giant"],
+		"weight": 7,
 		"rarity": 2
+	},
+	"Squad #4a" :
+	{
+		"squads": ["Squad Leader", "Shredder", "Concheror Samurai"],
+		"tags": ["uber", "giant"],
+		"weight": 6,
+		"rarity": 2.5
 	},
 	"Squad #5" :
 	{
@@ -34,6 +69,20 @@
 		"weight": 8,
 		"rarity": 1
 	},
+	"Squad #5a" :
+	{
+		"squads": ["Heavy Shotgun", "Deflector Giant", "Medic"],
+		"tags": ["uber","giant"],
+		"weight": 8,
+		"rarity": 2
+	},
+	"Squad #5b" :
+	{
+		"squads": ["Slug Shotgunner", "Deflector Giant", "Medic"],
+		"tags": ["uber","giant"],
+		"weight": 6,
+		"rarity": 2
+	},
 	"Squad #6" :
 	{
 		"squads": ["Heavy Shotgun", "Sergeant Crits", "Uber Medic"],
@@ -41,53 +90,144 @@
 		"weight": 5,
 		"rarity": 4
 	},
+	"Squad #6a" :
+	{
+		"squads": ["Giant Slug Shotgunner", "Sergeant Crits", "Uber Medic"],
+		"tags": ["uber","boss"],
+		"weight": 5,
+		"rarity": 5
+	},
 	"Squad #7" :
 	{
 		"squads": ["Heavy Shotgun", "Deflector Boss", "Uber Medic"],
-		"tags": ["uber","superboss"], 
-		"weight": 5,
+		"tags": ["uber","boss"], 
+		"weight": 6,
+		"rarity": 4
+	},
+	"Squad #7a" :
+	{
+		"squads": ["Grinder Giant", "Deflector Boss", "Uber Medic"],
+		"tags": ["uber","boss"], 
+		"weight": 6,
 		"rarity": 5
+	},
+	"Squad #7b" :
+	{
+		"squads": ["Grinder Giant","Grinder Giant","Protector Giant", "Deflector Boss", "Uber Medic"],
+		"tags": ["uber","superboss"], 
+		"weight": 6,
+		"rarity": 6
 	},
 	"Squad #8" :
 	{
 		"squads": ["Dragon's Fury", "Squad Leader", "Medic"],
 		"tags": ["uber","giant"],
-		"weight": 8,
+		"weight": 7,
+		"rarity": 2
+	},
+	"Squad #8a" :
+	{
+		"squads": ["Armored Dragon's Fury", "Squad Leader", "Medic"],
+		"tags": ["uber","giant"],
+		"weight": 7,
 		"rarity": 3
+	},
+	"Squad #8b" :
+	{
+		"squads": ["Armored Dragon's Fury", "Squad Leader", "Medic", "Guard"],
+		"tags": ["uber","giant"],
+		"weight": 6,
+		"rarity": 4
 	},
 	"Squad #9" :
 	{
 		"squads": ["Barrage Soldier", "Squad Leader", "Barrage Demoman"],
-		"tags": ["uber"],
+		"tags": ["uber", "giant"],
 		"weight": 8,
 		"rarity": 2
+	},
+	"Squad #9a" :
+	{
+		"squads": ["Barrage Soldier", "Squad Leader", "Giant Barrage Demoman"],
+		"tags": ["uber", "giant"],
+		"weight": 8,
+		"rarity": 3
+	},
+	"Squad #9b" :
+	{
+		"squads": ["Barrage Soldier", "Squad Leader", "Giant Barrage Demoman", "Giant Medic"],
+		"tags": ["uber", "giant"],
+		"weight": 8,
+		"rarity": 4
 	},
 	"Squad  #10":
 	{
 		"squads": ["Hyper League", "Medic"],
-		"tags": ["uber"],
-		"weight": 8,
-		"rarity": 4
+		"tags": ["uber", "giant"],
+		"weight": 7,
+		"rarity": 1
+	},
+	"Squad  #10a":
+	{
+		"squads": ["Hyper League","Hyper League", "Flasher Medic"],
+		"tags": ["uber","giant"],
+		"weight": 6,
+		"rarity": 2
+	},
+	"Squad  #10b":
+	{
+		"squads": ["Hyper League","Hyper League","Hyper League", "Flasher Medic"],
+		"tags": ["uber","giant"],
+		"weight": 5,
+		"rarity": 3
 	},
 	"Squad #11" :
 	{
 		"squads": ["Demoknight", "Medic", "Milk Scout"],
 		"tags": ["uber"],
-		"weight": 4.5,
+		"weight": 5,
+		"rarity": 1
+	},
+	"Squad #11a" :
+	{
+		"squads": ["The Skullcutter", "Medic", "Milk Scout"],
+		"tags": ["uber"],
+		"weight": 5,
+		"rarity": 1
+	},
+	"Squad #11b" :
+	{
+		"squads": ["Demoknight", "Medic", "Pistol Scout"],
+		"tags": ["uber"],
+		"weight": 5,
 		"rarity": 1
 	},
 	"Squad #12" :
 	{
+		"squads": ["Dragon's Fury", "Crossbow Medic"],
+		"tags": ["uber"],
+		"weight": 5,
+		"rarity": 1
+	},
+	"Squad #12a" :
+	{
 		"squads": ["Armored Dragon's Fury", "Crossbow Medic"],
 		"tags": ["uber"],
-		"weight": 4.5,
-		"rarity": 4
+		"weight": 5,
+		"rarity": 2
+	},
+	"Squad #12b" :
+	{
+		"squads": ["Armored Dragon's Fury", "Crossbow Medic", "Dragon's Fury Giant"],
+		"tags": ["uber"],
+		"weight": 5,
+		"rarity": 3
 	},
 	"Squad #13" :
 	{
 		"squads": ["Guard", "Squad Leader", "Greatbow Sniper", "Blaster"],
 		"tags": ["uber", "giant"],
-		"weight": 7.5,
+		"weight": 6,
 		"rarity": 5
 	},
 	"Squad #14" :
@@ -95,7 +235,7 @@
 		"squads": ["Guard", "Greatbow Sniper", "Squad Leader", "Tavish"],
 		"tags": ["uber", "superboss"],
 		"weight": 5,
-		"rarity": 3
+		"rarity": 4
 	},
 	"Squad #15" :
 	{
@@ -108,15 +248,50 @@
 	{
 		"squads": ["Scorch Spammer", "Greatbow Sniper", "Guard"],
 		"tags": ["uber"],
-		"weight": 9,
+		"weight": 8,
 		"rarity": 4
+	},
+	"Squad #16a" :
+	{
+		"squads": ["Scorch Spammer", "Expert Greatbow Sniper", "Guard"],
+		"tags": ["uber"],
+		"weight": 7,
+		"rarity": 6
+	},
+	"Squad #16b" :
+	{
+		"squads": ["Scorch Spammer", "Expert Greatbow Sniper", "Guard Giant"],
+		"tags": ["uber"],
+		"weight": 7,
+		"rarity": 7
 	},
 	"Squad #17" :
 	{
 		"squads": ["Phlogistinator Giant", "Manmelter Giant", "Guard"],
 		"tags": ["uber", "giant"],
-		"weight": 10,
+		"weight": 9,
 		"rarity": 3
+	},
+	"Squad #17a" :
+	{
+		"squads": ["Phlogistinator Giant", "Manmelter Giant", "Guard"],
+		"tags": ["uber", "giant"],
+		"weight": 8,
+		"rarity": 4
+	},
+	"Squad #17b" :
+	{
+		"squads": ["Phlogistinator Giant", "Manmelter Giant", "Guard"],
+		"tags": ["uber", "giant"],
+		"weight": 7,
+		"rarity": 5
+	},
+	"Squad #17c" :
+	{
+		"squads": ["Phlogistinator Giant", "Manmelter Giant", "Guard Giant"],
+		"tags": ["uber", "giant"],
+		"weight": 7,
+		"rarity": 6
 	},
 	"Squad #18" :
 	{
@@ -124,6 +299,13 @@
 		"tags": ["uber", "giant"],
 		"weight": 7,
 		"rarity": 2
+	},
+	"Squad #18a" :
+	{
+		"squads": ["Cannonball Spammer Giant", "Barrage Demoman","Giant Barrage Demoman", "Guard"],
+		"tags": ["uber", "giant"],
+		"weight": 6,
+		"rarity": 3
 	},
 	"Squad #19" :
 	{
@@ -1387,7 +1569,7 @@
 	},
 	"Squad #197":
 	{
-		"squads":["Scout", "Pyro"],
+		"squads":["Scout", "Support Pyro"],
 		"tags": ["uber", "support"],
 		"weight": 4,
 		"rarity": 2

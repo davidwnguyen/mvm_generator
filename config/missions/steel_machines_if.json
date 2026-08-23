@@ -7,8 +7,8 @@
     "bot_boss_waves": 6,
     "bot_superboss_waves": 12,
     "attributes": [ ["dmg taken divided","3+(1.45^(wave-1)*(wave+1)^2.1)+(wave+1)^3"],  ["damage mult 2","1.75+(4.5*1.6^(wave-1)*wave)"], ["knockback resistance", "0.35"], ["cancel falling damage", "1"], 
-        ["critical rating", "200"], ["minicrits become crits", "1.0"] ],
-    "mission_name": "crit_festival_if",
-    "allowed_tags": ["uber", "crit_festival"],
-    "rarity_formula": "1+0.2*wave"
+    ["juggernaut powerup", "1.0"],["major move speed bonus", "0.8"]],
+    "mission_name": "steel_machines_if",
+    "allowed_tags": ["uber", "steel_machines_if"],
+    "rarity_formula": "1+0.25*wave"
 }

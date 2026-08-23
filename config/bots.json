@@ -42,6 +42,21 @@
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "22.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","4.5"] ]
 	},
+	"Support Pyro" :
+	{
+		"class" : "pyro",
+		"difficulty" : 4,
+		"health" : "1900",
+		"bot_attributes" : ["AlwaysFireWeapon"],
+		"class_icon" : "pyro",
+		"count" : 16,
+		"max_active" : 16,
+		"spawn_per_timer" : 4,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 4,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","4.5"] ]
+	},
 	"Demoman" :
 	{
 		"class" : "demoman",
@@ -84,6 +99,21 @@
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
 		["heal rate bonus","6.0"], ["add uber charge on hit","0.02"] ]
+	},
+	"Giant Medic" :
+	{
+		"class" : "medic",
+		"difficulty" : 4,
+		"health" : "20000",
+		"class_icon" : "medic_giant",
+		"count" : 1,
+		"max_active" : 1,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 2,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
+		["heal rate bonus","5.0"], ["add uber charge on hit","0.02"] ]
 	},
 	"Uber Medic" :
 	{
@@ -135,6 +165,23 @@
 		"currency_weight": 4,
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
 		["uber duration bonus","500.0"], ["heal rate bonus","6.0"], ["add uber charge on hit","0.02"], ["bot medic uber health threshold", "0.0"] ]
+	},
+	"Giant Kritz Medic" :
+	{
+		"class" : "medic",
+		"weapons" : ["The Kritzkrieg"],
+		"bot_attributes" : ["SpawnWithFullCharge"],
+		"difficulty" : 4,
+		"health" : "20000",
+		"class_icon" : "medic_kritz_giant",
+		"count" : 1,
+		"max_active" : 1,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 2,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
+		["heal rate bonus","5.0"], ["add uber charge on hit","0.02"] ]
 	},
 	"SMGer" :
 	{
@@ -243,8 +290,25 @@
 		"weapons" : ["Pretty Boy's Pocket Pistol"],
 		"difficulty" : 4,
 		"weapon_restriction" : "SecondaryOnly",
-		"health" : "900",
+		"health" : "1000",
 		"class_icon" : "scout",
+		"count" : 12,
+		"max_active" : 12,
+		"spawn_per_timer" : 3,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 5,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate bonus","0.3"], ["faster reload rate", "0.01"] ]
+	},
+	"Crit Pistol Scout" :
+	{
+		"class" : "scout",
+		"weapons" : ["Pretty Boy's Pocket Pistol"],
+		"difficulty" : 4,
+		"bot_attributes" : ["AlwaysCrit"],
+		"weapon_restriction" : "SecondaryOnly",
+		"health" : "1000",
+		"class_icon" : "scout_crit",
 		"count" : 12,
 		"max_active" : 12,
 		"spawn_per_timer" : 3,
@@ -475,6 +539,23 @@
 		"spawn_per_timer" : 5,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "8.0"], ["clip size bonus", "4.0"], ["faster reload rate", "0.5"], ["auto fires full clip all at once", "1"],
+		 ["Blast radius increased","2.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
+	},
+	"Giant Barrage Demoman" :
+	{
+		"class" : "demoman",
+		"difficulty" : 4,
+		"bot_attributes" : ["HoldFireUntilFullReload"],
+		"health" : "25000",
+		"class_icon" : "demo_barrage_giant",
+		"is_giant" : true,
+		"count" : 2,
+		"max_active" : 2,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 8,
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "8.0"], ["clip size bonus", "4.0"], ["faster reload rate", "0.5"], ["auto fires full clip all at once", "1"],
 		 ["Blast radius increased","2.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
@@ -1490,6 +1571,23 @@
 		"currency_weight": 12,
 		"attributes" : [ ["damage mult 13", "30.0"], ["melee range multiplier", "15.0"], ["move speed bonus", "1.5"] ]
 	},
+	"Giant Heavyweight Champion" :
+	{
+		"class" : "heavyweapons",
+		"weapons" : ["The Killing Gloves of Boxing"],
+		"weapon_restriction":"MeleeOnly",
+		"bot_attributes": ["AlwaysCrit"],
+		"difficulty" : 4,
+		"health" : "18000",
+		"class_icon" : "heavy_champ",
+		"count" : 12,
+		"max_active" : 6,
+		"spawn_per_timer" : 3,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 15,
+		"currency_weight": 12,
+		"attributes" : [ ["damage mult 13", "30.0"], ["melee range multiplier", "15.0"], ["move speed bonus", "0.7"] ]
+	},
 	"Brass Beast Heavy" :
 	{
 		"class" : "heavyweapons",
@@ -1739,7 +1837,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"health" : "300",
+		"health" : "400",
 		"class_icon" : "scout",
 		"scale" : 0.5,
 		"auto_jump_min" : 4,
@@ -1759,7 +1857,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"health" : "1000",
+		"health" : "900",
 		"class_icon" : "scout_giant",
 		"scale" : 0.6,
 		"is_giant": true,
