@@ -577,6 +577,23 @@
 		"attributes" : [ ["damage mult 13", "8.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "15.0"],
 		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.1"]]
 	},
+	"Support Demoknight" :
+	{
+		"class" : "demoman",
+		"weapons" : ["Ali Baba's Wee Booties", "The Chargin' Targe", "The Eyelander"],
+		"difficulty" : 4,
+		"bot_attributes" : ["AlwaysFireWeapon"],
+		"health" : "4500",
+		"class_icon" : "demoknight",
+		"count" : 6,
+		"max_active" : 6,
+		"spawn_per_timer" : 3,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 6,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "15.0"],
+		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.1"]]
+	},
 	"Armored Demoknight" :
 	{
 		"class" : "demoman",
@@ -815,7 +832,7 @@
 		"weapon_restriction" : "MeleeOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"],
-		"health" : "300000",
+		"health" : "250000",
 		"class_icon" : "demoknight_boss_tavish",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -825,7 +842,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 90,
-		"attributes" : [ ["damage mult 13", "21.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "8.0"], ["player boss type", "6.0"],
+		"attributes" : [ ["damage mult 13", "19.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "8.0"], ["player boss type", "6.0"],
 		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.0"], ["mult smack time", "0.2"], ["king powerup", "1.0"], ["move speed bonus", "0.4"] ]
 	},
 	"Mad Accursed Prince Tavish" :
@@ -836,7 +853,7 @@
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"],
 		"behavior" : "Mobber",
-		"health" : "225000",
+		"health" : "200000",
 		"class_icon" : "demoknight_boss_tavish",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -846,7 +863,7 @@
 		"time_before_spawn" : 10,
 		"time_between_spawn" : 10,
 		"currency_weight": 90,
-		"attributes" : [ ["damage mult 13", "18.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "8.0"], ["player boss type", "6.0"],
+		"attributes" : [ ["damage mult 13", "16.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "8.0"], ["player boss type", "6.0"],
 		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.0"], ["mult smack time", "0.2"], ["king powerup", "1.0"], ["move speed bonus", "0.5"], ["cannot pick up intelligence", "1.0"] ]
 	},
 	"The Brass Beast" :
