@@ -1562,14 +1562,7 @@
 	},
 	"Squad #196":
 	{
-		"squads":["Support Demoknight"],
-		"tags": ["uber", "support"],
-		"weight": 3,
-		"rarity": 1
-	},
-	"Squad #196a":
-	{
-		"squads":["Support Demoknight"],
+		"squads":["Demoknight"],
 		"tags": ["uber", "support"],
 		"weight": 4,
 		"rarity": 2
