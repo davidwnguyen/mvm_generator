@@ -22,7 +22,7 @@
 	},
 	"Squad #2b" :
 	{
-		"squads": ["Giant Grinder", "Crit SMGer", "Blaster"],
+		"squads": ["Grinder Giant", "Crit SMGer", "Blaster"],
 		"tags": ["uber", "giant"],
 		"weight": 6,
 		"rarity": 2
