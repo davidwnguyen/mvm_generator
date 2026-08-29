@@ -9,5 +9,5 @@
     "attributes": [ ["dmg taken divided","3.5+(1.45^(wave-1)*(wave+1)^2.3)+(wave+1)^3.5"],  ["damage mult 2","1.75+(4.5*1.6^(wave-1)*wave)"], ["knockback resistance", "0.2"] ],
     "mission_name": "boss_rush_if",
     "allowed_tags": ["uber"],
-    "rarity_formula": "1+0.18*wave"
+    "rarity_formula": "1+0.25*wave"
 }

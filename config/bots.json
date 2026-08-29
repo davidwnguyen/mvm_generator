@@ -3,7 +3,7 @@
 	{
 		"class" : "scout",
 		"difficulty" : 4,
-		"health" : "1200",
+		"health" : "1500",
 		"class_icon" : "scout",
 		"count" : 15,
 		"max_active" : 15,
@@ -11,7 +11,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "8.0"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.4"], ["faster reload rate","0.01"] ]
+		"attributes" : [ ["damage mult 13", "10.0"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.4"], ["faster reload rate","0.01"] ]
 	},
 	"Soldier" :
 	{
@@ -25,13 +25,13 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "15.0"], ["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
+		"attributes" : [ ["damage mult 13", "18.0"], ["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
 	},
 	"Pyro" :
 	{
 		"class" : "pyro",
 		"difficulty" : 4,
-		"health" : "1800",
+		"health" : "1900",
 		"bot_attributes" : ["AlwaysFireWeapon"],
 		"class_icon" : "pyro",
 		"count" : 15,
@@ -40,13 +40,28 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "19.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","2.0"] ]
+		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","3.5"] ]
+	},
+	"Support Pyro" :
+	{
+		"class" : "pyro",
+		"difficulty" : 4,
+		"health" : "1900",
+		"bot_attributes" : ["AlwaysFireWeapon"],
+		"class_icon" : "pyro",
+		"count" : 16,
+		"max_active" : 16,
+		"spawn_per_timer" : 4,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 4,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "20.0"], ["flame_speed","6000.0"], ["weapon burn dmg increased","3.5"] ]
 	},
 	"Demoman" :
 	{
 		"class" : "demoman",
 		"difficulty" : 4,
-		"health" : "1600",
+		"health" : "2000",
 		"class_icon" : "demoman",
 		"count" : 15,
 		"max_active" : 15,
@@ -54,13 +69,13 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "20.0"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
+		"attributes" : [ ["damage mult 13", "22.0"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
 	},
 	"Grinder" :
 	{
 		"class" : "heavyweapons",
 		"difficulty" : 4,
-		"health" : "3500",
+		"health" : "4000",
 		"class_icon" : "heavy_spammer",
 		"count" : 15,
 		"max_active" : 15,
@@ -68,13 +83,13 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "10.0"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.3"] ]
+		"attributes" : [ ["damage mult 13", "12.5"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.3"] ]
 	},
 	"Medic" :
 	{
 		"class" : "medic",
 		"difficulty" : 4,
-		"health" : "1300",
+		"health" : "2000",
 		"class_icon" : "medic",
 		"count" : 10,
 		"max_active" : 10,
@@ -85,12 +100,27 @@
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
 		["heal rate bonus","6.0"], ["add uber charge on hit","0.02"] ]
 	},
+	"Giant Medic" :
+	{
+		"class" : "medic",
+		"difficulty" : 4,
+		"health" : "20000",
+		"class_icon" : "medic_giant",
+		"count" : 1,
+		"max_active" : 1,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 2,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
+		["heal rate bonus","5.0"], ["add uber charge on hit","0.02"] ]
+	},
 	"Uber Medic" :
 	{
 		"class" : "medic",
 		"difficulty" : 4,
 		"bot_attributes":["SpawnWithFullCharge"],
-		"health" : "1300",
+		"health" : "1500",
 		"class_icon" : "medic_uber",
 		"count" : 8,
 		"max_active" : 8,
@@ -99,7 +129,7 @@
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
-		["heal rate bonus","15.0"], ["add uber charge on hit","0.02"], ["uber duration bonus","-2.0"] ]
+		["heal rate bonus","15.0"], ["add uber charge on hit","0.02"], ["uber duration bonus","-3.0"] ]
 	},
 	"Shield Medic" :
 	{
@@ -107,7 +137,7 @@
 		"weapons" : ["The Quick-Fix"],
 		"bot_attributes" : ["SpawnWithFullCharge", "ProjectileShield"],
 		"difficulty" : 4,
-		"health" : "1300",
+		"health" : "2000",
 		"class_icon" : "medic_shield",
 		"count" : 10,
 		"max_active" : 5,
@@ -125,7 +155,7 @@
 		"weapons" : ["The Kritzkrieg"],
 		"bot_attributes" : ["SpawnWithFullCharge"],
 		"difficulty" : 4,
-		"health" : "1000",
+		"health" : "2500",
 		"class_icon" : "medic_kritz",
 		"count" : 10,
 		"max_active" : 10,
@@ -134,13 +164,30 @@
 		"time_between_spawn" : 5,
 		"currency_weight": 4,
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
-		["uber duration bonus","500.0"], ["heal rate bonus","6.0"], ["add uber charge on hit","0.02"] ]
+		["uber duration bonus","500.0"], ["heal rate bonus","6.0"], ["add uber charge on hit","0.02"], ["bot medic uber health threshold", "0.0"] ]
+	},
+	"Giant Kritz Medic" :
+	{
+		"class" : "medic",
+		"weapons" : ["The Kritzkrieg"],
+		"bot_attributes" : ["SpawnWithFullCharge"],
+		"difficulty" : 4,
+		"health" : "20000",
+		"class_icon" : "medic_kritz_giant",
+		"count" : 1,
+		"max_active" : 1,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 2,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
+		["heal rate bonus","5.0"], ["add uber charge on hit","0.02"] ]
 	},
 	"SMGer" :
 	{
 		"class" : "sniper",
 		"difficulty" : 4,
-		"health" : "900",
+		"health" : "1600",
 		"weapon_restriction" : "SecondaryOnly",
 		"class_icon" : "sniper_smg",
 		"count" : 15,
@@ -149,13 +196,13 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "5.0"], ["Reload time decreased","0.01"] ]
+		"attributes" : [ ["damage mult 13", "11.0"], ["Reload time decreased","0.01"] ]
 	},
 	"Crit SMGer" :
 	{
 		"class" : "sniper",
 		"difficulty" : 4,
-		"health" : "900",
+		"health" : "1900",
 		"bot_attributes" : ["AlwaysCrit"],
 		"weapon_restriction" : "SecondaryOnly",
 		"class_icon" : "sniper_smg",
@@ -165,14 +212,14 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "5.0"], ["Reload time decreased","0.01"] ]
+		"attributes" : [ ["damage mult 13", "9.0"], ["Reload time decreased","0.01"] ]
 	},
 	"Blaster" :
 	{
 		"class" : "scout",
 		"weapons" : ["The Force-a-Nature"],
 		"difficulty" : 4,
-		"health" : "700",
+		"health" : "1500",
 		"bot_attributes" : ["AlwaysCrit"],
 		"class_icon" : "scout_fan_blast",
 		"count" : 18,
@@ -181,7 +228,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "2.0"], ["bullets per shot bonus","25.0"], ["fire rate penalty","5.0"] ]
+		"attributes" : [ ["damage mult 13", "3.0"], ["bullets per shot bonus","25.0"], ["fire rate penalty","4.0"] ]
 	},
 	"Shredder" :
 	{
@@ -190,7 +237,7 @@
 		"bot_attributes" : ["AlwaysFireWeapon"],
 		"difficulty" : 4,
 		"weapon_restriction" : "SecondaryOnly",
-		"health" : "1000",
+		"health" : "1500",
 		"class_icon" : "scout_cleaver",
 		"count" : 9,
 		"max_active" : 6,
@@ -198,7 +245,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "9.0"], ["effect bar recharge rate increased","0.0"], ["fire rate bonus","0.1"],
+		"attributes" : [ ["damage mult 13", "10.0"], ["effect bar recharge rate increased","0.0"], ["fire rate bonus","0.1"],
 		["crit from behind","120.0"], ["afterburn rating","1.0"], ["cloak_consume_on_feign_death_activate", "1.0"] ]
 	},
 	"Support Shredder" :
@@ -208,7 +255,7 @@
 		"bot_attributes" : ["AlwaysFireWeapon"],
 		"difficulty" : 4,
 		"weapon_restriction" : "SecondaryOnly",
-		"health" : "1000",
+		"health" : "1200",
 		"class_icon" : "scout_cleaver",
 		"count" : 9,
 		"max_active" : 6,
@@ -216,7 +263,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "9.0"], ["effect bar recharge rate increased","0.0"], ["fire rate bonus","0.2"],
+		"attributes" : [ ["damage mult 13", "10.0"], ["effect bar recharge rate increased","0.0"], ["fire rate bonus","0.2"],
 		["crit from behind","120.0"], ["afterburn rating","1.0"], ["cloak_consume_on_feign_death_activate", "1.0"] ]
 	},
 	"Milk Scout" :
@@ -243,8 +290,25 @@
 		"weapons" : ["Pretty Boy's Pocket Pistol"],
 		"difficulty" : 4,
 		"weapon_restriction" : "SecondaryOnly",
-		"health" : "900",
+		"health" : "1000",
 		"class_icon" : "scout",
+		"count" : 12,
+		"max_active" : 12,
+		"spawn_per_timer" : 3,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 5,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate bonus","0.3"], ["faster reload rate", "0.01"] ]
+	},
+	"Crit Pistol Scout" :
+	{
+		"class" : "scout",
+		"weapons" : ["Pretty Boy's Pocket Pistol"],
+		"difficulty" : 4,
+		"bot_attributes" : ["AlwaysCrit"],
+		"weapon_restriction" : "SecondaryOnly",
+		"health" : "1000",
+		"class_icon" : "scout_crit",
 		"count" : 12,
 		"max_active" : 12,
 		"spawn_per_timer" : 3,
@@ -259,7 +323,7 @@
 		"weapons" : ["The Liberty Launcher"],
 		"difficulty" : 4,
 		"bot_attributes" : ["HoldFireUntilFullReload"],
-		"health" : "2000",
+		"health" : "2500",
 		"class_icon" : "soldier_barrage",
 		"count" : 12,
 		"max_active" : 12,
@@ -267,7 +331,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "2.5"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
+		"attributes" : [ ["damage mult 13", "6.0"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
 	},
 	"Concheror Samurai" :
 	{
@@ -276,7 +340,7 @@
 		"difficulty" : 4,
 		"weapon_restriction" : "MeleeOnly",
 		"bot_attributes" : ["SpawnWithFullCharge","AlwaysCrit"],
-		"health" : "1500",
+		"health" : "2250",
 		"class_icon" : "soldier_samurai_conch",
 		"count" : 20,
 		"max_active" : 20,
@@ -293,7 +357,7 @@
 		"difficulty" : 4,
 		"weapon_restriction" : "MeleeOnly",
 		"bot_attributes" : ["SpawnWithFullCharge","AlwaysCrit"],
-		"health" : "7000",
+		"health" : "9000",
 		"class_icon" : "scout_threerune_daan_giant",
 		"is_giant" : true,
 		"scale"	: 1.5,
@@ -303,7 +367,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 7,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "9.0"], ["melee range multiplier", "15.0"], ["knockout powerup","1.0"],
+		"attributes" : [ ["damage mult 13", "10.0"], ["melee range multiplier", "15.0"], ["knockout powerup","1.0"],
 		["increase buff duration","100.0"], ["dmg penalty vs players","3.0"] ]
 	},
 	"Heavy Shotgun" :
@@ -345,7 +409,7 @@
 		"class" : "soldier",
 		"weapons" : ["TF_WEAPON_ROCKETLAUNCHER", "Tyrant's Helm"],
 		"difficulty" : 4,
-		"health" : "200000",
+		"health" : "250000",
 		"class_icon" : "soldier_sergeant_crits",
 		"bot_attributes" : ["AlwaysCrit"],
 		"is_boss" : true,
@@ -357,14 +421,14 @@
 		"time_between_spawn" : 1,
 		"currency_weight": 50,
 		"attributes" : [ ["mult projectile count", "3.0"], ["projectile spread angle penalty","5.0"], ["move speed bonus", "0.5"],
-		 ["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"], ["damage mult 13", "18.0"] ]
+		 ["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"], ["damage mult 13", "20.0"] ]
 	},
 	"Mad Sergeant Crits" :
 	{
 		"class" : "soldier",
 		"weapons" : ["TF_WEAPON_ROCKETLAUNCHER", "Tyrant's Helm"],
 		"difficulty" : 4,
-		"health" : "175000",
+		"health" : "200000",
 		"class_icon" : "soldier_sergeant_crits",
 		"bot_attributes" : ["AlwaysCrit"],
 		"behavior" : "Mobber",
@@ -377,14 +441,14 @@
 		"time_between_spawn" : 10,
 		"currency_weight": 50,
 		"attributes" : [ ["mult projectile count", "3.0"], ["projectile spread angle penalty","5.0"], ["move speed bonus", "0.5"],
-		 ["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"], ["damage mult 13", "15.0"], ["cannot pick up intelligence", "1.0"] ]
+		 ["Blast radius increased","1.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"], ["damage mult 13", "18.0"], ["cannot pick up intelligence", "1.0"] ]
 	},
 	"Deflector Boss" :
 	{
 		"class" : "heavyweapons",
 		"weapons" : ["Deflector", "Tough Guy's Toque"],
 		"difficulty" : 4,
-		"health" : "200000",
+		"health" : "250000",
 		"class_icon" : "heavy_deflector_push",
 		"bot_attributes" : ["AlwaysCrit"],
 		"is_boss" : true,
@@ -395,14 +459,14 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "18.0"], ["bullets per shot bonus", "5.0"], ["attack projectiles","3.0"], ["move speed bonus", "0.3"] ]
+		"attributes" : [ ["damage mult 13", "19.0"], ["bullets per shot bonus", "6.0"], ["attack projectiles","3.0"], ["move speed bonus", "0.3"] ]
 	},
 	"Mad Deflector Boss" :
 	{
 		"class" : "heavyweapons",
 		"weapons" : ["Deflector", "Tough Guy's Toque"],
 		"difficulty" : 4,
-		"health" : "175000",
+		"health" : "200000",
 		"class_icon" : "heavy_deflector_push",
 		"bot_attributes" : ["AlwaysCrit"],
 		"behavior" : "Mobber",
@@ -414,7 +478,7 @@
 		"time_before_spawn" : 10,
 		"time_between_spawn" : 10,
 		"currency_weight": 20,
-		"attributes" : [ ["damage mult 13", "15.0"], ["bullets per shot bonus", "5.0"], ["attack projectiles","3.0"], ["move speed bonus", "0.3"], ["cannot pick up intelligence", "1.0"] ]
+		"attributes" : [ ["damage mult 13", "17.0"], ["bullets per shot bonus", "6.0"], ["attack projectiles","3.0"], ["move speed bonus", "0.3"], ["cannot pick up intelligence", "1.0"] ]
 	},
 	"Dragon's Fury" :
 	{
@@ -429,7 +493,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "70.0"], ["dmg pierces resists absorbs","1.0"] ]
+		"attributes" : [ ["damage mult 13", "70.0"], ["damage penetrates reductions", "1.0"] ]
 	},
 	"Armored Dragon's Fury" :
 	{
@@ -444,7 +508,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "70.0"], ["dmg pierces resists absorbs","1.0"], ["move speed bonus", "0.6"], ["damage taken mult 3", "0.5"]]
+		"attributes" : [ ["damage mult 13", "70.0"], ["dmg pierces resists absorbs","1.0"], ["move speed bonus", "0.6"], ["damage taken mult 3", "0.5"], ["damage penetrates reductions", "1.0"]]
 	},
 	"Scorch Spammer" :
 	{
@@ -453,7 +517,7 @@
 		"weapon_restriction" : "SecondaryOnly",
 		"bot_attributes" : ["AlwaysCrit"],
 		"difficulty" : 4,
-		"health" : "3000",
+		"health" : "3500",
 		"class_icon" : "pyro_scorch_spammer",
 		"count" : 20,
 		"max_active" : 20,
@@ -468,7 +532,7 @@
 		"class" : "demoman",
 		"difficulty" : 4,
 		"bot_attributes" : ["HoldFireUntilFullReload"],
-		"health" : "2000",
+		"health" : "2500",
 		"class_icon" : "demo_barrage",
 		"count" : 15,
 		"max_active" : 15,
@@ -476,7 +540,24 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "7.0"], ["clip size bonus", "4.0"], ["faster reload rate", "0.5"], ["auto fires full clip all at once", "1"],
+		"attributes" : [ ["damage mult 13", "8.0"], ["clip size bonus", "4.0"], ["faster reload rate", "0.5"], ["auto fires full clip all at once", "1"],
+		 ["Blast radius increased","2.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
+	},
+	"Giant Barrage Demoman" :
+	{
+		"class" : "demoman",
+		"difficulty" : 4,
+		"bot_attributes" : ["HoldFireUntilFullReload"],
+		"health" : "25000",
+		"class_icon" : "demo_barrage_giant",
+		"is_giant" : true,
+		"count" : 2,
+		"max_active" : 2,
+		"spawn_per_timer" : 1,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 8,
+		"currency_weight": 8,
+		"attributes" : [ ["damage mult 13", "8.0"], ["clip size bonus", "4.0"], ["faster reload rate", "0.5"], ["auto fires full clip all at once", "1"],
 		 ["Blast radius increased","2.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.5"] ]
 	},
 	"Demoknight" :
@@ -531,7 +612,7 @@
 		"time_between_spawn" : 1,
 		"currency_weight": 25,
 		"attributes" : [ ["damage mult 13", "16.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "7.0"],
-		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.2"], ["mult smack time", "0.2"], ["move speed bonus", "0.55"] ]
+		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.2"], ["mult smack time", "0.2"], ["move speed bonus", "0.5"] ]
 	},
 	"Mad Tavish" :
 	{
@@ -551,7 +632,7 @@
 		"time_between_spawn" : 10,
 		"currency_weight": 25,
 		"attributes" : [ ["damage mult 13", "14.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "7.0"],
-		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.2"], ["mult smack time", "0.2"], ["move speed bonus", "0.55"], ["cannot pick up intelligence", "1.0"] ]
+		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.2"], ["mult smack time", "0.2"], ["move speed bonus", "0.5"], ["cannot pick up intelligence", "1.0"] ]
 	},
 	"Super Scout" :
 	{
@@ -560,7 +641,7 @@
 		"weapon_restriction" : "MeleeOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"],
-		"health" : "30000",
+		"health" : "35000",
 		"class_icon" : "scout_giant_fast",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -581,7 +662,7 @@
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"],
 		"behavior" : "Mobber",
-		"health" : "25000",
+		"health" : "30000",
 		"class_icon" : "scout_giant_fast",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -611,7 +692,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 40,
-		"weapon_attributes" : [ ["damage mult 13", "6.0"], ["override projectile type","47.0"], ["Projectile speed increased", "2.0"] ],
+		"weapon_attributes" : [ ["damage mult 13", "7.0"], ["override projectile type","47.0"], ["Projectile speed increased", "2.0"] ],
 		"attributes" : [ ["disguise on backstab", "500.0"], ["move speed bonus", "1.3"],
 		 ["damage force reduction","0.0"], ["player boss type","4.0"], ["agility powerup", "3.0"] ]
 	},
@@ -643,7 +724,7 @@
 		"weapons" : ["The Air Strike", "The Whirly Warrior"],
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump", "AlwaysCrit"],
-		"health" : "200000",
+		"health" : "300000",
 		"class_icon" : "soldier_airstrike_lite_burstfire_giant",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -655,8 +736,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 60,
-		"attributes" : [ ["damage mult 13", "15.0"], ["disguise on backstab", "500.0"], ["Projectile speed increased", "1.5"], ["projectile spread angle penalty", "2.0"],
-		["damage force reduction","0.0"], ["player boss type","2.0"], ["strength powerup", "3.0"], ["move speed bonus", "0.5"], ["cancel falling damage", "1.0"] ]
+		"attributes" : [ ["damage mult 13", "17.0"], ["disguise on backstab", "500.0"], ["Projectile speed increased", "1.5"], ["projectile spread angle penalty", "2.0"],
+		["damage force reduction","0.0"], ["player boss type","2.0"], ["strength powerup", "3.0"], ["move speed bonus", "0.6"], ["cancel falling damage", "1.0"] ]
 	},
 	"Mad Barrage Blaster" :
 	{
@@ -665,7 +746,7 @@
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump", "AlwaysCrit"],
 		"behavior" : "Mobber",
-		"health" : "175000",
+		"health" : "2250000",
 		"class_icon" : "soldier_airstrike_lite_burstfire_giant",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -677,7 +758,7 @@
 		"time_before_spawn" : 10,
 		"time_between_spawn" : 10,
 		"currency_weight": 60,
-		"attributes" : [ ["damage mult 13", "13.0"], ["disguise on backstab", "500.0"], ["Projectile speed increased", "1.5"], ["projectile spread angle penalty", "2.0"],
+		"attributes" : [ ["damage mult 13", "15.0"], ["disguise on backstab", "500.0"], ["Projectile speed increased", "1.5"], ["projectile spread angle penalty", "2.0"],
 		["damage force reduction","0.0"], ["player boss type","2.0"], ["strength powerup", "3.0"], ["move speed bonus", "0.5"], ["cancel falling damage", "1.0"], ["cannot pick up intelligence", "1.0"] ]
 	},
 	"Armored Infernal Behemoth" :
@@ -687,7 +768,7 @@
 		"weapon_restriction" : "SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : [ "AlwaysCrit"],
-		"health" : "50000",
+		"health" : "55000",
 		"class_icon" : "shotgun_reserve_lite_giant",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -711,7 +792,7 @@
 		"difficulty" : 4,
 		"bot_attributes" : [ "AlwaysCrit"],
 		"behavior" : "Mobber",
-		"health" : "40000",
+		"health" : "50000",
 		"class_icon" : "shotgun_reserve_lite_giant",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -744,8 +825,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 90,
-		"attributes" : [ ["damage mult 13", "22.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "8.0"], ["player boss type", "6.0"],
-		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.0"], ["mult smack time", "0.2"], ["king powerup", "1.0"], ["move speed bonus", "0.5"] ]
+		"attributes" : [ ["damage mult 13", "21.0"], ["fire rate bonus", "0.4"], ["melee range multiplier", "8.0"], ["player boss type", "6.0"],
+		 ["damage force reduction","0.0"], ["Attack not cancel charge","1.0"], ["charge recharge rate increased","0.0"], ["mult smack time", "0.2"], ["king powerup", "1.0"], ["move speed bonus", "0.4"] ]
 	},
 	"Mad Accursed Prince Tavish" :
 	{
@@ -755,7 +836,7 @@
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"],
 		"behavior" : "Mobber",
-		"health" : "250000",
+		"health" : "225000",
 		"class_icon" : "demoknight_boss_tavish",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -774,7 +855,7 @@
 		"weapons" : ["The Brass Beast", "The Battalion's Backup"],
 		"difficulty" : 4,
 		"bot_attributes" : ["SpawnWithFullCharge", "AlwaysCrit"],
-		"health" : "500000",
+		"health" : "475000",
 		"class_icon" : "heavy_brass_explosion_giant",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -784,8 +865,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 125,
-		"attributes" : [ ["damage mult 13", "19.0"], ["fire rate bonus", "0.2"], ["player boss type", "7.0"],
-		 ["damage force reduction","0.0"], ["increase buff duration","1000.0"], ["minigun spinup time decreased", "0.2"],  ["supernova powerup", "3.0"], ["move speed bonus", "0.4"]]
+		"attributes" : [ ["damage mult 13", "22.0"], ["fire rate bonus", "0.33"], ["player boss type", "7.0"],
+		 ["damage force reduction","0.0"], ["increase buff duration","1000.0"], ["minigun spinup time decreased", "0.8"],  ["supernova powerup", "3.0"], ["move speed bonus", "0.4"]]
 	},
 	"The Mad Brass Beast" :
 	{
@@ -804,13 +885,13 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 1,
 		"currency_weight": 125,
-		"attributes" : [ ["damage mult 13", "16.0"], ["fire rate bonus", "0.2"], ["player boss type", "7.0"],
-		 ["damage force reduction","0.0"], ["increase buff duration","1000.0"], ["minigun spinup time decreased", "0.2"],  ["supernova powerup", "3.0"], ["move speed bonus", "0.4"], ["cannot pick up intelligence", "1.0"]]
+		"attributes" : [ ["damage mult 13", "20.0"], ["fire rate bonus", "0.33"], ["player boss type", "7.0"],
+		 ["damage force reduction","0.0"], ["increase buff duration","1000.0"], ["minigun spinup time decreased", "0.8"],  ["supernova powerup", "3.0"], ["move speed bonus", "0.4"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Blood Ogre" :
 	{
 		"class" : "medic",
-		"weapons" : ["TF_WEAPON_MEDIGUN", "The Blutsauger"],
+		"weapons" : ["The Kritzkrieg", "The Blutsauger"],
 		"difficulty" : 4,
 		"bot_attributes" : ["SpawnWithFullCharge", "AlwaysCrit"],
 		"health" : "70000",
@@ -830,7 +911,7 @@
 	"Mad Blood Ogre" :
 	{
 		"class" : "medic",
-		"weapons" : ["TF_WEAPON_MEDIGUN", "The Blutsauger"],
+		"weapons" : ["The Kritzkrieg", "The Blutsauger"],
 		"difficulty" : 4,
 		"bot_attributes" : ["SpawnWithFullCharge", "AlwaysCrit"],
 		"behavior" : "Mobber",
@@ -871,7 +952,7 @@
 		"weapons" : ["The Fortified Compound"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit"],
-		"health" : "800",
+		"health" : "1000",
 		"class_icon" : "sniper_bow_fire",
 		"count" : 12,
 		"max_active" : 12,
@@ -887,7 +968,7 @@
 		"weapons" : ["The Fortified Compound"],
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit"],
-		"health" : "1500",
+		"health" : "1250",
 		"class_icon" : "sniper_bow_homing_fire",
 		"count" : 18,
 		"max_active" : 9,
@@ -1123,7 +1204,7 @@
 		"weapons" : ["The Liberty Launcher"],
 		"difficulty" : 4,
 		"bot_attributes" : ["HoldFireUntilFullReload", "AlwaysCrit"],
-		"health" : "25000",
+		"health" : "27500",
 		"class_icon" : "soldier_libertylauncher_giant",
 		"scale" : 1.6,
 		"is_giant": true,
@@ -1133,7 +1214,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "10.0"], ["faster reload rate", "0.3"], ["mult projectile count", "3"],
+		"attributes" : [ ["damage mult 13", "12.0"], ["faster reload rate", "0.3"], ["mult projectile count", "3"],
 		["Blast radius increased","1.5"], ["Projectile speed increased","1.25"], ["dmg falloff decreased","0.5"],
 		["precision powerup","1.0"], ["projectile spread angle penalty","3.0"], ["move speed bonus", "0.4"] ]
 	},
@@ -1252,7 +1333,7 @@
 		"class" : "heavyweapons",
 		"weapons" : ["Natascha"],
 		"difficulty" : 4,
-		"health" : "60000",
+		"health" : "65000",
 		"class_icon" : "heavy_natasha_giant",
 		"scale" : 1.6,
 		"is_giant": true,
@@ -1262,7 +1343,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 30,
 		"currency_weight": 12,
-		"attributes" : [ ["inverter powerup", "1.0"], ["damage mult 13", "20.0"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.3"], ["move speed bonus", "0.4"], ["redirect teammate damage taken", "0.15"]]
+		"attributes" : [ ["inverter powerup", "1.0"], ["damage mult 13", "20.0"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.3"], ["move speed bonus", "0.4"], ["redirect teammate damage taken", "0.35"]]
 	},
 	"Beggar's Bazooka Giant" :
 	{
@@ -1335,7 +1416,7 @@
 		"time_between_spawn" : 18,
 		"currency_weight": 12,
 		"weapon_attributes" : [ ["override projectile type", "1.0"], ["conference call damage", "1.25"]],
-		"attributes" : [ ["damage mult 13", "40.0"], ["Reload time decreased","0.01"], ["vampire powerup", "1.0"], ["disguise on backstab", "250.0"], ["move speed bonus", "0.65"] ]
+		"attributes" : [ ["damage mult 13", "40.0"], ["Reload time decreased","0.01"], ["vampire powerup", "1.0"], ["disguise on backstab", "400.0"], ["move speed bonus", "0.65"] ]
 	},
 	"Burst Enforcer Spy" :
 	{
@@ -1412,7 +1493,7 @@
 		"weapons" : ["The Original"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "2000",
+		"health" : "2250",
 		"class_icon" : "soldier_slowdown",
 		"count" : 15,
 		"max_active" : 6,
@@ -1420,7 +1501,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 3,
 		"currency_weight": 9,
-		"attributes" : [ ["damage mult 13", "7.0"], ["faster reload rate","0.01"],
+		"attributes" : [ ["damage mult 13", "9.0"], ["faster reload rate","0.01"],
 		 ["rocket specialist","4.0"], ["slow enemy on hit major", "2.0"], ["apply look velocity on damage", "500.0"] ]
 	},
 	"Shrapnel Soldier" :
@@ -1471,7 +1552,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 12,
-		"attributes" : [ ["damage mult 13", "60.0"], ["faster reload rate","0.01"] ]
+		"attributes" : [ ["damage mult 13", "80.0"], ["faster reload rate","0.01"] ]
 	},
 	"Heavyweight Champion" :
 	{
@@ -1490,13 +1571,30 @@
 		"currency_weight": 12,
 		"attributes" : [ ["damage mult 13", "30.0"], ["melee range multiplier", "15.0"], ["move speed bonus", "1.5"] ]
 	},
+	"Giant Heavyweight Champion" :
+	{
+		"class" : "heavyweapons",
+		"weapons" : ["The Killing Gloves of Boxing"],
+		"weapon_restriction":"MeleeOnly",
+		"bot_attributes": ["AlwaysCrit"],
+		"difficulty" : 4,
+		"health" : "18000",
+		"class_icon" : "heavy_champ",
+		"count" : 12,
+		"max_active" : 6,
+		"spawn_per_timer" : 3,
+		"time_before_spawn" : 0,
+		"time_between_spawn" : 15,
+		"currency_weight": 12,
+		"attributes" : [ ["damage mult 13", "30.0"], ["melee range multiplier", "15.0"], ["move speed bonus", "0.7"] ]
+	},
 	"Brass Beast Heavy" :
 	{
 		"class" : "heavyweapons",
 		"weapons" : ["The Brass Beast"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "7000",
+		"health" : "7500",
 		"class_icon" : "heavy_brass_explosion",
 		"count" : 12,
 		"max_active" : 12,
@@ -1505,7 +1603,7 @@
 		"time_between_spawn" : 3,
 		"currency_weight": 12,
 		"weapon_attributes": [["override projectile type","42.0"], ["mini rockets", "1.0"]],
-		"attributes" : [ ["damage mult 13", "22.5"],  ["fire rate penalty", "5.0"]]
+		"attributes" : [ ["damage mult 13", "25.5"],  ["fire rate penalty", "5.0"]]
 	},
 	"Firestorm Engineer" :
 	{
@@ -1637,7 +1735,7 @@
 		"time_between_spawn" : 5,
 		"currency_weight": 20,
 		"weapon_attributes": [["projectile spread angle penalty", "9.0"], ["mult projectile count", "3"], ["projectile homing radius", "144"], ["damage penalty", "1.0"]],
-		"attributes" : [ ["damage mult 13", "5.0"], ["rocket specialist", "1.0"], ["Projectile speed increased","0.75"], ["faster reload rate","0.01"], ["move speed bonus", "0.5"]]
+		"attributes" : [ ["damage mult 13", "6.0"], ["rocket specialist", "1.0"], ["Projectile speed increased","0.75"], ["faster reload rate","0.01"], ["move speed bonus", "0.5"]]
 	},
 	"Quaker Market Gardener" :
 	{
@@ -1665,7 +1763,7 @@
 		"weapons" : ["The Loch-n-Load"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "2000",
+		"health" : "2500",
 		"class_icon" : "demo_loch_nys",
 		"count" : 12,
 		"max_active" : 12,
@@ -1683,7 +1781,7 @@
 		"bot_attributes" : ["AlwaysCrit"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "25000",
+		"health" : "27500",
 		"class_icon" : "demo_loch_nys_giant",
 		"is_giant" : true,
 		"count" : 2,
@@ -1702,7 +1800,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon"],
-		"health" : "1750",
+		"health" : "2050",
 		"class_icon" : "pyro_gascann_explode",
 		"count" : 8,
 		"max_active" : 8,
@@ -1711,7 +1809,7 @@
 		"time_between_spawn" : 7,
 		"currency_weight": 12,
 		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.03"]],
-		"attributes" : [ ["damage mult 13", "7.5"]]
+		"attributes" : [ ["damage mult 13", "10.0"]]
 	},
 	"Giant Gas Passer" :
 	{
@@ -1720,7 +1818,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon"],
-		"health" : "15000",
+		"health" : "20000",
 		"class_icon" : "pyro_gascann_explode_giant",
 		"is_giant" : true,
 		"count" : 2,
@@ -1730,7 +1828,7 @@
 		"time_between_spawn" : 15,
 		"currency_weight": 20,
 		"weapon_attributes" : [["explode_on_ignite", "1.0"], ["mult_item_meter_charge_rate", "0.02"], ["Blast radius increased", "1.5"]],
-		"attributes" : [ ["damage mult 13", "10.0"], ["supernova powerup", "2.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "12.5"], ["supernova powerup", "2.0"], ["move speed bonus", "0.6"]]
 	},
 	"Fly" :
 	{
@@ -1739,7 +1837,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"health" : "300",
+		"health" : "400",
 		"class_icon" : "scout",
 		"scale" : 0.5,
 		"auto_jump_min" : 4,
@@ -1759,7 +1857,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
-		"health" : "1000",
+		"health" : "900",
 		"class_icon" : "scout_giant",
 		"scale" : 0.6,
 		"is_giant": true,
@@ -1812,7 +1910,7 @@
 		"attributes" : [ ["damage mult 13", "20.0"], ["cannot pick up intelligence", "1.0"], ["plague powerup", "2.0"], ["vampire powerup", "2.0"], 
 		["voice pitch scale", "2.5"], ["melee range multiplier", "3.0"], ["disguise on backstab", "-120.0"]]
 	},
-	"Giant SVF Pyro" :
+	"Giant Volcano Pyro" :
 	{
 		"class"	: "pyro",
 		"bot_attributes" : ["AlwaysFireWeapon"],
@@ -1869,7 +1967,7 @@
 		"weapons" : ["The Iron Bomber"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "175000",
+		"health" : "225000",
 		"class_icon" : "demo_ironbomber_lite",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -1879,8 +1977,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 12,
 		"currency_weight": 35,
-		"weapon_attributes" : [["explosive fragment count", "10"], ["explosive_fragment_damage", "25.0"], ["frag explosion radius mult", "2.5"]],
-		"attributes" : [ ["damage mult 13", "15.0"], ["inverter powerup", "3.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "0.8"], ["move speed bonus", "0.4"], ["Blast radius increased", "3.0"]]
+		"weapon_attributes" : [["explosive fragment count", "10"], ["explosive_fragment_damage", "30.0"], ["frag explosion radius mult", "2.5"]],
+		"attributes" : [ ["damage mult 13", "17.0"], ["inverter powerup", "3.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "0.8"], ["move speed bonus", "0.4"], ["Blast radius increased", "3.0"]]
 	},
 	"The Mad Iron Bomber" :
 	{
@@ -1889,7 +1987,7 @@
 		"weapon_restriction":"PrimaryOnly",
 		"behavior" : "Mobber",
 		"difficulty" : 4,
-		"health" : "150000",
+		"health" : "175000",
 		"class_icon" : "demo_ironbomber_lite",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -1899,8 +1997,8 @@
 		"time_before_spawn" : 10,
 		"time_between_spawn" : 10,
 		"currency_weight": 35,
-		"weapon_attributes" : [["explosive fragment count", "10"], ["explosive_fragment_damage", "20.0"], ["frag explosion radius mult", "2.5"]],
-		"attributes" : [ ["damage mult 13", "12.0"], ["inverter powerup", "3.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "0.8"], ["move speed bonus", "0.4"], ["Blast radius increased", "3.0"], ["cannot pick up intelligence", "1.0"]]
+		"weapon_attributes" : [["explosive fragment count", "10"], ["explosive_fragment_damage", "30.0"], ["frag explosion radius mult", "2.5"]],
+		"attributes" : [ ["damage mult 13", "14.0"], ["inverter powerup", "3.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "0.8"], ["move speed bonus", "0.4"], ["Blast radius increased", "3.0"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"The Incendiary Bomber" :
 	{
@@ -1908,7 +2006,7 @@
 		"weapons" : ["The Iron Bomber"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "250000",
+		"health" : "275000",
 		"class_icon" : "demo_ironbomber_lite_infernal",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -1918,8 +2016,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 12,
 		"currency_weight": 45,
-		"weapon_attributes" : [["explosive fragment count", "15"], ["explosive_fragment_damage", "25.0"], ["Blast radius increased", "2.5"]],
-		"attributes" : [ ["damage mult 13", "18"], ["inverter powerup", "3.0"], ["supernova powerup", "2.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "0.9"], ["move speed bonus", "0.4"]]
+		"weapon_attributes" : [["explosive fragment count", "15"], ["explosive_fragment_damage", "32.5"], ["Blast radius increased", "2.5"]],
+		"attributes" : [ ["damage mult 13", "20"], ["inverter powerup", "3.0"], ["supernova powerup", "2.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "0.8"], ["move speed bonus", "0.4"]]
 	},
 	"The Mad Incendiary Bomber" :
 	{
@@ -1927,7 +2025,7 @@
 		"weapons" : ["The Iron Bomber"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "200000",
+		"health" : "225000",
 		"class_icon" : "demo_ironbomber_lite_infernal",
 		"scale" : 1.6,
 		"is_boss" : true,
@@ -1937,8 +2035,8 @@
 		"time_before_spawn" : 10,
 		"time_between_spawn" : 12,
 		"currency_weight": 45,
-		"weapon_attributes" : [["explosive fragment count", "15"], ["explosive_fragment_damage", "20.0"], ["Blast radius increased", "2.5"]],
-		"attributes" : [ ["damage mult 13", "15"], ["inverter powerup", "3.0"], ["supernova powerup", "2.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "0.9"], ["move speed bonus", "0.4"], ["cannot pick up intelligence", "1.0"]]
+		"weapon_attributes" : [["explosive fragment count", "15"], ["explosive_fragment_damage", "32.5"], ["Blast radius increased", "2.5"]],
+		"attributes" : [ ["damage mult 13", "17"], ["inverter powerup", "3.0"], ["supernova powerup", "2.0"], ["faster reload rate", "0.01"], ["fire rate bonus", "0.8"], ["move speed bonus", "0.4"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Aimless Bowman" :
 	{
@@ -1957,7 +2055,7 @@
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
 		"weapon_attributes" : [["sapper damage bonus", "35.0"]],
-		"attributes" : [ ["damage mult 13", "45.0"], ["precision powerup", "2.0"], ["faster reload rate", "0.1"], ["fire rate bonus", "0.16"], ["clip size bonus", "5.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "40.0"], ["precision powerup", "2.0"], ["faster reload rate", "0.1"], ["fire rate bonus", "0.16"], ["clip size bonus", "5.0"], ["move speed bonus", "0.6"]]
 	},
 	"Precise Bowman" :
 	{
@@ -1976,7 +2074,7 @@
 		"time_between_spawn" : 8,
 		"currency_weight": 20,
 		"weapon_attributes" : [["sapper damage bonus", "50.0"], ["crit from behind", "150.0"]],
-		"attributes" : [ ["damage mult 13", "35.0"], ["precision powerup", "1.0"], ["faster reload rate", "0.1"], ["fire rate bonus", "0.15"], ["clip size bonus", "6.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "30.0"], ["precision powerup", "1.0"], ["faster reload rate", "0.1"], ["fire rate bonus", "0.15"], ["clip size bonus", "6.0"], ["move speed bonus", "0.6"]]
 	},
 	"Quake Soldier" :
 	{
@@ -2046,7 +2144,7 @@
 		"weapon_restriction":"PrimaryOnly",
 		"bot_attributes" : ["AlwaysCrit"],
 		"difficulty" : 4,
-		"health" : "20000",
+		"health" : "30000",
 		"is_giant" : true,
 		"scale" : 1.6,
 		"class_icon" : "soldier_directhit_giant",
@@ -2062,6 +2160,7 @@
 	{
 		"class" : "sniper",
 		"weapons" : ["Jarate"],
+		"bot_attributes" : ["AlwaysFireWeapon"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"health" : "3000",
@@ -2079,6 +2178,7 @@
 	{
 		"class" : "sniper",
 		"weapons" : ["Jarate"],
+		"bot_attributes" : ["AlwaysFireWeapon"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"health" : "20000",
@@ -2115,7 +2215,7 @@
 	"Suicide Bomber" :
 	{
 		"class" : "demoman",
-		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"], 
+		"bot_attributes" : ["AlwaysCrit"], 
 		"weapons" : ["The Ullapool Caber"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
@@ -2129,12 +2229,12 @@
 		"time_between_spawn" : 7,
 		"currency_weight": 8,
 		"weapon_attributes" : [["dmg taken from self reduced", "100000.0"]],
-		"attributes" : [ ["damage mult 13", "75.0"], ["melee range multiplier", "2.0"], ["use large smoke explosion", "1.0"], ["move speed bonus", "1.5"]]
+		"attributes" : [ ["damage mult 13", "75.0"], ["melee range multiplier", "2.0"], ["use large smoke explosion", "1.0"], ["move speed bonus", "1.5"], ["Blast radius increased", "1.5"]]
 	},
 	"Nuke Suicide Bomber" :
 	{
 		"class" : "demoman",
-		"bot_attributes" : ["AlwaysFireWeapon", "AlwaysCrit"], 
+		"bot_attributes" : ["AlwaysCrit"], 
 		"weapons" : ["The Ullapool Caber"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
@@ -2157,7 +2257,7 @@
 		"weapons" : ["The Manmelter"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "125000",
+		"health" : "250000",
 		"is_boss" : true,
 		"class_icon" : "pyro_manmelter_giant",
 		"scale"	: 1.8,
@@ -2167,8 +2267,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 50,
-		"weapon_attributes" : [ ["cloak_consume_on_feign_death_activate", "12.0"], ["fire rate bonus", "2.5"]],
-		"attributes" : [ ["damage mult 13", "42.5"], ["Projectile speed increased", "5.0"], ["move speed bonus", "0.8"]]
+		"weapon_attributes" : [ ["cloak_consume_on_feign_death_activate", "12.0"], ["fire rate bonus", "1.25"], ["use large smoke explosion", "1.0"]],
+		"attributes" : [ ["damage mult 13", "55.0"], ["Projectile speed increased", "5.0"], ["move speed bonus", "0.4"], ["Blast radius increased", "2.0"]]
 	},
 	"Mad Mortar Operator":
 	{
@@ -2177,7 +2277,7 @@
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
 		"behavior" : "Mobber",
-		"health" : "100000",
+		"health" : "200000",
 		"is_boss" : true,
 		"class_icon" : "pyro_manmelter_giant",
 		"scale"	: 1.8,
@@ -2187,8 +2287,8 @@
 		"time_before_spawn" : 10,
 		"time_between_spawn" : 10,
 		"currency_weight": 50,
-		"weapon_attributes" : [ ["cloak_consume_on_feign_death_activate", "12.0"], ["fire rate bonus", "2.5"]],
-		"attributes" : [ ["damage mult 13", "38.0"], ["Projectile speed increased", "5.0"], ["move speed bonus", "0.8"], ["cannot pick up intelligence", "1.0"]]
+		"weapon_attributes" : [ ["cloak_consume_on_feign_death_activate", "12.0"], ["fire rate bonus", "1.25"], ["use large smoke explosion", "1.0"]],
+		"attributes" : [ ["damage mult 13", "50.0"], ["Projectile speed increased", "5.0"], ["move speed bonus", "0.4"], ["cannot pick up intelligence", "1.0"], ["Blast radius increased", "2.0"]]
 	},
 	"Paratrooper" :
 	{
@@ -2196,7 +2296,7 @@
 		"weapons" : ["The Air Strike", "The B.A.S.E. Jumper", "Jumper's Jeepcap"],
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump"],
-		"health" : "3000",
+		"health" : "4500",
 		"class_icon" : "soldier_airstrike_para",
 		"scale" : 1.1,
 		"auto_jump_min" : 4,
@@ -2207,7 +2307,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "12.5"], ["disguise on backstab", "50.0"], ["damage force reduction","0.0"], 
+		"attributes" : [ ["damage mult 13", "12.5"], ["disguise on backstab", "100.0"], ["damage force reduction","0.0"], 
 		["player boss type","2.0"], ["cannot pick up intelligence", "1"], ["cancel falling damage", "1.0"], ["Projectile speed increased", "1.25"]]
 	},
 	"Electrotrooper" :
@@ -2216,7 +2316,7 @@
 		"weapons" : ["The Buff Banner", "The Air Strike", "Jumper's Jeepcap"],
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump", "SpawnWithFullCharge"],
-		"health" : "4000",
+		"health" : "5000",
 		"class_icon" : "soldier_air_shockbuff_cake",
 		"scale" : 1.2,
 		"auto_jump_min" : 4,
@@ -2228,7 +2328,7 @@
 		"time_between_spawn" : 15,
 		"currency_weight": 18,
 		"weapon_attributes" : [ ["has pipboy build interface", "0.5"]],
-		"attributes" : [ ["damage mult 13", "13.5"], ["disguise on backstab", "75.0"], ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"],
+		"attributes" : [ ["damage mult 13", "13.5"], ["disguise on backstab", "150.0"], ["damage force reduction","0.0"], ["player boss type","2.0"], ["cannot pick up intelligence", "1"],
 		 ["Projectile speed increased", "1.5"], ["cancel falling damage", "1.0"],  ["increase buff duration","2.5"] ]
 	},
 	"Black Ops Sniper" :
@@ -2257,7 +2357,7 @@
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit"],
-		"health" : "40000",
+		"health" : "45000",
 		"is_giant" : true,
 		"scale": 1.6,
 		"class_icon" : "pyro_phlog_giant",
@@ -2267,8 +2367,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 25,
-		"weapon_attributes" : [["SPELL: Halloween green flames", "1.0"], ["flame size bonus", "2.5"], ["radiation buildup", "9.5"]],
-		"attributes" : [ ["damage mult 13", "35.0"],  ["move speed bonus", "0.6"], ["flame_speed","2000.0"]]
+		"weapon_attributes" : [["SPELL: Halloween green flames", "1.0"], ["flame size bonus", "2.5"], ["radiation buildup", "15.0"]],
+		"attributes" : [ ["damage mult 13", "35.0"],  ["move speed bonus", "0.45"], ["flame_speed","2500.0"]]
 	},
 	"Arctic Ops Scout" :
 	{
@@ -2279,7 +2379,7 @@
 		"health" : "12500",
 		"is_giant" : true,
 		"class_icon" : "scout_freeze",
-		"scale" : 0.8,
+		"scale" : 1.1,
 		"count" : 2,
 		"max_active" : 2,
 		"spawn_per_timer" : 1,
@@ -2299,7 +2399,7 @@
 		"health" : "15000",
 		"is_giant" : true,
 		"class_icon" : "pyro_freeze_giant",
-		"scale" : 0.8,
+		"scale" : 1.1,
 		"count" : 2,
 		"max_active" : 2,
 		"spawn_per_timer" : 1,
@@ -2315,7 +2415,7 @@
 		"weapons" : ["The Reserve Shooter", "The Hat With No Name"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "5500",
+		"health" : "7500",
 		"class_icon" : "shotgun_reserve_hunter",
 		"scale" : 1.1,
 		"count" : 8,
@@ -2324,8 +2424,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 15,
-		"weapon_attributes" : [ ["mod crit while airborne", "1.0"], ["sapper damage bonus", "25.0"]],
-		"attributes" : [ ["damage mult 13", "25.0"],  ["weapon spread bonus", "0.25"], ["fire rate penalty", "2.0"]]
+		"weapon_attributes" : [ ["mod crit while airborne", "1.0"], ["sapper damage bonus", "30.0"]],
+		"attributes" : [ ["damage mult 13", "22.5"],  ["weapon spread bonus", "0.25"], ["fire rate penalty", "1.5"]]
 	},
 	"Radiation Doctor" :
 	{
@@ -2371,7 +2471,7 @@
 		"weapon_restriction":"MeleeOnly",
 		"bot_attributes" : [ "AlwaysFireWeapon"],
 		"difficulty" : 4,
-		"health" : "6000",
+		"health" : "6500",
 		"class_icon" : "demoknight_skullcutter_lite",
 		"scale" : 1.1,
 		"count" : 8,
@@ -2380,8 +2480,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 12,
 		"currency_weight": 20,
-		"weapon_attributes" : [ ["damage bonus", "2.25"], ["melee range multiplier", "10.0"]],
-		"attributes" : [ ["damage mult 13", "12.5"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "2000.0"], ["cannot pick up intelligence", "1.0"]]
+		"weapon_attributes" : [ ["damage bonus", "2.5"], ["melee range multiplier", "10.0"]],
+		"attributes" : [ ["damage mult 13", "13.0"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "2000.0"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Armored Skullcutter" :
 	{
@@ -2390,7 +2490,7 @@
 		"weapon_restriction":"MeleeOnly",
 		"bot_attributes" : [ "AlwaysFireWeapon"],
 		"difficulty" : 4,
-		"health" : "5000",
+		"health" : "6000",
 		"class_icon" : "demoknight_skullcutter_armored",
 		"scale" : 1.15,
 		"count" : 8,
@@ -2400,7 +2500,7 @@
 		"time_between_spawn" : 12,
 		"currency_weight": 20,
 		"weapon_attributes" : [ ["damage bonus", "2.5"], ["melee range multiplier", "12.5"]],
-		"attributes" : [ ["damage mult 13", "12.5"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "2000.0"], ["cannot pick up intelligence", "1.0"], ["damage taken mult 3", "0.75"]]
+		"attributes" : [ ["damage mult 13", "13.0"], ["full charge turn control", "50.0"], ["charge recharge rate increased", "0.1"], ["Charging Velocity", "2000.0"], ["cannot pick up intelligence", "1.0"], ["damage taken mult 3", "0.75"]]
 	},
 	"Sucker Giant" :
 	{
@@ -2418,8 +2518,8 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 20,
 		"currency_weight": 20,
-		"weapon_attributes" : [ ["apply look velocity on damage", "-180.0"]],
-		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate penalty", "0.8"], ["bullets per shot bonus", "3.0"], ["weapon spread bonus", "0.5"], ["move speed bonus", "0.6"], ["vampire powerup", "1"]]
+		"weapon_attributes" : [ ["apply look velocity on damage", "-180.0"], ["apply z velocity on damage", "-180.0"]],
+		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate penalty", "0.8"], ["bullets per shot bonus", "3.0"], ["weapon spread bonus", "0.5"], ["move speed bonus", "0.6"], ["vampire powerup", "2"]]
 	},
 	"Smoke Mortar" :
 	{
@@ -2457,15 +2557,15 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 0,
 		"currency_weight": 75,
-		"weapon_attributes": [["bleeding duration", "8"], ["sapper damage bonus", "10.0"], ["armor piercing", "10.0"], ["radiation buildup", "10.0"], ["fire rate penalty", "0.8"], ["aiming movespeed increased", "3.0"]],
-		"attributes" : [  ["damage mult 13", "22.5"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.5"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "1.5"]]
+		"weapon_attributes": [["bleeding duration", "8"], ["sapper damage bonus", "10.0"], ["armor piercing", "10.0"], ["radiation buildup", "10.0"], ["fire rate penalty", "0.8"], ["aiming movespeed increased", "0.5"]],
+		"attributes" : [  ["damage mult 13", "22.5"], ["strength powerup", "1.0"], ["bullets per shot bonus", "2.5"], ["cannot pick up intelligence", "1.0"], ["move speed bonus", "0.8"]]
 	},
 	"Flasher Medic" :
 	{
 		"class" : "medic",
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "1600",
+		"health" : "7500",
 		"class_icon" : "medic_uber_fast",
 		"scale" : 1,
 		"count" : 4,
@@ -2474,8 +2574,8 @@
 		"time_before_spawn" : 2,
 		"time_between_spawn" : 10,
 		"currency_weight": 20,
-		"weapon_attributes": [["ubercharge rate bonus", "20.0"], ["uber duration bonus", "-6.5"]],
-		"attributes" : [ ["damage mult 13", "7.0"], ["cannot pick up intelligence", "1.0"]]
+		"weapon_attributes": [["ubercharge rate bonus", "25.0"], ["uber duration bonus", "-6.5"]],
+		"attributes" : [ ["damage mult 13", "7.0"], ["cannot pick up intelligence", "1.0"], ["bot medic uber health threshold", "0.0"]]
 	},
 	"Slug Shotgunner" :
 	{
@@ -2540,20 +2640,22 @@
 		"weapons" : ["TF_WEAPON_SHOTGUN_HWG", "The Heavy-Weight Champ", "Kapitan's Kaftan", "Hog Heels"],
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
 		"difficulty" : 4,
-		"health" : "100000",
+		"behavior" : "Mobber",
+		"health" : "175000",
 		"is_boss" : true,
 		"class_icon" : "heavy_shotgun_burst_hyper_giant",
 		"scale" : 1.8,
 		"count" : 1,
 		"max_active" : 1,
 		"spawn_per_timer" : 1,
-		"auto_jump_min" : 1,
-		"auto_jump_max" : 1,
+		"auto_jump_min" : 2,
+		"auto_jump_max" : 2,
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 0,
 		"currency_weight": 55,
 		"weapon_attributes": [["weapon spread bonus", "0.5"]],
-		"attributes" : [ ["damage mult 13", "25.0"], ["bullets per shot bonus", "6.0"], ["fire rate bonus", "1.66"], ["increased air control", "10.0"], ["increased jump height", "2.5"], ["agility powerup", "1.0"]]
+		"attributes" : [ ["damage mult 13", "25.0"], ["bullets per shot bonus", "6.0"], ["fire rate bonus", "1.33"], ["increased air control", "2.5"], ["increased jump height", "2.0"], ["agility powerup", "1.0"], ["cannot pick up intelligence", "1.0"],
+		["move speed bonus", "0.6"]]
 	},
 	"Mad Buck" :
 	{
@@ -2562,7 +2664,8 @@
 		"weapons" : ["TF_WEAPON_SHOTGUN_HWG", "The Heavy-Weight Champ", "Kapitan's Kaftan", "Hog Heels"],
 		"bot_attributes" : ["AutoJump", "AlwaysCrit"],
 		"difficulty" : 4,
-		"health" : "90000",
+		"behavior" : "Mobber",
+		"health" : "133000",
 		"is_boss" : true,
 		"class_icon" : "heavy_shotgun_burst_hyper_giant",
 		"scale" : 1.8,
@@ -2575,7 +2678,7 @@
 		"time_between_spawn" : 0,
 		"currency_weight": 55,
 		"weapon_attributes": [["weapon spread bonus", "0.5"]],
-		"attributes" : [ ["damage mult 13", "22.5"], ["bullets per shot bonus", "6.0"], ["fire rate bonus", "1.66"], ["increased air control", "10.0"], ["increased jump height", "2.5"], ["agility powerup", "1.0"], ["cannot pick up intelligence", "1.0"]]
+		"attributes" : [ ["damage mult 13", "22.5"], ["bullets per shot bonus", "6.0"], ["fire rate bonus", "1.33"], ["increased air control", "2.5"], ["increased jump height", "2.0"], ["agility powerup", "1.0"], ["cannot pick up intelligence", "1.0"]]
 	},
 	"Grabber" :
 	{
@@ -2605,7 +2708,7 @@
 		"difficulty" : 4,
 		"weapon_restriction" : "PrimaryOnly",
 		"bot_attributes" : ["SpawnWithFullCharge"],
-		"health" : "9000",
+		"health" : "10000",
 		"class_icon" : "soldier_backup",
 		"is_giant": true,
 		"scale": 1.6,
@@ -2623,7 +2726,7 @@
 		"weapons" : ["The Air Strike", "The B.A.S.E. Jumper", "Jumper's Jeepcap"],
 		"difficulty" : 4,
 		"bot_attributes" : [ "AutoJump"],
-		"health" : "2000",
+		"health" : "3000",
 		"class_icon" : "soldier_airstrike_para_hyper",
 		"scale" : 1.1,
 		"auto_jump_min" : 4,
@@ -2634,7 +2737,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 15,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "15.0"], ["disguise on backstab", "100.0"], ["damage force reduction","0.0"], ["player boss type","2.0"], 
+		"attributes" : [ ["damage mult 13", "15.0"], ["disguise on backstab", "300.0"], ["damage force reduction","0.0"], ["player boss type","2.0"], 
 		["cannot pick up intelligence", "1"], ["cancel falling damage", "1.0"], ["has pipboy build interface", "4.0"], ["Projectile speed increased", "1.5"]]
 	},
 	"Mini Elbersson" :
@@ -2663,7 +2766,7 @@
 		"weapon_restriction":"PrimaryOnly",
 		"bot_attributes" : ["AlwaysCrit"],
 		"difficulty" : 4,
-		"health" : "2000",
+		"health" : "2500",
 		"class_icon" : "soldier_directhit",
 		"count" : 8,
 		"max_active" : 8,
@@ -2671,7 +2774,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 9,
-		"attributes" : [ ["damage mult 13", "8.0"], ["fire rate bonus","0.3"], ["Projectile speed increased","2.0"] ]
+		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate bonus","0.3"], ["Projectile speed increased","2.0"] ]
 	},
 	"Support Cow Mangler Soldier" :
 	{
@@ -2679,7 +2782,7 @@
 		"weapons" : ["The Cow Mangler 5000"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "3500",
+		"health" : "4500",
 		"class_icon" : "soldier_cowmangler",
 		"count" : 8,
 		"max_active" : 8,
@@ -2687,7 +2790,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 12,
-		"attributes" : [ ["damage mult 13", "50.0"], ["faster reload rate","0.01"] ]
+		"attributes" : [ ["damage mult 13", "65.0"], ["faster reload rate","0.01"] ]
 	},
 	"Support Shrapnel Soldier" :
 	{
@@ -2695,7 +2798,7 @@
 		"weapons" : ["The Black Box"],
 		"weapon_restriction":"PrimaryOnly",
 		"difficulty" : 4,
-		"health" : "4000",
+		"health" : "4500",
 		"class_icon" : "soldier_blackbox_lite",
 		"count" : 10,
 		"max_active" : 10,
@@ -2703,7 +2806,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 12,
 		"currency_weight": 9,
-		"attributes" : [ ["damage mult 13", "30.0"], ["fire rate penalty","1.5"], ["faster reload rate","0.01"],
+		"attributes" : [ ["damage mult 13", "35.0"], ["fire rate penalty","1.5"], ["faster reload rate","0.01"],
 		 ["sapper damage bonus","20.0"], ["bleeding duration", "2.0"], ["Blast radius increased", "1.5"] ]
 	},
 	"Support Scorch Spammer" :
@@ -2862,8 +2965,7 @@
 		"class" : "soldier",
 		"weapons" : ["The Black Box"],
 		"difficulty" : 4,
-		"weapon_restriction" : "MeleeOnly",
-		"health" : "2500",
+		"health" : "4000",
 		"class_icon" : "soldier_blackbox_lite",
 		"count" : 16,
 		"max_active" : 16,
@@ -2871,7 +2973,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 6,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "15.0"], ["mult projectile count", "2.0"], ["regeneration powerup", "1.0"], ["fire rate penalty", "2.0"], ["projectile spread angle penalty","3.0"]]
+		"attributes" : [ ["damage mult 13", "17.5"], ["mult projectile count", "3.0"], ["regeneration powerup", "1.0"], ["fire rate penalty", "2.0"], ["projectile spread angle penalty","3.0"], ["Blast radius increased", "2.0"]]
 	},
 	"Giant Black Box" :
 	{
@@ -2888,7 +2990,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 16,
-		"attributes" : [ ["damage mult 13", "17.5"], ["mult projectile count", "3.0"], ["regeneration powerup", "3.0"], ["fire rate penalty", "2.0"], ["projectile spread angle penalty","3.0"], ["disguise on backstab", "400"]]
+		"attributes" : [ ["damage mult 13", "19.5"], ["mult projectile count", "3.0"], ["regeneration powerup", "3.0"], ["fire rate penalty", "1.5"], ["projectile spread angle penalty","3.0"], ["disguise on backstab", "600"]]
 	},
 	"Bread Monster" :
 	{
@@ -2935,7 +3037,7 @@
 		"weapon_restriction":"PrimaryOnly",
 		"bot_attributes" : ["AlwaysCrit"],
 		"difficulty" : 4,
-		"health" : "2500",
+		"health" : "3500",
 		"class_icon" : "soldier_crit_directhit",
 		"count" : 15,
 		"max_active" : 15,
@@ -2943,7 +3045,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 8,
 		"currency_weight": 9,
-		"attributes" : [ ["damage mult 13", "10.0"], ["fire rate bonus","0.8"], ["Projectile speed increased","3.0"], ["projectile homing radius", "144"]]
+		"attributes" : [ ["damage mult 13", "13.0"], ["fire rate bonus","0.8"], ["Projectile speed increased","3.0"], ["projectile homing radius", "144"]]
 	},
 	"Escape Plan Soldier" :
 	{
@@ -2952,7 +3054,7 @@
 		"weapon_restriction" : "MeleeOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit", "AlwaysFireWeapon"],
-		"health" : "4500",
+		"health" : "4750",
 		"class_icon" : "soldier_escapeplan_lobo",
 		"count" : 16,
 		"max_active" : 16,
@@ -2969,7 +3071,7 @@
 		"weapon_restriction" : "MeleeOnly",
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysCrit", "AlwaysFireWeapon"],
-		"health" : "25000",
+		"health" : "27500",
 		"class_icon" : "soldier_escapeplan_lobo_giant",
 		"is_giant" : true,
 		"count" : 2,
@@ -2986,7 +3088,7 @@
 		"weapons" : ["TF_WEAPON_ROCKETLAUNCHER", "The Buff Banner"],
 		"bot_attributes":["SpawnWithFullCharge"],
 		"difficulty" : 4,
-		"health" : "2500",
+		"health" : "3500",
 		"class_icon" : "soldier_buff_lite",
 		"count" : 8,
 		"max_active" : 8,
@@ -3002,7 +3104,7 @@
 		"weapons" : ["TF_WEAPON_ROCKETLAUNCHER", "The Buff Banner"],
 		"bot_attributes":["SpawnWithFullCharge"],
 		"difficulty" : 4,
-		"health" : "20000",
+		"health" : "25000",
 		"class_icon" : "soldier_buff_giant",
 		"is_giant" : true,
 		"count" : 2,
@@ -3019,7 +3121,7 @@
 		"weapons" : ["The Kritzkrieg"],
 		"bot_attributes" : ["SpawnWithFullCharge"],
 		"difficulty" : 4,
-		"health" : "5000",
+		"health" : "7500",
 		"class_icon" : "medic_kritz_lite",
 		"count" : 5,
 		"max_active" : 5,
@@ -3029,7 +3131,7 @@
 		"currency_weight": 4,
 		"weapon_attributes" : [["patient damage bonus", "0.5"]],
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
-		["uber duration bonus","500.0"], ["heal rate bonus","6.0"], ["add uber charge on hit","0.02"] ]
+		["uber duration bonus","500.0"], ["heal rate bonus","6.0"], ["add uber charge on hit","0.02"], ["bot medic uber health threshold", "0.0"] ]
 	},
 	"Giant K. Festival Medic" :
 	{
@@ -3037,7 +3139,7 @@
 		"weapons" : ["The Kritzkrieg"],
 		"bot_attributes" : ["SpawnWithFullCharge"],
 		"difficulty" : 4,
-		"health" : "20000",
+		"health" : "35000",
 		"class_icon" : "medic_kritz_lite",
 		"is_giant" : true,
 		"count" : 1,
@@ -3048,13 +3150,13 @@
 		"currency_weight": 12,
 		"weapon_attributes" : [["patient damage bonus", "0.75"]],
 		"attributes" : [ ["damage mult 13", "7.0"], ["fire rate bonus", "0.15"],
-		["uber duration bonus","500.0"], ["heal rate bonus","6.0"], ["add uber charge on hit","0.02"] ]
+		["uber duration bonus","500.0"], ["heal rate bonus","6.0"], ["add uber charge on hit","0.02"], ["bot medic uber health threshold", "0.0"] ]
 	},
 	"Gold Grinder" :
 	{
 		"class" : "heavyweapons",
 		"difficulty" : 4,
-		"health" : "4500",
+		"health" : "5500",
 		"class_icon" : "heavy_spammer",
 		"count" : 15,
 		"max_active" : 15,
@@ -3062,13 +3164,13 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 2,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "12.5"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.3"]]
+		"attributes" : [ ["damage mult 13", "15.5"], ["bullets per shot bonus","3.0"], ["weapon spread bonus","0.3"]]
 	},
 	"Giant Gold Grinder" :
 	{
 		"class" : "heavyweapons",
 		"difficulty" : 4,
-		"health" : "37500",
+		"health" : "40000",
 		"class_icon" : "heavy_spammer_giant",
 		"is_giant" : true,
 		"count" : 2,
@@ -3077,7 +3179,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 18,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "15.5"], ["bullets per shot bonus","2.0"], ["weapon spread bonus","0.3"], ["sapper damage bonus","5.0"], ["bleeding duration", "3.0"], ["vampire powerup", "1.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "16.5"], ["bullets per shot bonus","3.0"], ["weapon spread bonus","0.3"], ["sapper damage bonus","5.0"], ["bleeding duration", "3.0"], ["vampire powerup", "1.0"], ["move speed bonus", "0.6"]]
 	},
 	"Mine Blaster" :
 	{
@@ -3086,7 +3188,7 @@
 		"weapons" : ["The Ullapool Caber"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "8000",
+		"health" : "9000",
 		"class_icon" : "demo_caber_nys",
 		"scale"	: 1.1,
 		"count" : 8,
@@ -3124,7 +3226,7 @@
 		"weapons" : ["The Liberty Launcher"],
 		"difficulty" : 4,
 		"bot_attributes" : ["HoldFireUntilFullReload"],
-		"health" : "3000",
+		"health" : "6000",
 		"class_icon" : "soldier_barrage",
 		"count" : 12,
 		"max_active" : 12,
@@ -3132,7 +3234,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "3.5"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.25"], ["dmg falloff decreased","0.5"] ]
+		"attributes" : [ ["damage mult 13", "7.0"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.25"], ["dmg falloff decreased","0.5"] ]
 	},
 	"Giant Rock Breaker" :
 	{
@@ -3140,7 +3242,7 @@
 		"weapons" : ["The Liberty Launcher"],
 		"difficulty" : 4,
 		"bot_attributes" : ["HoldFireUntilFullReload"],
-		"health" : "27500",
+		"health" : "40500",
 		"class_icon" : "soldier_barrage_giant",
 		"is_giant" : true,
 		"count" : 2,
@@ -3149,7 +3251,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 10,
 		"currency_weight": 15,
-		"attributes" : [ ["damage mult 13", "4.5"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.25"], 
+		"attributes" : [ ["damage mult 13", "7.0"], ["faster reload rate", "0.5"], ["fire rate bonus HIDDEN", "0.1"], ["Blast radius increased","2.0"], ["Projectile speed increased","2.25"], 
 		["dmg falloff decreased","0.5"], ["move speed bonus", "0.6"]]
 	},
 	"Minecart" :
@@ -3159,7 +3261,7 @@
 		"weapons" : ["The Bootlegger","The Splendid Screen","The Pain Train"],
 		"weapon_restriction":"MeleeOnly",
 		"difficulty" : 4,
-		"health" : "25500",
+		"health" : "15500",
 		"class_icon" : "demo_paintrain",
 		"scale"	: 1.25,
 		"count" : 15,
@@ -3176,7 +3278,7 @@
 		"class" : "demoman",
 		"difficulty" : 4,
 		"bot_attributes" : ["HoldFireUntilFullReload"],
-		"health" : "2000",
+		"health" : "4500",
 		"class_icon" : "demo_barrage",
 		"count" : 15,
 		"max_active" : 15,
@@ -3184,7 +3286,7 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 4,
 		"currency_weight": 8,
-		"attributes" : [ ["damage mult 13", "10.0"], ["clip size bonus", "4.0"], ["faster reload rate", "0.4"], ["auto fires full clip all at once", "1"],
+		"attributes" : [ ["damage mult 13", "13.0"], ["clip size bonus", "4.0"], ["faster reload rate", "0.4"], ["auto fires full clip all at once", "1"],
 		 ["Blast radius increased","3.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.4"] ]
 	},
 	"Giant Dynamite Detonator" :
@@ -3192,8 +3294,9 @@
 		"class" : "demoman",
 		"difficulty" : 4,
 		"bot_attributes" : ["HoldFireUntilFullReload"],
-		"health" : "30000",
+		"health" : "35000",
 		"class_icon" : "demo_barrage_giant",
+		"scale"	: 1.6,
 		"is_giant" : true,
 		"count" : 2,
 		"max_active" : 2,
@@ -3201,16 +3304,17 @@
 		"time_before_spawn" : 0,
 		"time_between_spawn" : 5,
 		"currency_weight": 12,
-		"attributes" : [ ["damage mult 13", "12.0"], ["clip size bonus", "5.0"], ["faster reload rate", "0.33"], ["auto fires full clip all at once", "1"],
+		"attributes" : [ ["damage mult 13", "15.0"], ["clip size bonus", "5.0"], ["faster reload rate", "0.33"], ["auto fires full clip all at once", "1"],
 		 ["Blast radius increased","3.5"], ["Projectile speed increased","2.0"], ["dmg falloff decreased","0.4"], ["move speed bonus", "0.45"] ]
 	},
 	"Aqua-regia Sniper" :
 	{
 		"class" : "sniper",
 		"weapons" : ["Jarate"],
+		"bot_attributes" : ["AlwaysFireWeapon"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "3000",
+		"health" : "5000",
 		"class_icon" : "sniper_jarate",
 		"count" : 8,
 		"max_active" : 8,
@@ -3225,10 +3329,12 @@
 	{
 		"class" : "sniper",
 		"weapons" : ["Jarate"],
+		"bot_attributes" : ["AlwaysFireWeapon"],
 		"weapon_restriction":"SecondaryOnly",
 		"difficulty" : 4,
-		"health" : "20000",
+		"health" : "25000",
 		"class_icon" : "sniper_jarate",
+		"scale"	: 1.6,
 		"is_giant" : true,
 		"count" : 1,
 		"max_active" : 1,
@@ -3243,7 +3349,7 @@
 	{
 		"class" : "pyro",
 		"difficulty" : 4,
-		"health" : "2500",
+		"health" : "7500",
 		"bot_attributes" : ["AlwaysFireWeapon"],
 		"class_icon" : "pyro",
 		"count" : 15,
@@ -3259,10 +3365,11 @@
 	{
 		"class" : "pyro",
 		"difficulty" : 4,
-		"health" : "25000",
+		"health" : "40000",
 		"bot_attributes" : ["AlwaysFireWeapon"],
 		"is_giant" : true,
 		"class_icon" : "pyro",
+		"scale"	: 1.6,
 		"count" : 1,
 		"max_active" : 1,
 		"spawn_per_timer" : 1,
@@ -3277,7 +3384,7 @@
 		"class" : "pyro",
 		"weapons" : ["The Dragon's Fury"],
 		"difficulty" : 4,
-		"health" : "3500",
+		"health" : "7000",
 		"class_icon" : "pyro_dragon_fury",
 		"count" : 15,
 		"max_active" : 15,
@@ -3293,7 +3400,7 @@
 		"class" : "pyro",
 		"weapons" : ["The Dragon's Fury"],
 		"difficulty" : 4,
-		"health" : "35000",
+		"health" : "50000",
 		"class_icon" : "pyro_dragon_fury",
 		"is_giant" : true,
 		"count" : 1,
@@ -3303,7 +3410,7 @@
 		"time_between_spawn" : 1,
 		"currency_weight": 15,
 		"weapon_attributes" : [ ["electric orb child", "1"], ["blast radius increased", "3.0"], ["chain lightning meter on hit", "3.5"], ["additive piercing damage", "20"]],
-		"attributes" : [ ["damage mult 13", "70.0"], ["dmg pierces resists absorbs", "1.0"], ["move speed bonus", "0.6"]]
+		"attributes" : [ ["damage mult 13", "70.0"], ["dmg pierces resists absorbs", "1.0"], ["move speed bonus", "0.38"]]
 	},
 	"Gold Guard Giant" :
 	{
@@ -3312,7 +3419,7 @@
 		"difficulty" : 4,
 		"bot_attributes" : ["AlwaysFireWeapon"],
 		"weapon_restriction" : "MeleeOnly",
-		"health" : "70000",
+		"health" : "80000",
 		"class_icon" : "tank_gry",
 		"scale" : 1.6,
 		"is_giant": true,
